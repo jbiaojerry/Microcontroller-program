@@ -1,0 +1,366 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 PICREGULAR PICMID SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT60F12X ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\CCompiler\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\CCompiler\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\CCompiler\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"99 F:\00-work\00-众鑫\00-程序\02-release\00-CH2\01-20251112\ZX-CH2-M25-60E121\ZX-CH2-M25-60E121.C
+[v _ledDisplay ledDisplay `(v  1 e 1 0 ]
+"113
+[v _shinking2 shinking2 `(v  1 e 1 0 ]
+"131
+[v _shinking shinking `(v  1 e 1 0 ]
+"151
+[v _alternatingLedControl alternatingLedControl `(v  1 e 1 0 ]
+"182
+[v _synchronizedLedControl synchronizedLedControl `(v  1 e 1 0 ]
+"210
+[v _do8 do8 `(v  1 e 1 0 ]
+"238
+[v _staggeredLedControl staggeredLedControl `(v  1 e 1 0 ]
+"253
+[v _do1314 do1314 `(v  1 e 1 0 ]
+"293
+[v _do16 do16 `(v  1 e 1 0 ]
+"346
+[v _do15 do15 `(v  1 e 1 0 ]
+"379
+[v _do17 do17 `(v  1 e 1 0 ]
+"412
+[v _do18 do18 `(v  1 e 1 0 ]
+"461
+[v _do1920 do1920 `(v  1 e 1 0 ]
+"478
+[v _do23 do23 `(v  1 e 1 0 ]
+"717
+[v _modeMachine modeMachine `(v  1 e 1 0 ]
+"818
+[v _initVariables initVariables `(v  1 e 1 0 ]
+"871
+[v _keyCheck keyCheck `(v  1 e 1 0 ]
+"908
+[v _keyPosCheck keyPosCheck `(v  1 e 1 0 ]
+"946
+[v _powerInitial powerInitial `(v  1 e 1 0 ]
+"972
+[v _ISR ISR `II(v  1 e 1 0 ]
+"989
+[v _delayUs delayUs `(v  1 e 1 0 ]
+"998
+[v _eepromRead eepromRead `(uc  1 e 1 0 ]
+"1007
+[v _eepromWrite eepromWrite `(v  1 e 1 0 ]
+[v i1_eepromWrite eepromWrite `(v  1 e 1 0 ]
+"1025
+[v _main main `(i  1 e 2 0 ]
+"14 C:\Program Files (x86)\CCompiler\Compiler\data\include\FT60F12X.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"63
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"67
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"69
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"70
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"108
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"115
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"157
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"161
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"164
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"166
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"189
+[v _EEIF EEIF `VEb  1 e 0 @103 ]
+"352
+[v _WDTCON WDTCON `VEuc  1 e 1 @24 ]
+"421
+[v _MSCON MSCON `VEuc  1 e 1 @27 ]
+"502
+[v _OPTION OPTION `VEuc  1 e 1 @129 ]
+"531
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"561
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"586
+[v _PSRCA PSRCA `VEuc  1 e 1 @136 ]
+"668
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"731
+[v _WPUC WPUC `VEuc  1 e 1 @147 ]
+"755
+[v _PSRCC PSRCC `VEuc  1 e 1 @148 ]
+"779
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"843
+[v _PSINKA PSINKA `VEuc  1 e 1 @151 ]
+"872
+[v _EEDAT EEDAT `VEuc  1 e 1 @154 ]
+"877
+[v _EEADR EEADR `VEuc  1 e 1 @155 ]
+"882
+[v _EECON1 EECON1 `VEuc  1 e 1 @156 ]
+"884
+[v _RD RD `VEb  1 e 0 @1248 ]
+"905
+[v _WR WR `VEb  1 e 0 @1256 ]
+"932
+[v _PSINKC PSINKC `VEuc  1 e 1 @159 ]
+[s S395 . 10 `uc 1 hitCount 1 0 `uc 1 hitCount2 1 1 `ui 1 dutyCount 2 2 `ui 1 onOffCount 2 4 `ui 1 dutyCount2 2 6 `ui 1 onOffCount2 2 8 ]
+"46 F:\00-work\00-众鑫\00-程序\02-release\00-CH2\01-20251112\ZX-CH2-M25-60E121\ZX-CH2-M25-60E121.C
+[v _Time Time `S395  1 e 10 0 ]
+[s S402 . 2 `uc 1 keyHit 1 0 :1:0 
+`uc 1 keyHit2 1 0 :1:1 
+`uc 1 toEeprom 1 0 :1:2 
+`uc 1 toWhite 1 0 :1:3 
+`uc 1 . 1 1 :6:0 
+]
+"47
+[u S408 . 2 `S402 1 bits 2 0 `uc 1 allBits 1 0 ]
+[v _Flag Flag `S408  1 e 2 0 ]
+"50
+[v _shanCnt2 shanCnt2 `VEuc  1 e 1 0 ]
+"51
+[v _shinkBits2 shinkBits2 `VEuc  1 e 1 0 ]
+"52
+[v _shanCnt shanCnt `VEuc  1 e 1 0 ]
+"53
+[v _shinkBits shinkBits `VEuc  1 e 1 0 ]
+"54
+[v _dang dang `VEuc  1 e 1 0 ]
+"55
+[v _ledBits ledBits `VEuc  1 e 1 0 ]
+"59
+[v _currentLed currentLed `VEuc  1 e 1 0 ]
+"60
+[v _ledMask ledMask `VEuc  1 e 1 0 ]
+"62
+[v _delayCounter delayCounter `VEui  1 e 2 0 ]
+"63
+[v _ledPhase ledPhase `VEuc  1 e 1 0 ]
+"64
+[v _counter counter `VEuc  1 e 1 0 ]
+"67
+[v _phase2SwitchCnt phase2SwitchCnt `VEuc  1 e 1 0 ]
+"68
+[v _lastShanCnt2Div4 lastShanCnt2Div4 `VEuc  1 e 1 0 ]
+"71
+[v _lowCounter lowCounter `VEuc  1 e 1 0 ]
+[v _highCounter highCounter `VEuc  1 e 1 0 ]
+"72
+[v _lowPhase lowPhase `VEuc  1 e 1 0 ]
+[v _highPhase highPhase `VEuc  1 e 1 0 ]
+"73
+[v _subLowPhase subLowPhase `VEuc  1 e 1 0 ]
+[v _subHighPhase subHighPhase `VEuc  1 e 1 0 ]
+"1025
+[v _main main `(i  1 e 2 0 ]
+{
+"1027
+[v main@i i `uc  1 a 1 13 ]
+"1059
+} 0
+"946
+[v _powerInitial powerInitial `(v  1 e 1 0 ]
+{
+"970
+} 0
+"1007
+[v _eepromWrite eepromWrite `(v  1 e 1 0 ]
+{
+[v eepromWrite@eeAddr eeAddr `uc  1 a 1 wreg ]
+[v eepromWrite@eeAddr eeAddr `uc  1 a 1 wreg ]
+[v eepromWrite@data data `uc  1 p 1 11 ]
+[v eepromWrite@eeAddr eeAddr `uc  1 a 1 12 ]
+"1023
+} 0
+"998
+[v _eepromRead eepromRead `(uc  1 e 1 0 ]
+{
+[v eepromRead@eeAddr eeAddr `uc  1 a 1 wreg ]
+"1000
+[v eepromRead@reEepromRead reEepromRead `uc  1 a 1 12 ]
+"998
+[v eepromRead@eeAddr eeAddr `uc  1 a 1 wreg ]
+"1002
+[v eepromRead@eeAddr eeAddr `uc  1 a 1 11 ]
+"1006
+} 0
+"989
+[v _delayUs delayUs `(v  1 e 1 0 ]
+{
+[v delayUs@timeUs timeUs `uc  1 a 1 wreg ]
+"991
+[v delayUs@a a `uc  1 a 1 12 ]
+"989
+[v delayUs@timeUs timeUs `uc  1 a 1 wreg ]
+"992
+[v delayUs@timeUs timeUs `uc  1 a 1 11 ]
+"996
+} 0
+"972
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"987
+} 0
+"717
+[v _modeMachine modeMachine `(v  1 e 1 0 ]
+{
+"816
+} 0
+"182
+[v _synchronizedLedControl synchronizedLedControl `(v  1 e 1 0 ]
+{
+[v synchronizedLedControl@flashTime flashTime `uc  1 a 1 wreg ]
+[v synchronizedLedControl@flashTime flashTime `uc  1 a 1 wreg ]
+[v synchronizedLedControl@holdTime holdTime `ui  1 p 2 10 ]
+[v synchronizedLedControl@offTime offTime `ui  1 p 2 12 ]
+"184
+[v synchronizedLedControl@flashTime flashTime `uc  1 a 1 0 ]
+"209
+} 0
+"238
+[v _staggeredLedControl staggeredLedControl `(v  1 e 1 0 ]
+{
+[v staggeredLedControl@flashOn flashOn `ui  1 p 2 10 ]
+[v staggeredLedControl@flashOff flashOff `ui  1 p 2 12 ]
+"251
+} 0
+"210
+[v _do8 do8 `(v  1 e 1 0 ]
+{
+"236
+} 0
+"478
+[v _do23 do23 `(v  1 e 1 0 ]
+{
+"713
+} 0
+"461
+[v _do1920 do1920 `(v  1 e 1 0 ]
+{
+"462
+[v do1920@dang dang `uc  1 a 1 wreg ]
+[v do1920@dang dang `uc  1 a 1 wreg ]
+[v do1920@dang dang `uc  1 a 1 4 ]
+"476
+} 0
+"412
+[v _do18 do18 `(v  1 e 1 0 ]
+{
+"457
+} 0
+"379
+[v _do17 do17 `(v  1 e 1 0 ]
+{
+"401
+[v do17@currentDiv4 currentDiv4 `uc  1 a 1 12 ]
+"383
+[v do17@prevShinkBits prevShinkBits `uc  1 a 1 11 ]
+"410
+} 0
+"293
+[v _do16 do16 `(v  1 e 1 0 ]
+{
+"344
+} 0
+"346
+[v _do15 do15 `(v  1 e 1 0 ]
+{
+"368
+[v do15@currentDiv4 currentDiv4 `uc  1 a 1 12 ]
+"350
+[v do15@prevShinkBits prevShinkBits `uc  1 a 1 11 ]
+"377
+} 0
+"113
+[v _shinking2 shinking2 `(v  1 e 1 0 ]
+{
+[v shinking2@dutyon dutyon `ui  1 p 2 0 ]
+[v shinking2@dutyoff dutyoff `ui  1 p 2 2 ]
+"129
+} 0
+"253
+[v _do1314 do1314 `(v  1 e 1 0 ]
+{
+"254
+[v do1314@dang dang `uc  1 a 1 wreg ]
+[v do1314@dang dang `uc  1 a 1 wreg ]
+"256
+[v do1314@dang dang `uc  1 a 1 0 ]
+"291
+} 0
+"15 C:\Program Files (x86)\CCompiler\Compiler\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"151 F:\00-work\00-众鑫\00-程序\02-release\00-CH2\01-20251112\ZX-CH2-M25-60E121\ZX-CH2-M25-60E121.C
+[v _alternatingLedControl alternatingLedControl `(v  1 e 1 0 ]
+{
+[v alternatingLedControl@flashTime flashTime `uc  1 a 1 wreg ]
+[v alternatingLedControl@flashTime flashTime `uc  1 a 1 wreg ]
+[v alternatingLedControl@holdTime holdTime `ui  1 p 2 10 ]
+"153
+[v alternatingLedControl@flashTime flashTime `uc  1 a 1 13 ]
+"180
+} 0
+"131
+[v _shinking shinking `(v  1 e 1 0 ]
+{
+[v shinking@dutyOn dutyOn `ui  1 p 2 6 ]
+[v shinking@dutyOff dutyOff `ui  1 p 2 8 ]
+"147
+} 0
+"99
+[v _ledDisplay ledDisplay `(v  1 e 1 0 ]
+{
+"112
+} 0
+"908
+[v _keyPosCheck keyPosCheck `(v  1 e 1 0 ]
+{
+"910
+[v keyPosCheck@keyState keyState `uc  1 s 1 keyState ]
+"944
+} 0
+"871
+[v _keyCheck keyCheck `(v  1 e 1 0 ]
+{
+"873
+[v keyCheck@keyState keyState `uc  1 s 1 keyState ]
+"907
+} 0
+"1007
+[v i1_eepromWrite eepromWrite `(v  1 e 1 0 ]
+{
+[v i1eepromWrite@eeAddr eeAddr `uc  1 a 1 wreg ]
+[v i1eepromWrite@eeAddr eeAddr `uc  1 a 1 wreg ]
+[v i1eepromWrite@data data `uc  1 p 1 0 ]
+[v i1eepromWrite@eeAddr eeAddr `uc  1 a 1 1 ]
+"1023
+} 0
+"818
+[v _initVariables initVariables `(v  1 e 1 0 ]
+{
+"819
+[v initVariables@dang dang `uc  1 a 1 wreg ]
+[v initVariables@dang dang `uc  1 a 1 wreg ]
+[v initVariables@dang dang `uc  1 a 1 0 ]
+"870
+} 0
