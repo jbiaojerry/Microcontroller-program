@@ -1,0 +1,852 @@
+
+
+GNU Macro Assembler for 8 bit devices.       
+                                                                                               Wed Oct 29 14:12:15 2025
+
+GNU C Code Generator                                                 
+     1                           	processor	FT60F12X
+     2                           	opt	pw 120
+     3                           	opt	pm
+     4                           	psect	text0,local,class=CODE,merge=1,delta=2
+     5                           	psect	cinit,global,class=CODE,merge=1,delta=2
+     6                           	psect	bssCOMMON,global,class=COMMON,space=1,delta=1
+     7                           	psect	bssBANK0,global,class=BANK0,space=1,delta=1
+     8                           	psect	cstackCOMMON,global,class=COMMON,space=1,delta=1
+     9                           	psect	cstackBANK0,global,class=BANK0,space=1,delta=1
+    10                           	psect	maintext,global,class=CODE,split=1,delta=2
+    11                           	psect	text1,local,class=CODE,merge=1,delta=2
+    12                           	psect	text2,local,class=CODE,merge=1,delta=2
+    13                           	psect	text3,local,class=CODE,merge=1,delta=2
+    14                           	psect	intentry,global,class=CODE,delta=2
+    15                           	psect	text4,local,class=CODE,merge=1,delta=2
+    16                           	psect	text5,local,class=CODE,merge=1,delta=2
+    17                           	psect	pa_nodes0,global,class=CODE,delta=2
+    18                           	dabs	1,0x7E,2
+    19  0000                     
+    20                           ; Version 2.20
+    21                           ; Generated 09/04/2020 
+    22                           ; 
+    23                           ; SFR Addresses
+    24  0000                     
+    25                           	psect	text0
+    26  0000                     __ptext0:	
+    27  001B                     _MSCON	set	27
+    28  000B                     _INTCON	set	11
+    29  0007                     _PORTC	set	7
+    30  0005                     _PORTA	set	5
+    31  0001                     _TMR0	set	1
+    32  005F                     _GIE	set	95
+    33  005D                     _T0IE	set	93
+    34  005A                     _T0IF	set	90
+    35  0028                     _RA0	set	40
+    36  009F                     _PSINKC	set	159
+    37  0097                     _PSINKA	set	151
+    38  0095                     _WPUA	set	149
+    39  0094                     _PSRCC	set	148
+    40  0093                     _WPUC	set	147
+    41  008F                     _OSCCON	set	143
+    42  0088                     _PSRCA	set	136
+    43  0087                     _TRISC	set	135
+    44  0085                     _TRISA	set	133
+    45  0081                     _OPTION	set	129
+    46                           
+    47                           	psect	cinit
+    48  07F5                     start_initialization:	
+    49                           ; #config settings
+    50                           
+    51  07F5                     __initialization:	
+    52                           
+    53                           ; Clear objects allocated to COMMON
+    54  07F5  01F6               	clrf	__pbssCOMMON& (0+127)
+    55  07F6  01F7               	clrf	(__pbssCOMMON+1)& (0+127)
+    56  07F7  01F8               	clrf	(__pbssCOMMON+2)& (0+127)
+    57                           
+    58                           ; Clear objects allocated to BANK0
+    59  07F8  1283               	bcf	3,5	;RP0=0, select bank0
+    60  07F9  01A0               	clrf	__pbssBANK0& (0+127)
+    61  07FA  01A1               	clrf	(__pbssBANK0+1)& (0+127)
+    62  07FB  01A2               	clrf	(__pbssBANK0+2)& (0+127)
+    63  07FC  01A3               	clrf	(__pbssBANK0+3)& (0+127)
+    64  07FD  01A4               	clrf	(__pbssBANK0+4)& (0+127)
+    65  07FE                     end_of_initialization:	
+    66                           ;End of C runtime variable initialization code
+    67                           
+    68  07FE                     __end_of__initialization:	
+    69  07FE  0183               	clrf	3
+    70  07FF  2F76               	ljmp	_main	;jump to C main() function
+    71                           
+    72                           	psect	bssCOMMON
+    73  0076                     __pbssCOMMON:	
+    74  0076                     _SystemState:	
+    75  0076                     	ds	1
+    76  0077                     _BlinkCounter:	
+    77  0077                     	ds	1
+    78  0078                     _LEDState:	
+    79  0078                     	ds	1
+    80                           
+    81                           	psect	bssBANK0
+    82  0020                     __pbssBANK0:	
+    83  0020                     _Time:	
+    84  0020                     	ds	5
+    85                           
+    86                           	psect	cstackCOMMON
+    87  0070                     __pcstackCOMMON:	
+    88  0070                     ?_Power_Initial:	
+    89  0070                     ?_DelayUs:	
+    90                           ; 1 bytes @ 0x0
+    91                           
+    92  0070                     ?_Shinking:	
+    93                           ; 1 bytes @ 0x0
+    94                           
+    95  0070                     ?_LEDControl:	
+    96                           ; 1 bytes @ 0x0
+    97                           
+    98  0070                     ?_ISR:	
+    99                           ; 1 bytes @ 0x0
+   100                           
+   101  0070                     ?_main:	
+   102                           ; 1 bytes @ 0x0
+   103                           
+   104  0070                     Shinking@duty_off:	
+   105                           ; 2 bytes @ 0x0
+   106                           
+   107                           
+   108                           ; 1 bytes @ 0x0
+   109  0070                     	ds	1
+   110  0071                     ??_Shinking:	
+   111  0071                     Shinking@duty_on:	
+   112                           ; 1 bytes @ 0x1
+   113                           
+   114                           
+   115                           ; 1 bytes @ 0x1
+   116  0071                     	ds	1
+   117  0072                     ??_LEDControl:	
+   118  0072                     ??_ISR:	
+   119                           ; 1 bytes @ 0x2
+   120                           
+   121                           
+   122                           ; 1 bytes @ 0x2
+   123  0072                     	ds	3
+   124  0075                     ??_Power_Initial:	
+   125  0075                     ??_DelayUs:	
+   126                           ; 1 bytes @ 0x5
+   127                           
+   128  0075                     ??_main:	
+   129                           ; 1 bytes @ 0x5
+   130                           
+   131  0075                     main@i:	
+   132                           ; 1 bytes @ 0x5
+   133                           
+   134                           
+   135                           ; 1 bytes @ 0x5
+   136  0075                     	ds	1
+   137                           
+   138                           	psect	cstackBANK0
+   139  0025                     __pcstackBANK0:	
+   140  0025                     DelayUs@Time:	
+   141                           
+   142                           ; 1 bytes @ 0x0
+   143  0025                     	ds	1
+   144  0026                     DelayUs@a:	
+   145                           
+   146                           ; 1 bytes @ 0x1
+   147  0026                     	ds	1
+   148                           
+   149                           	psect	maintext
+   150  0776                     __pmaintext:	
+   151 ;;
+   152 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+   153 ;;
+   154 ;; *************** function _main *****************
+   155 ;; Defined at:
+   156 ;;		line 146 in file "ZX-FT60F12X-001.C"
+   157 ;; Parameters:    Size  Location     Type
+   158 ;;		None
+   159 ;; Auto vars:     Size  Location     Type
+   160 ;;  i               1    5[COMMON] unsigned char 
+   161 ;; Return value:  Size  Location     Type
+   162 ;;                  2  831[None  ] int 
+   163 ;; Registers used:
+   164 ;;		wreg, status,2, status,0, pclath, cstack
+   165 ;; Tracked objects:
+   166 ;;		On entry : B00/0
+   167 ;;		On exit  : 0/0
+   168 ;;		Unchanged: 0/0
+   169 ;; Data sizes:     COMMON   BANK0   BANK1
+   170 ;;      Params:         0       0       0
+   171 ;;      Locals:         1       0       0
+   172 ;;      Temps:          0       0       0
+   173 ;;      Totals:         1       0       0
+   174 ;;Total ram usage:        1 bytes
+   175 ;; Hardware stack levels required when called:    4
+   176 ;; This function calls:
+   177 ;;		_DelayUs
+   178 ;;		_Power_Initial
+   179 ;; This function is called by:
+   180 ;;		Startup code after reset
+   181 ;; This function uses a non-reentrant model
+   182 ;;
+   183                           
+   184                           
+   185                           ;psect for function _main
+   186  0776                     _main:	
+   187                           
+   188                           ;ZX-FT60F12X-001.C: 148: u8 i;
+   189                           ;ZX-FT60F12X-001.C: 151: Power_Initial();
+   190                           
+   191                           ;incstack = 0
+   192                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
+   193  0776  27AD               	fcall	_Power_Initial
+   194                           
+   195                           ;ZX-FT60F12X-001.C: 154: for (i = 0; i < 250; i++)
+   196  0777  01F5               	clrf	main@i
+   197  0778                     l1435:	
+   198                           
+   199                           ;ZX-FT60F12X-001.C: 155: DelayUs(197);
+   200  0778  30C5               	movlw	197
+   201  0779  275B               	fcall	_DelayUs
+   202  077A  30FA               	movlw	250
+   203  077B  0AF5               	incf	main@i,f
+   204  077C  0275               	subwf	main@i,w
+   205  077D  1C03               	skipc
+   206  077E  2F78               	goto	l1435
+   207  077F  0064               	clrwdt	;# 
+   208  0780  304C               	movlw	76
+   209                           
+   210                           ;ZX-FT60F12X-001.C: 161: LEDState = 0;
+   211  0781  01F8               	clrf	_LEDState
+   212                           
+   213                           ;ZX-FT60F12X-001.C: 162: BlinkCounter = 0;
+   214  0782  01F7               	clrf	_BlinkCounter
+   215                           
+   216                           ;ZX-FT60F12X-001.C: 163: SystemState = 0;
+   217  0783  01F6               	clrf	_SystemState
+   218                           
+   219                           ;ZX-FT60F12X-001.C: 164: Time.DutyCount = 76;
+   220  0784  1283               	bcf	3,5	;RP0=0, select bank0
+   221  0785  00A0               	movwf	_Time
+   222                           
+   223                           ;ZX-FT60F12X-001.C: 165: Time.OnOffCount = 0;
+   224  0786  01A1               	clrf	_Time+1
+   225  0787  01A2               	clrf	_Time+2
+   226                           
+   227                           ;ZX-FT60F12X-001.C: 166: Time.CycleCount = 0;
+   228  0788  01A3               	clrf	_Time+3
+   229  0789  01A4               	clrf	_Time+4
+   230                           
+   231                           ;ZX-FT60F12X-001.C: 169: T0IF = 0;
+   232  078A  110B               	bcf	11,2	;volatile
+   233                           
+   234                           ;ZX-FT60F12X-001.C: 170: GIE = 1;
+   235  078B  178B               	bsf	11,7	;volatile
+   236                           
+   237                           ;ZX-FT60F12X-001.C: 171: T0IE = 1;
+   238  078C  168B               	bsf	11,5	;volatile
+   239  078D                     l834:	
+   240                           ;ZX-FT60F12X-001.C: 174: while (1)
+   241                           
+   242  078D  0064               	clrwdt	;# 
+   243  078E  2F8D               	goto	l834
+   244  078F                     __end_of_main:	
+   245                           
+   246                           	psect	text1
+   247  07AD                     __ptext1:	
+   248 ;; *************** function _Power_Initial *****************
+   249 ;; Defined at:
+   250 ;;		line 31 in file "ZX-FT60F12X-001.C"
+   251 ;; Parameters:    Size  Location     Type
+   252 ;;		None
+   253 ;; Auto vars:     Size  Location     Type
+   254 ;;		None
+   255 ;; Return value:  Size  Location     Type
+   256 ;;                  1    wreg      void 
+   257 ;; Registers used:
+   258 ;;		wreg, status,2
+   259 ;; Tracked objects:
+   260 ;;		On entry : B00/0
+   261 ;;		On exit  : 100/0
+   262 ;;		Unchanged: 0/0
+   263 ;; Data sizes:     COMMON   BANK0   BANK1
+   264 ;;      Params:         0       0       0
+   265 ;;      Locals:         0       0       0
+   266 ;;      Temps:          0       0       0
+   267 ;;      Totals:         0       0       0
+   268 ;;Total ram usage:        0 bytes
+   269 ;; Hardware stack levels used:    1
+   270 ;; Hardware stack levels required when called:    3
+   271 ;; This function calls:
+   272 ;;		Nothing
+   273 ;; This function is called by:
+   274 ;;		_main
+   275 ;; This function uses a non-reentrant model
+   276 ;;
+   277                           
+   278                           
+   279                           ;psect for function _Power_Initial
+   280  07AD                     _Power_Initial:	
+   281                           
+   282                           ;ZX-FT60F12X-001.C: 33: OSCCON = 0B01110001;
+   283                           
+   284                           ;incstack = 0
+   285                           ; Regs used in _Power_Initial: [wreg+status,2]
+   286  07AD  3071               	movlw	113
+   287  07AE  1683               	bsf	3,5	;RP0=1, select bank1
+   288  07AF  008F               	movwf	15	;volatile
+   289                           
+   290                           ;ZX-FT60F12X-001.C: 35: INTCON = 0;
+   291  07B0  018B               	clrf	11	;volatile
+   292                           
+   293                           ;ZX-FT60F12X-001.C: 36: PORTA = 0B00000000;
+   294  07B1  1283               	bcf	3,5	;RP0=0, select bank0
+   295  07B2  0185               	clrf	5	;volatile
+   296                           
+   297                           ;ZX-FT60F12X-001.C: 37: TRISA = 0B11101110;
+   298  07B3  30EE               	movlw	238
+   299  07B4  1683               	bsf	3,5	;RP0=1, select bank1
+   300  07B5  0085               	movwf	5	;volatile
+   301                           
+   302                           ;ZX-FT60F12X-001.C: 39: PORTC = 0B00000000;
+   303  07B6  1283               	bcf	3,5	;RP0=0, select bank0
+   304  07B7  0187               	clrf	7	;volatile
+   305                           
+   306                           ;ZX-FT60F12X-001.C: 40: TRISC = 0B11111111;
+   307  07B8  30FF               	movlw	255
+   308  07B9  1683               	bsf	3,5	;RP0=1, select bank1
+   309  07BA  0087               	movwf	7	;volatile
+   310                           
+   311                           ;ZX-FT60F12X-001.C: 42: WPUA = 0B01000000;
+   312  07BB  3040               	movlw	64
+   313  07BC  0095               	movwf	21	;volatile
+   314                           
+   315                           ;ZX-FT60F12X-001.C: 43: WPUC = 0B00000000;
+   316  07BD  0193               	clrf	19	;volatile
+   317  07BE  0064               	clrwdt	;# 
+   318                           
+   319                           ;ZX-FT60F12X-001.C: 47: OPTION = 0B00000100;
+   320  07BF  3004               	movlw	4
+   321  07C0  1683               	bsf	3,5	;RP0=1, select bank1
+   322  07C1  0081               	movwf	1	;volatile
+   323                           
+   324                           ;ZX-FT60F12X-001.C: 48: TMR0 = 5;
+   325  07C2  3005               	movlw	5
+   326  07C3  1283               	bcf	3,5	;RP0=0, select bank0
+   327  07C4  0081               	movwf	1	;volatile
+   328                           
+   329                           ;ZX-FT60F12X-001.C: 50: PSRCA = 0B11111111;
+   330  07C5  30FF               	movlw	255
+   331  07C6  1683               	bsf	3,5	;RP0=1, select bank1
+   332  07C7  0088               	movwf	8	;volatile
+   333                           
+   334                           ;ZX-FT60F12X-001.C: 51: PSRCC = 0B11111111;
+   335  07C8  0094               	movwf	20	;volatile
+   336                           
+   337                           ;ZX-FT60F12X-001.C: 52: PSINKA = 0B11111111;
+   338  07C9  0097               	movwf	23	;volatile
+   339                           
+   340                           ;ZX-FT60F12X-001.C: 53: PSINKC = 0B11111111;
+   341  07CA  009F               	movwf	31	;volatile
+   342                           
+   343                           ;ZX-FT60F12X-001.C: 55: MSCON = 0B00110000;
+   344  07CB  3030               	movlw	48
+   345  07CC  1283               	bcf	3,5	;RP0=0, select bank0
+   346  07CD  009B               	movwf	27	;volatile
+   347  07CE  0008               	return
+   348  07CF                     __end_of_Power_Initial:	
+   349                           
+   350                           	psect	text2
+   351  075B                     __ptext2:	
+   352 ;; *************** function _DelayUs *****************
+   353 ;; Defined at:
+   354 ;;		line 59 in file "ZX-FT60F12X-001.C"
+   355 ;; Parameters:    Size  Location     Type
+   356 ;;  Time            1    wreg     unsigned char 
+   357 ;; Auto vars:     Size  Location     Type
+   358 ;;  Time            1    0[BANK0 ] unsigned char 
+   359 ;;  a               1    1[BANK0 ] unsigned char 
+   360 ;; Return value:  Size  Location     Type
+   361 ;;                  1    wreg      void 
+   362 ;; Registers used:
+   363 ;;		wreg, status,2, status,0
+   364 ;; Tracked objects:
+   365 ;;		On entry : 100/0
+   366 ;;		On exit  : 100/0
+   367 ;;		Unchanged: 0/0
+   368 ;; Data sizes:     COMMON   BANK0   BANK1
+   369 ;;      Params:         0       0       0
+   370 ;;      Locals:         0       2       0
+   371 ;;      Temps:          0       0       0
+   372 ;;      Totals:         0       2       0
+   373 ;;Total ram usage:        2 bytes
+   374 ;; Hardware stack levels used:    1
+   375 ;; Hardware stack levels required when called:    3
+   376 ;; This function calls:
+   377 ;;		Nothing
+   378 ;; This function is called by:
+   379 ;;		_main
+   380 ;; This function uses a non-reentrant model
+   381 ;;
+   382                           
+   383                           
+   384                           ;psect for function _DelayUs
+   385  075B                     _DelayUs:	
+   386                           
+   387                           ;incstack = 0
+   388                           ; Regs used in _DelayUs: [wreg+status,2+status,0]
+   389                           ;DelayUs@Time stored from wreg
+   390  075B  00A5               	movwf	DelayUs@Time
+   391                           
+   392                           ;ZX-FT60F12X-001.C: 61: u8 a;
+   393                           ;ZX-FT60F12X-001.C: 62: for (a = 0; a < Time; a++)
+   394  075C  01A6               	clrf	DelayUs@a
+   395  075D                     l1425:	
+   396  075D  0825               	movf	DelayUs@Time,w
+   397  075E  0226               	subwf	DelayUs@a,w
+   398  075F  1803               	btfsc	3,0
+   399  0760  0008               	return
+   400                           
+   401                           ;ZX-FT60F12X-001.C: 63: {
+   402                           ;ZX-FT60F12X-001.C: 64: __nop();
+   403  0761  0000               	nop
+   404  0762  1283               	bcf	3,5	;RP0=0, select bank0
+   405  0763  0AA6               	incf	DelayUs@a,f
+   406  0764  2F5D               	goto	l1425
+   407  0765                     __end_of_DelayUs:	
+   408                           
+   409                           	psect	text3
+   410  078F                     __ptext3:	
+   411 ;; *************** function _ISR *****************
+   412 ;; Defined at:
+   413 ;;		line 126 in file "ZX-FT60F12X-001.C"
+   414 ;; Parameters:    Size  Location     Type
+   415 ;;		None
+   416 ;; Auto vars:     Size  Location     Type
+   417 ;;		None
+   418 ;; Return value:  Size  Location     Type
+   419 ;;                  1    wreg      void 
+   420 ;; Registers used:
+   421 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+   422 ;; Tracked objects:
+   423 ;;		On entry : 0/0
+   424 ;;		On exit  : 0/0
+   425 ;;		Unchanged: 0/0
+   426 ;; Data sizes:     COMMON   BANK0   BANK1
+   427 ;;      Params:         0       0       0
+   428 ;;      Locals:         0       0       0
+   429 ;;      Temps:          3       0       0
+   430 ;;      Totals:         3       0       0
+   431 ;;Total ram usage:        3 bytes
+   432 ;; Hardware stack levels used:    1
+   433 ;; Hardware stack levels required when called:    2
+   434 ;; This function calls:
+   435 ;;		_LEDControl
+   436 ;; This function is called by:
+   437 ;;		Interrupt level 1
+   438 ;; This function uses a non-reentrant model
+   439 ;;
+   440                           
+   441                           
+   442                           ;psect for function _ISR
+   443  078F                     _ISR:	
+   444                           
+   445                           ;ZX-FT60F12X-001.C: 129: if (T0IE && T0IF)
+   446  078F  1A8B               	btfsc	11,5	;volatile
+   447  0790  1D0B               	btfss	11,2	;volatile
+   448  0791  2FA4               	goto	i1l827
+   449                           
+   450                           ;ZX-FT60F12X-001.C: 130: {
+   451                           ;ZX-FT60F12X-001.C: 131: T0IF = 0;
+   452  0792  110B               	bcf	11,2	;volatile
+   453                           
+   454                           ;ZX-FT60F12X-001.C: 132: TMR0 = 5;
+   455  0793  3005               	movlw	5
+   456  0794  1283               	bcf	3,5	;RP0=0, select bank0
+   457  0795  0081               	movwf	1	;volatile
+   458                           
+   459                           ;ZX-FT60F12X-001.C: 135: if (Time.DutyCount > 0)
+   460  0796  0820               	movf	_Time,w
+   461  0797  1D03               	btfss	3,2
+   462                           
+   463                           ;ZX-FT60F12X-001.C: 136: Time.DutyCount--;
+   464  0798  03A0               	decf	_Time,f
+   465                           
+   466                           ;ZX-FT60F12X-001.C: 137: if (Time.OnOffCount > 0)
+   467  0799  0821               	movf	_Time+1,w
+   468  079A  0422               	iorwf	_Time+2,w
+   469  079B  1903               	btfsc	3,2
+   470  079C  2FA3               	goto	i1l1391
+   471                           
+   472                           ;ZX-FT60F12X-001.C: 138: Time.OnOffCount--;
+   473  079D  3001               	movlw	1
+   474  079E  02A1               	subwf	_Time+1,f
+   475  079F  3000               	movlw	0
+   476  07A0  1C03               	skipc
+   477  07A1  03A2               	decf	_Time+2,f
+   478  07A2  02A2               	subwf	_Time+2,f
+   479  07A3                     i1l1391:	
+   480                           
+   481                           ;ZX-FT60F12X-001.C: 141: LEDControl();
+   482  07A3  27CF               	fcall	_LEDControl
+   483  07A4                     i1l827:	
+   484  07A4  0874               	movf	??_ISR+2,w
+   485  07A5  008A               	movwf	10
+   486  07A6  0873               	movf	??_ISR+1,w
+   487  07A7  0084               	movwf	4
+   488  07A8  0E72               	swapf	??_ISR^(0+-128),w
+   489  07A9  0083               	movwf	3
+   490  07AA  0EFE               	swapf	126,f
+   491  07AB  0E7E               	swapf	126,w
+   492  07AC  0009               	retfie
+   493  07AD                     __end_of_ISR:	
+   494                           
+   495                           	psect	intentry
+   496  0000                     __pintentry:	
+   497                           ;incstack = 0
+   498                           ; Regs used in _ISR: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+   499                           
+   500  0000                     interrupt_function:	
+   501  007E                     saved_w	set	btemp
+   502  0000  00FE               	movwf	btemp
+   503  0001  0E03               	swapf	3,w
+   504  0002  00F2               	movwf	??_ISR
+   505  0003  0804               	movf	4,w
+   506  0004  00F3               	movwf	??_ISR+1
+   507  0005  080A               	movf	10,w
+   508  0006  00F4               	movwf	??_ISR+2
+   509  0007  2F8F               	ljmp	_ISR
+   510                           
+   511                           	psect	text4
+   512  07CF                     __ptext4:	
+   513 ;; *************** function _LEDControl *****************
+   514 ;; Defined at:
+   515 ;;		line 93 in file "ZX-FT60F12X-001.C"
+   516 ;; Parameters:    Size  Location     Type
+   517 ;;		None
+   518 ;; Auto vars:     Size  Location     Type
+   519 ;;		None
+   520 ;; Return value:  Size  Location     Type
+   521 ;;                  1    wreg      void 
+   522 ;; Registers used:
+   523 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+   524 ;; Tracked objects:
+   525 ;;		On entry : 100/0
+   526 ;;		On exit  : 100/0
+   527 ;;		Unchanged: 0/0
+   528 ;; Data sizes:     COMMON   BANK0   BANK1
+   529 ;;      Params:         0       0       0
+   530 ;;      Locals:         0       0       0
+   531 ;;      Temps:          0       0       0
+   532 ;;      Totals:         0       0       0
+   533 ;;Total ram usage:        0 bytes
+   534 ;; Hardware stack levels used:    1
+   535 ;; Hardware stack levels required when called:    1
+   536 ;; This function calls:
+   537 ;;		_Shinking
+   538 ;; This function is called by:
+   539 ;;		_ISR
+   540 ;; This function uses a non-reentrant model
+   541 ;;
+   542                           
+   543                           
+   544                           ;psect for function _LEDControl
+   545  07CF                     _LEDControl:	
+   546                           
+   547                           ;ZX-FT60F12X-001.C: 95: switch (SystemState)
+   548                           
+   549                           ;incstack = 0
+   550                           ; Regs used in _LEDControl: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+   551  07CF  2FEC               	goto	i1l1373
+   552  07D0                     i1l1351:	
+   553                           
+   554                           ;ZX-FT60F12X-001.C: 98: Shinking(60, 60);
+   555  07D0  303C               	movlw	60
+   556  07D1  00F0               	movwf	Shinking@duty_off
+   557  07D2  2765               	fcall	_Shinking
+   558                           
+   559                           ;ZX-FT60F12X-001.C: 99: RA0 = LEDState;
+   560  07D3  1C78               	btfss	_LEDState,0
+   561  07D4  2FD8               	goto	u16_20
+   562  07D5  1283               	bcf	3,5	;RP0=0, select bank0
+   563  07D6  1405               	bsf	5,0	;volatile
+   564  07D7  2FDA               	goto	i1l1355
+   565  07D8                     u16_20:	
+   566  07D8  1283               	bcf	3,5	;RP0=0, select bank0
+   567  07D9  1005               	bcf	5,0	;volatile
+   568  07DA                     i1l1355:	
+   569                           
+   570                           ;ZX-FT60F12X-001.C: 102: if (BlinkCounter >= 9)
+   571  07DA  3009               	movlw	9
+   572  07DB  0277               	subwf	_BlinkCounter,w
+   573  07DC  1C03               	skipc
+   574  07DD  0008               	return
+   575  07DE  3003               	movlw	3
+   576                           
+   577                           ;ZX-FT60F12X-001.C: 103: {
+   578                           ;ZX-FT60F12X-001.C: 104: BlinkCounter = 0;
+   579  07DF  01F7               	clrf	_BlinkCounter
+   580                           
+   581                           ;ZX-FT60F12X-001.C: 105: SystemState = 1;
+   582  07E0  01F6               	clrf	_SystemState
+   583  07E1  0AF6               	incf	_SystemState,f
+   584                           
+   585                           ;ZX-FT60F12X-001.C: 106: Time.OnOffCount = 768;
+   586  07E2  01A1               	clrf	_Time+1
+   587  07E3  00A2               	movwf	_Time+2
+   588                           
+   589                           ;ZX-FT60F12X-001.C: 107: RA0 = 0;
+   590  07E4  1005               	bcf	5,0	;volatile
+   591  07E5  0008               	return
+   592  07E6                     i1l1365:	
+   593                           
+   594                           ;ZX-FT60F12X-001.C: 112: if (Time.OnOffCount == 0)
+   595  07E6  0821               	movf	_Time+1,w
+   596  07E7  0422               	iorwf	_Time+2,w
+   597  07E8  1D03               	btfss	3,2
+   598  07E9  0008               	return
+   599  07EA                     i1l1367:	
+   600                           
+   601                           ;ZX-FT60F12X-001.C: 113: {
+   602                           ;ZX-FT60F12X-001.C: 114: SystemState = 0;
+   603  07EA  01F6               	clrf	_SystemState
+   604  07EB  0008               	return
+   605  07EC                     i1l1373:	
+   606  07EC  0876               	movf	_SystemState,w
+   607                           
+   608                           ; Switch size 1, requested type "space"
+   609                           ; Number of cases is 2, Range of values is 0 to 1
+   610                           ; switch strategies available:
+   611                           ; Name         Instructions Cycles
+   612                           ; simple_byte            7     4 (average)
+   613                           ; direct_byte            8     6 (fixed)
+   614                           ; jumptable            260     6 (fixed)
+   615                           ;	Chosen strategy is simple_byte
+   616  07ED  3A00               	xorlw	0	; case 0
+   617  07EE  1903               	skipnz
+   618  07EF  2FD0               	goto	i1l1351
+   619  07F0  3A01               	xorlw	1	; case 1
+   620  07F1  1903               	skipnz
+   621  07F2  2FE6               	goto	i1l1365
+   622  07F3  2FEA               	goto	i1l1367
+   623  07F4  0008               	return
+   624  07F5                     __end_of_LEDControl:	
+   625                           
+   626                           	psect	text5
+   627  0765                     __ptext5:	
+   628 ;; *************** function _Shinking *****************
+   629 ;; Defined at:
+   630 ;;		line 68 in file "ZX-FT60F12X-001.C"
+   631 ;; Parameters:    Size  Location     Type
+   632 ;;  duty_on         1    wreg     unsigned char 
+   633 ;;  duty_off        1    0[COMMON] unsigned char 
+   634 ;; Auto vars:     Size  Location     Type
+   635 ;;  duty_on         1    1[COMMON] unsigned char 
+   636 ;; Return value:  Size  Location     Type
+   637 ;;                  1    wreg      void 
+   638 ;; Registers used:
+   639 ;;		wreg, status,2, status,0
+   640 ;; Tracked objects:
+   641 ;;		On entry : 100/0
+   642 ;;		On exit  : 100/0
+   643 ;;		Unchanged: 0/0
+   644 ;; Data sizes:     COMMON   BANK0   BANK1
+   645 ;;      Params:         1       0       0
+   646 ;;      Locals:         1       0       0
+   647 ;;      Temps:          0       0       0
+   648 ;;      Totals:         2       0       0
+   649 ;;Total ram usage:        2 bytes
+   650 ;; Hardware stack levels used:    1
+   651 ;; This function calls:
+   652 ;;		Nothing
+   653 ;; This function is called by:
+   654 ;;		_LEDControl
+   655 ;; This function uses a non-reentrant model
+   656 ;;
+   657                           
+   658                           
+   659                           ;psect for function _Shinking
+   660  0765                     _Shinking:	
+   661                           
+   662                           ;incstack = 0
+   663                           ; Regs used in _Shinking: [wreg+status,2+status,0]
+   664                           ;Shinking@duty_on stored from wreg
+   665  0765  00F1               	movwf	Shinking@duty_on
+   666                           
+   667                           ;ZX-FT60F12X-001.C: 71: if (Time.DutyCount == 0)
+   668  0766  0820               	movf	_Time,w
+   669  0767  1D03               	btfss	3,2
+   670  0768  0008               	return
+   671                           
+   672                           ;ZX-FT60F12X-001.C: 72: {
+   673                           ;ZX-FT60F12X-001.C: 73: if (LEDState)
+   674  0769  0878               	movf	_LEDState,w
+   675  076A  1903               	btfsc	3,2
+   676  076B  2F71               	goto	i1l807
+   677                           
+   678                           ;ZX-FT60F12X-001.C: 74: {
+   679                           ;ZX-FT60F12X-001.C: 75: LEDState = 0;
+   680  076C  01F8               	clrf	_LEDState
+   681                           
+   682                           ;ZX-FT60F12X-001.C: 76: Time.DutyCount = duty_off;
+   683  076D  0870               	movf	Shinking@duty_off,w
+   684  076E  00A0               	movwf	_Time
+   685                           
+   686                           ;ZX-FT60F12X-001.C: 77: BlinkCounter++;
+   687  076F  0AF7               	incf	_BlinkCounter,f
+   688                           
+   689                           ;ZX-FT60F12X-001.C: 78: }
+   690  0770  0008               	return
+   691  0771                     i1l807:	
+   692                           
+   693                           ;ZX-FT60F12X-001.C: 79: else
+   694                           ;ZX-FT60F12X-001.C: 80: {
+   695                           ;ZX-FT60F12X-001.C: 81: LEDState = 1;
+   696  0771  01F8               	clrf	_LEDState
+   697  0772  0AF8               	incf	_LEDState,f
+   698                           
+   699                           ;ZX-FT60F12X-001.C: 82: Time.DutyCount = duty_on;
+   700  0773  0871               	movf	Shinking@duty_on,w
+   701  0774  00A0               	movwf	_Time
+   702  0775  0008               	return
+   703  0776                     __end_of_Shinking:	
+   704  007E                     btemp	set	126	;btemp
+   705  007E                     wtemp0	set	126
+
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         8
+    Persistent  0
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMMON           14      6       9
+    BANK0            80      2       7
+    BANK1            32      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMMON
+
+    None.
+
+Critical Paths under _ISR in COMMON
+
+    _LEDControl->_Shinking
+
+Critical Paths under _main in BANK0
+
+    _main->_DelayUs
+
+Critical Paths under _ISR in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _ISR in BANK1
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 1     1      0     136
+                                              5 COMMON     1     1      0
+                            _DelayUs
+                      _Power_Initial
+ ---------------------------------------------------------------------------------
+ (1) _Power_Initial                                        0     0      0       0
+ ---------------------------------------------------------------------------------
+ (1) _DelayUs                                              2     2      0      68
+                                              0 BANK0      2     2      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (2) _ISR                                                  3     3      0      87
+                                              2 COMMON     3     3      0
+                         _LEDControl
+ ---------------------------------------------------------------------------------
+ (3) _LEDControl                                           0     0      0      87
+                           _Shinking
+ ---------------------------------------------------------------------------------
+ (4) _Shinking                                             2     1      1      87
+                                              0 COMMON     2     1      1
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 4
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _DelayUs
+   _Power_Initial
+
+ _ISR (ROOT)
+   _LEDControl
+     _Shinking
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMMON            E      0       0       0        0.0%
+EEDATA             100      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMMON               E      6       9       1       64.3%
+BITSFR0              0      0       0       1        0.0%
+SFR0                 0      0       0       1        0.0%
+BITSFR1              0      0       0       2        0.0%
+SFR1                 0      0       0       2        0.0%
+STACK                0      0       0       2        0.0%
+BITBANK0            50      0       0       3        0.0%
+BANK0               50      2       7       4        8.8%
+BANK1               20      0       0       5        0.0%
+ABS                  0      0      10       6        0.0%
+BITBANK1            20      0       0       7        0.0%
+DATA                 0      0      10       8        0.0%
+
+
+GNU Macro Assembler for 8 bit devices.     
+Symbol Table                                                                                   Wed Oct 29 14:12:15 2025
+
+            ?_LEDControl 0070                      l834 078D                      _GIE 005F  
+                    _RA0 0028                      _ISR 078F                      fsr0 0004  
+                   ?_ISR 0070                     l1425 075D                     l1435 0778  
+                   _T0IE 005D                     _T0IF 005A                     _TMR0 0001  
+                   _WPUA 0095                     _WPUC 0093                     _Time 0020  
+                   _main 0776                     btemp 007E                     start 0008  
+        __end_of_DelayUs 0765                    ??_ISR 0072                    ?_main 0070  
+                  i1l807 0771                    i1l827 07A4                    _MSCON 001B  
+                  u16_20 07D8                    _PSRCA 0088                    _PSRCC 0094  
+                  _PORTA 0005                    _PORTC 0007                    _TRISA 0085  
+                  _TRISC 0087                    main@i 0075                    pclath 000A  
+    __size_of_LEDControl 0026                    status 0003                    wtemp0 007E  
+        __initialization 07F5             __end_of_main 078F                   ??_main 0075  
+       __end_of_Shinking 0776                   i1l1351 07D0                   i1l1355 07DA  
+                 i1l1365 07E6                   i1l1373 07EC                   i1l1367 07EA  
+                 i1l1391 07A3                   _INTCON 000B                ??_DelayUs 0075  
+                 _OSCCON 008F                   _PSINKA 0097                   _PSINKC 009F  
+                 _OPTION 0081                   saved_w 007E  __end_of__initialization 07FE  
+           _BlinkCounter 0077           __pcstackCOMMON 0070             ??_LEDControl 0072  
+             __pbssBANK0 0020    __end_of_Power_Initial 07CF       __end_of_LEDControl 07F5  
+             __pmaintext 0776                ?_Shinking 0070               __pintentry 0000  
+                _DelayUs 075B               ??_Shinking 0071                  __ptext0 0000  
+                __ptext1 07AD                  __ptext2 075B                  __ptext3 078F  
+                __ptext4 07CF                  __ptext5 0765             __size_of_ISR 001E  
+   end_of_initialization 07FE      start_initialization 07F5              __end_of_ISR 07AD  
+            _SystemState 0076        __size_of_Shinking 0011              __pbssCOMMON 0076  
+              ___latbits 0000            __pcstackBANK0 0025                 ?_DelayUs 0070  
+ __size_of_Power_Initial 0022        interrupt_function 0000                 _LEDState 0078  
+               DelayUs@a 0026            _Power_Initial 07AD              DelayUs@Time 0025  
+       __size_of_DelayUs 000A                 _Shinking 0765           ?_Power_Initial 0070  
+       Shinking@duty_off 0070            __size_of_main 0019               _LEDControl 07CF  
+               intlevel1 0000          Shinking@duty_on 0071          ??_Power_Initial 0075  

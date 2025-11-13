@@ -1,0 +1,6220 @@
+Version 3.2   GCC8 Compiled Intermediate Code
+"39 d:\Program Files (x86)\CCompiler\Compiler\data\include\FT60F12X.h
+[s S2 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2 . CARRY DC ZERO nPD nTO RP ]
+"47
+[s S3 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3 . C HC Z nPF nTF PAGE ]
+"38
+[u S1 `S2 1 `S3 1 ]
+[n S1 . . . ]
+"84
+[s S5 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S5 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"94
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S6 . PA0 PA1 PA2 PA3 PA4 PA5 PA6 PA7 ]
+"83
+[u S4 `S5 1 `S6 1 ]
+[n S4 . . . ]
+"126
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RC0 RC1 RC2 RC3 RC4 RC5 ]
+"134
+[s S9 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S9 . PC0 PC1 PC2 PC3 PC4 PC5 ]
+"125
+[u S7 `S8 1 `S9 1 ]
+[n S7 . . . ]
+"150
+[s S11 :5 `uc 1 ]
+[n S11 . PCLATH ]
+"149
+[u S10 `S11 1 ]
+[n S10 . . ]
+"169
+[s S13 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S13 . PAIF INTF T0IF PAIE INTE T0IE PEIE GIE ]
+"168
+[u S12 `S13 1 ]
+[n S12 . . ]
+"193
+[s S15 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S15 . . TMR2IF OSFIF . LVDIF CKMEAIF EEIF ]
+"192
+[u S14 `S15 1 ]
+[n S14 . . ]
+"217
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S17 . FOSCCAL0 FOSCCAL1 FOSCCAL2 FOSCCAL3 FOSCCAL4 FOSCCAL5 ]
+"216
+[u S16 `S17 1 ]
+[n S16 . . ]
+"257
+[s S19 :2 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 ]
+[n S19 . T2CKPS TMR2ON TOUTPS PR2U ]
+"263
+[s S20 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"256
+[u S18 `S19 1 `S20 1 ]
+[n S18 . . . ]
+"301
+[s S22 :1 `uc 1 :7 `uc 1 ]
+[n S22 . P1AUE P1DC ]
+"305
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . . P1DC0 P1DC1 P1DC2 P1DC3 P1DC4 P1DC5 P1DC6 ]
+"300
+[u S21 `S22 1 `S23 1 ]
+[n S21 . . . ]
+"333
+[s S25 :2 `uc 1 :2 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S25 . P1ASS P1BSS P1BK P1BEVT ]
+"339
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . P1ASS0 P1ASS1 P1BSS0 P1BSS1 P1BK0 P1BK1 P1BK2 ]
+"332
+[u S24 `S25 1 `S26 1 ]
+[n S24 . . . ]
+"365
+[s S28 :1 `uc 1 :4 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S28 . SWDTEN WDTPS WCKSRC LVDP ]
+"371
+[s S29 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S29 . . WDTPS0 WDTPS1 WDTPS2 WDTPS3 WCKSRC0 WCKSRC1 ]
+"364
+[u S27 `S28 1 `S29 1 ]
+[n S27 . . . ]
+"397
+[s S31 :2 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S31 . P1CSS P1BALT P1CALT P1B2SS P1C2SS ]
+"404
+[s S32 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . P1CSS0 P1CSS1 . P1BSS0 P1BSS1 P1C2SS0 P1C2SS1 ]
+"396
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"432
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . T2CKRUN CKCNTI CKMAVG SLVREN PSRCAH3 PSRCAH4 ]
+"431
+[u S33 `S34 1 ]
+[n S33 . . ]
+"452
+[s S36 :4 `uc 1 ]
+[n S36 . SOSCPRH ]
+"451
+[u S35 `S36 1 ]
+[n S35 . . ]
+"467
+[s S38 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S38 . P1BF2 P1BF2E P1CF2 P1CF2E ]
+"466
+[u S37 `S38 1 ]
+[n S37 . . ]
+"485
+[s S40 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S40 . T0CKSRC T0CKRUN T0ON ]
+"490
+[s S41 :1 `uc 1 :1 `uc 1 ]
+[n S41 . T0CKSRC0 T0CKSRC1 ]
+"484
+[u S39 `S40 1 `S41 1 ]
+[n S39 . . . ]
+"514
+[s S43 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . PS PSA T0SE T0CS INTEDG nPAPU ]
+"522
+[s S44 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S44 . PS0 PS1 PS2 ]
+"513
+[u S42 `S43 1 `S44 1 ]
+[n S42 . . . ]
+"543
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"553
+[s S47 :8 `uc 1 ]
+[n S47 . TRISA ]
+"542
+[u S45 `S46 1 `S47 1 ]
+[n S45 . . . ]
+"571
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 ]
+"579
+[s S50 :6 `uc 1 ]
+[n S50 . TRISC ]
+"570
+[u S48 `S49 1 `S50 1 ]
+[n S48 . . . ]
+"599
+[s S52 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S52 . . TMR2IE OSFIE . LVDIE CKMIE EEIE ]
+"598
+[u S51 `S52 1 ]
+[n S51 . . ]
+"623
+[s S54 :6 `uc 1 ]
+[n S54 . WPDC ]
+"626
+[s S55 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S55 . WPDC0 WPDC1 WPDC2 WPDC3 WPDC4 WPDC5 WPDC6 ]
+"622
+[u S53 `S54 1 `S55 1 ]
+[n S53 . . . ]
+"650
+[s S57 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S57 . nBOR nPOR LVDW LVDEN LVDL LVDM ]
+"658
+[s S58 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S58 . . LVDL0 LVDL1 LVDL2 ]
+"649
+[u S56 `S57 1 `S58 1 ]
+[n S56 . . . ]
+"680
+[s S60 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S60 . SCS LTS HTS OSTS IRCF LFMOD ]
+"688
+[s S61 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . . IRCF0 IRCF1 IRCF2 . ]
+"679
+[u S59 `S60 1 `S61 1 ]
+[n S59 . . . ]
+"711
+[s S63 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S63 . P1A0OE P1A0NOE P1A1OE P1A1NOE P1A2OE P1A2NOE P1BOE P1COE ]
+"710
+[u S62 `S63 1 ]
+[n S62 . . ]
+"741
+[s S65 :6 `uc 1 ]
+[n S65 . WPUC ]
+"744
+[s S66 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S66 . WPUC0 WPUC1 WPUC2 WPUC3 WPUC4 WPUC5 ]
+"740
+[u S64 `S65 1 `S66 1 ]
+[n S64 . . . ]
+"765
+[s S68 :6 `uc 1 ]
+[n S68 . PSRCC ]
+"768
+[s S69 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S69 . PSRCC0 PSRCC1 PSRCC2 PSRCC3 PSRCC4 PSRCC5 ]
+"764
+[u S67 `S68 1 `S69 1 ]
+[n S67 . . . ]
+"801
+[s S71 :8 `uc 1 ]
+[n S71 . WPUA ]
+"804
+[s S72 :8 `uc 1 ]
+[n S72 . WPU ]
+"800
+[u S70 `S71 1 `S72 1 ]
+[n S70 . . . ]
+"833
+[s S74 :8 `uc 1 ]
+[n S74 . IOCA ]
+"836
+[s S75 :8 `uc 1 ]
+[n S75 . IOC ]
+"832
+[u S73 `S74 1 `S75 1 ]
+[n S73 . . . ]
+"858
+[s S77 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S77 . P1A0P P1A0NP P1A1P P1A1NP P1A2P P1A2NP P1BP P1CP ]
+"857
+[u S76 `S77 1 ]
+[n S76 . . ]
+"891
+[s S79 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . RD . WREN1 WRERR WREN2 WREN3 ]
+"890
+[u S78 `S79 1 ]
+[n S78 . . ]
+"908
+[s S81 :1 `uc 1 ]
+[n S81 . WR ]
+"907
+[u S80 `S81 1 ]
+[n S80 . . ]
+"924
+[s S83 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S83 . T2CKSRC P1BZM P1OS ]
+"923
+[u S82 `S83 1 ]
+[n S82 . . ]
+"942
+[s S85 :6 `uc 1 ]
+[n S85 . PSINKC ]
+"941
+[u S84 `S85 1 ]
+[n S84 . . ]
+"10 ZX-FT60F12X-4BIT.C
+[s S86 `uc 1 `ui 1 `uc 1 ]
+[n S86 . DutyCount OnOffCount HitCount ]
+"19
+[s S88 :1 `uc 1 :1 `uc 1 :1 `uc 1 :6 `uc 1 ]
+[n S88 . KeyHit ToEEPROM ToWhite . ]
+"17
+[u S87 `S88 1 `uc 1 ]
+[n S87 . bits allBits ]
+"44
+[v _EEPROMwrite `(v ~T0 @X0 0 ef2`uc`uc ]
+"31 d:\Program Files (x86)\CCompiler\Compiler\data\include\SYSCFG.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"51 ZX-FT60F12X-4BIT.C
+[v _D8ToDo `(v ~T0 @X0 0 ef ]
+[p mainexit ]
+[; ;fmd.h: 26: extern const char __xc8_OPTIM_SPEED;
+[; ;fmd.h: 28: extern double __fpnormalize(double);
+[; ;gcc8debug.h: 14: extern void __builtin_software_breakpoint(void);
+"10 d:\Program Files (x86)\CCompiler\Compiler\data\include\FT60F12X.h
+[v _INDF `Vuc ~T0 @X0 1 e@0 ]
+[; ;FT60F12X.h: 10: volatile unsigned char INDF @ 0x000;
+"14
+[v _TMR0 `Vuc ~T0 @X0 1 e@1 ]
+[; ;FT60F12X.h: 14: volatile unsigned char TMR0 @ 0x001;
+"18
+[v _PCL `Vuc ~T0 @X0 1 e@2 ]
+[; ;FT60F12X.h: 18: volatile unsigned char PCL @ 0x002;
+"22
+[v _STATUS `Vuc ~T0 @X0 1 e@3 ]
+[; ;FT60F12X.h: 22: volatile unsigned char STATUS @ 0x003;
+"24
+[v _CARRY `Vb ~T0 @X0 1 e@24 ]
+[; ;FT60F12X.h: 24: volatile bit CARRY @ ((unsigned)&STATUS*8)+0;
+"25
+[v _DC `Vb ~T0 @X0 1 e@25 ]
+[; ;FT60F12X.h: 25: volatile bit DC @ ((unsigned)&STATUS*8)+1;
+"26
+[v _ZERO `Vb ~T0 @X0 1 e@26 ]
+[; ;FT60F12X.h: 26: volatile bit ZERO @ ((unsigned)&STATUS*8)+2;
+"27
+[v _nPD `Vb ~T0 @X0 1 e@27 ]
+[; ;FT60F12X.h: 27: volatile bit nPD @ ((unsigned)&STATUS*8)+3;
+"28
+[v _nTO `Vb ~T0 @X0 1 e@28 ]
+[; ;FT60F12X.h: 28: volatile bit nTO @ ((unsigned)&STATUS*8)+4;
+"29
+[v _RP `Vb ~T0 @X0 1 e@29 ]
+[; ;FT60F12X.h: 29: volatile bit RP @ ((unsigned)&STATUS*8)+5;
+"31
+[v _C `Vb ~T0 @X0 1 e@24 ]
+[; ;FT60F12X.h: 31: volatile bit C @ ((unsigned)&STATUS*8)+0;
+"32
+[v _HC `Vb ~T0 @X0 1 e@25 ]
+[; ;FT60F12X.h: 32: volatile bit HC @ ((unsigned)&STATUS*8)+1;
+"33
+[v _Z `Vb ~T0 @X0 1 e@26 ]
+[; ;FT60F12X.h: 33: volatile bit Z @ ((unsigned)&STATUS*8)+2;
+"34
+[v _nPF `Vb ~T0 @X0 1 e@27 ]
+[; ;FT60F12X.h: 34: volatile bit nPF @ ((unsigned)&STATUS*8)+3;
+"35
+[v _nTF `Vb ~T0 @X0 1 e@28 ]
+[; ;FT60F12X.h: 35: volatile bit nTF @ ((unsigned)&STATUS*8)+4;
+"36
+[v _PAGE `Vb ~T0 @X0 1 e@29 ]
+[; ;FT60F12X.h: 36: volatile bit PAGE @ ((unsigned)&STATUS*8)+5;
+"55
+[v _STATUSbits `VS1 ~T0 @X0 1 e@3 ]
+[; ;FT60F12X.h: 38: volatile union {
+[; ;FT60F12X.h: 39: struct {
+[; ;FT60F12X.h: 40: unsigned CARRY : 1;
+[; ;FT60F12X.h: 41: unsigned DC : 1;
+[; ;FT60F12X.h: 42: unsigned ZERO : 1;
+[; ;FT60F12X.h: 43: unsigned nPD : 1;
+[; ;FT60F12X.h: 44: unsigned nTO : 1;
+[; ;FT60F12X.h: 45: unsigned RP : 1;
+[; ;FT60F12X.h: 46: };
+[; ;FT60F12X.h: 47: struct {
+[; ;FT60F12X.h: 48: unsigned C : 1;
+[; ;FT60F12X.h: 49: unsigned HC : 1;
+[; ;FT60F12X.h: 50: unsigned Z : 1;
+[; ;FT60F12X.h: 51: unsigned nPF : 1;
+[; ;FT60F12X.h: 52: unsigned nTF : 1;
+[; ;FT60F12X.h: 53: unsigned PAGE : 1;
+[; ;FT60F12X.h: 54: };
+[; ;FT60F12X.h: 55: } STATUSbits @ 0x003;
+"59
+[v _FSR `Vuc ~T0 @X0 1 e@4 ]
+[; ;FT60F12X.h: 59: volatile unsigned char FSR @ 0x004;
+"63
+[v _PORTA `Vuc ~T0 @X0 1 e@5 ]
+[; ;FT60F12X.h: 63: volatile unsigned char PORTA @ 0x005;
+"65
+[v _RA0 `Vb ~T0 @X0 1 e@40 ]
+[; ;FT60F12X.h: 65: volatile bit RA0 @ ((unsigned)&PORTA*8)+0;
+"66
+[v _RA1 `Vb ~T0 @X0 1 e@41 ]
+[; ;FT60F12X.h: 66: volatile bit RA1 @ ((unsigned)&PORTA*8)+1;
+"67
+[v _RA2 `Vb ~T0 @X0 1 e@42 ]
+[; ;FT60F12X.h: 67: volatile bit RA2 @ ((unsigned)&PORTA*8)+2;
+"68
+[v _RA3 `Vb ~T0 @X0 1 e@43 ]
+[; ;FT60F12X.h: 68: volatile bit RA3 @ ((unsigned)&PORTA*8)+3;
+"69
+[v _RA4 `Vb ~T0 @X0 1 e@44 ]
+[; ;FT60F12X.h: 69: volatile bit RA4 @ ((unsigned)&PORTA*8)+4;
+"70
+[v _RA5 `Vb ~T0 @X0 1 e@45 ]
+[; ;FT60F12X.h: 70: volatile bit RA5 @ ((unsigned)&PORTA*8)+5;
+"71
+[v _RA6 `Vb ~T0 @X0 1 e@46 ]
+[; ;FT60F12X.h: 71: volatile bit RA6 @ ((unsigned)&PORTA*8)+6;
+"72
+[v _RA7 `Vb ~T0 @X0 1 e@47 ]
+[; ;FT60F12X.h: 72: volatile bit RA7 @ ((unsigned)&PORTA*8)+7;
+"74
+[v _PA0 `Vb ~T0 @X0 1 e@40 ]
+[; ;FT60F12X.h: 74: volatile bit PA0 @ ((unsigned)&PORTA*8)+0;
+"75
+[v _PA1 `Vb ~T0 @X0 1 e@41 ]
+[; ;FT60F12X.h: 75: volatile bit PA1 @ ((unsigned)&PORTA*8)+1;
+"76
+[v _PA2 `Vb ~T0 @X0 1 e@42 ]
+[; ;FT60F12X.h: 76: volatile bit PA2 @ ((unsigned)&PORTA*8)+2;
+"77
+[v _PA3 `Vb ~T0 @X0 1 e@43 ]
+[; ;FT60F12X.h: 77: volatile bit PA3 @ ((unsigned)&PORTA*8)+3;
+"78
+[v _PA4 `Vb ~T0 @X0 1 e@44 ]
+[; ;FT60F12X.h: 78: volatile bit PA4 @ ((unsigned)&PORTA*8)+4;
+"79
+[v _PA5 `Vb ~T0 @X0 1 e@45 ]
+[; ;FT60F12X.h: 79: volatile bit PA5 @ ((unsigned)&PORTA*8)+5;
+"80
+[v _PA6 `Vb ~T0 @X0 1 e@46 ]
+[; ;FT60F12X.h: 80: volatile bit PA6 @ ((unsigned)&PORTA*8)+6;
+"81
+[v _PA7 `Vb ~T0 @X0 1 e@47 ]
+[; ;FT60F12X.h: 81: volatile bit PA7 @ ((unsigned)&PORTA*8)+7;
+"104
+[v _PORTAbits `VS4 ~T0 @X0 1 e@5 ]
+[; ;FT60F12X.h: 83: volatile union {
+[; ;FT60F12X.h: 84: struct {
+[; ;FT60F12X.h: 85: unsigned RA0 : 1;
+[; ;FT60F12X.h: 86: unsigned RA1 : 1;
+[; ;FT60F12X.h: 87: unsigned RA2 : 1;
+[; ;FT60F12X.h: 88: unsigned RA3 : 1;
+[; ;FT60F12X.h: 89: unsigned RA4 : 1;
+[; ;FT60F12X.h: 90: unsigned RA5 : 1;
+[; ;FT60F12X.h: 91: unsigned RA6 : 1;
+[; ;FT60F12X.h: 92: unsigned RA7 : 1;
+[; ;FT60F12X.h: 93: };
+[; ;FT60F12X.h: 94: struct {
+[; ;FT60F12X.h: 95: unsigned PA0 : 1;
+[; ;FT60F12X.h: 96: unsigned PA1 : 1;
+[; ;FT60F12X.h: 97: unsigned PA2 : 1;
+[; ;FT60F12X.h: 98: unsigned PA3 : 1;
+[; ;FT60F12X.h: 99: unsigned PA4 : 1;
+[; ;FT60F12X.h: 100: unsigned PA5 : 1;
+[; ;FT60F12X.h: 101: unsigned PA6 : 1;
+[; ;FT60F12X.h: 102: unsigned PA7 : 1;
+[; ;FT60F12X.h: 103: };
+[; ;FT60F12X.h: 104: } PORTAbits @ 0x005;
+"108
+[v _PORTC `Vuc ~T0 @X0 1 e@7 ]
+[; ;FT60F12X.h: 108: volatile unsigned char PORTC @ 0x007;
+"110
+[v _RC0 `Vb ~T0 @X0 1 e@56 ]
+[; ;FT60F12X.h: 110: volatile bit RC0 @ ((unsigned)&PORTC*8)+0;
+"111
+[v _RC1 `Vb ~T0 @X0 1 e@57 ]
+[; ;FT60F12X.h: 111: volatile bit RC1 @ ((unsigned)&PORTC*8)+1;
+"112
+[v _RC2 `Vb ~T0 @X0 1 e@58 ]
+[; ;FT60F12X.h: 112: volatile bit RC2 @ ((unsigned)&PORTC*8)+2;
+"113
+[v _RC3 `Vb ~T0 @X0 1 e@59 ]
+[; ;FT60F12X.h: 113: volatile bit RC3 @ ((unsigned)&PORTC*8)+3;
+"114
+[v _RC4 `Vb ~T0 @X0 1 e@60 ]
+[; ;FT60F12X.h: 114: volatile bit RC4 @ ((unsigned)&PORTC*8)+4;
+"115
+[v _RC5 `Vb ~T0 @X0 1 e@61 ]
+[; ;FT60F12X.h: 115: volatile bit RC5 @ ((unsigned)&PORTC*8)+5;
+"117
+[v _PC0 `Vb ~T0 @X0 1 e@56 ]
+[; ;FT60F12X.h: 117: volatile bit PC0 @ ((unsigned)&PORTC*8)+0;
+"118
+[v _PC1 `Vb ~T0 @X0 1 e@57 ]
+[; ;FT60F12X.h: 118: volatile bit PC1 @ ((unsigned)&PORTC*8)+1;
+"119
+[v _PC2 `Vb ~T0 @X0 1 e@58 ]
+[; ;FT60F12X.h: 119: volatile bit PC2 @ ((unsigned)&PORTC*8)+2;
+"120
+[v _PC3 `Vb ~T0 @X0 1 e@59 ]
+[; ;FT60F12X.h: 120: volatile bit PC3 @ ((unsigned)&PORTC*8)+3;
+"121
+[v _PC4 `Vb ~T0 @X0 1 e@60 ]
+[; ;FT60F12X.h: 121: volatile bit PC4 @ ((unsigned)&PORTC*8)+4;
+"122
+[v _PC5 `Vb ~T0 @X0 1 e@61 ]
+[; ;FT60F12X.h: 122: volatile bit PC5 @ ((unsigned)&PORTC*8)+5;
+"142
+[v _PORTCbits `VS7 ~T0 @X0 1 e@7 ]
+[; ;FT60F12X.h: 125: volatile union {
+[; ;FT60F12X.h: 126: struct {
+[; ;FT60F12X.h: 127: unsigned RC0 : 1;
+[; ;FT60F12X.h: 128: unsigned RC1 : 1;
+[; ;FT60F12X.h: 129: unsigned RC2 : 1;
+[; ;FT60F12X.h: 130: unsigned RC3 : 1;
+[; ;FT60F12X.h: 131: unsigned RC4 : 1;
+[; ;FT60F12X.h: 132: unsigned RC5 : 1;
+[; ;FT60F12X.h: 133: };
+[; ;FT60F12X.h: 134: struct {
+[; ;FT60F12X.h: 135: unsigned PC0 : 1;
+[; ;FT60F12X.h: 136: unsigned PC1 : 1;
+[; ;FT60F12X.h: 137: unsigned PC2 : 1;
+[; ;FT60F12X.h: 138: unsigned PC3 : 1;
+[; ;FT60F12X.h: 139: unsigned PC4 : 1;
+[; ;FT60F12X.h: 140: unsigned PC5 : 1;
+[; ;FT60F12X.h: 141: };
+[; ;FT60F12X.h: 142: } PORTCbits @ 0x007;
+"146
+[v _PCLATH `Vuc ~T0 @X0 1 e@10 ]
+[; ;FT60F12X.h: 146: volatile unsigned char PCLATH @ 0x00A;
+"153
+[v _PCLATHbits `VS10 ~T0 @X0 1 e@10 ]
+[; ;FT60F12X.h: 149: volatile union {
+[; ;FT60F12X.h: 150: struct {
+[; ;FT60F12X.h: 151: unsigned PCLATH : 5;
+[; ;FT60F12X.h: 152: };
+[; ;FT60F12X.h: 153: } PCLATHbits @ 0x00A;
+"157
+[v _INTCON `Vuc ~T0 @X0 1 e@11 ]
+[; ;FT60F12X.h: 157: volatile unsigned char INTCON @ 0x00B;
+"159
+[v _PAIF `Vb ~T0 @X0 1 e@88 ]
+[; ;FT60F12X.h: 159: volatile bit PAIF @ ((unsigned)&INTCON*8)+0;
+"160
+[v _INTF `Vb ~T0 @X0 1 e@89 ]
+[; ;FT60F12X.h: 160: volatile bit INTF @ ((unsigned)&INTCON*8)+1;
+"161
+[v _T0IF `Vb ~T0 @X0 1 e@90 ]
+[; ;FT60F12X.h: 161: volatile bit T0IF @ ((unsigned)&INTCON*8)+2;
+"162
+[v _PAIE `Vb ~T0 @X0 1 e@91 ]
+[; ;FT60F12X.h: 162: volatile bit PAIE @ ((unsigned)&INTCON*8)+3;
+"163
+[v _INTE `Vb ~T0 @X0 1 e@92 ]
+[; ;FT60F12X.h: 163: volatile bit INTE @ ((unsigned)&INTCON*8)+4;
+"164
+[v _T0IE `Vb ~T0 @X0 1 e@93 ]
+[; ;FT60F12X.h: 164: volatile bit T0IE @ ((unsigned)&INTCON*8)+5;
+"165
+[v _PEIE `Vb ~T0 @X0 1 e@94 ]
+[; ;FT60F12X.h: 165: volatile bit PEIE @ ((unsigned)&INTCON*8)+6;
+"166
+[v _GIE `Vb ~T0 @X0 1 e@95 ]
+[; ;FT60F12X.h: 166: volatile bit GIE @ ((unsigned)&INTCON*8)+7;
+"179
+[v _INTCONbits `VS12 ~T0 @X0 1 e@11 ]
+[; ;FT60F12X.h: 168: volatile union {
+[; ;FT60F12X.h: 169: struct {
+[; ;FT60F12X.h: 170: unsigned PAIF : 1;
+[; ;FT60F12X.h: 171: unsigned INTF : 1;
+[; ;FT60F12X.h: 172: unsigned T0IF : 1;
+[; ;FT60F12X.h: 173: unsigned PAIE : 1;
+[; ;FT60F12X.h: 174: unsigned INTE : 1;
+[; ;FT60F12X.h: 175: unsigned T0IE : 1;
+[; ;FT60F12X.h: 176: unsigned PEIE : 1;
+[; ;FT60F12X.h: 177: unsigned GIE : 1;
+[; ;FT60F12X.h: 178: };
+[; ;FT60F12X.h: 179: } INTCONbits @ 0x00B;
+"183
+[v _PIR1 `Vuc ~T0 @X0 1 e@12 ]
+[; ;FT60F12X.h: 183: volatile unsigned char PIR1 @ 0x00C;
+"185
+[v _TMR2IF `Vb ~T0 @X0 1 e@97 ]
+[; ;FT60F12X.h: 185: volatile bit TMR2IF @ ((unsigned)&PIR1*8)+1;
+"186
+[v _OSFIF `Vb ~T0 @X0 1 e@98 ]
+[; ;FT60F12X.h: 186: volatile bit OSFIF @ ((unsigned)&PIR1*8)+2;
+"187
+[v _LVDIF `Vb ~T0 @X0 1 e@101 ]
+[; ;FT60F12X.h: 187: volatile bit LVDIF @ ((unsigned)&PIR1*8)+5;
+"188
+[v _CKMIF `Vb ~T0 @X0 1 e@102 ]
+[; ;FT60F12X.h: 188: volatile bit CKMIF @ ((unsigned)&PIR1*8)+6;
+"189
+[v _EEIF `Vb ~T0 @X0 1 e@103 ]
+[; ;FT60F12X.h: 189: volatile bit EEIF @ ((unsigned)&PIR1*8)+7;
+"202
+[v _PIR1bits `VS14 ~T0 @X0 1 e@12 ]
+[; ;FT60F12X.h: 192: volatile union {
+[; ;FT60F12X.h: 193: struct {
+[; ;FT60F12X.h: 194: unsigned : 1;
+[; ;FT60F12X.h: 195: unsigned TMR2IF : 1;
+[; ;FT60F12X.h: 196: unsigned OSFIF : 1;
+[; ;FT60F12X.h: 197: unsigned : 2;
+[; ;FT60F12X.h: 198: unsigned LVDIF : 1;
+[; ;FT60F12X.h: 199: unsigned CKMEAIF : 1;
+[; ;FT60F12X.h: 200: unsigned EEIF : 1;
+[; ;FT60F12X.h: 201: };
+[; ;FT60F12X.h: 202: } PIR1bits @ 0x00C;
+"206
+[v _FOSCCAL `Vuc ~T0 @X0 1 e@13 ]
+[; ;FT60F12X.h: 206: volatile unsigned char FOSCCAL @ 0x00D;
+"208
+[v _FOSCCAL0 `Vb ~T0 @X0 1 e@104 ]
+[; ;FT60F12X.h: 208: volatile bit FOSCCAL0 @ ((unsigned)&FOSCCAL*8)+0;
+"209
+[v _FOSCCAL1 `Vb ~T0 @X0 1 e@105 ]
+[; ;FT60F12X.h: 209: volatile bit FOSCCAL1 @ ((unsigned)&FOSCCAL*8)+1;
+"210
+[v _FOSCCAL2 `Vb ~T0 @X0 1 e@106 ]
+[; ;FT60F12X.h: 210: volatile bit FOSCCAL2 @ ((unsigned)&FOSCCAL*8)+2;
+"211
+[v _FOSCCAL3 `Vb ~T0 @X0 1 e@107 ]
+[; ;FT60F12X.h: 211: volatile bit FOSCCAL3 @ ((unsigned)&FOSCCAL*8)+3;
+"212
+[v _FOSCCAL4 `Vb ~T0 @X0 1 e@108 ]
+[; ;FT60F12X.h: 212: volatile bit FOSCCAL4 @ ((unsigned)&FOSCCAL*8)+4;
+"213
+[v _FOSCCAL5 `Vb ~T0 @X0 1 e@109 ]
+[; ;FT60F12X.h: 213: volatile bit FOSCCAL5 @ ((unsigned)&FOSCCAL*8)+5;
+"225
+[v _FOSCCALbits `VS16 ~T0 @X0 1 e@13 ]
+[; ;FT60F12X.h: 216: volatile union {
+[; ;FT60F12X.h: 217: struct {
+[; ;FT60F12X.h: 218: unsigned FOSCCAL0 : 1;
+[; ;FT60F12X.h: 219: unsigned FOSCCAL1 : 1;
+[; ;FT60F12X.h: 220: unsigned FOSCCAL2 : 1;
+[; ;FT60F12X.h: 221: unsigned FOSCCAL3 : 1;
+[; ;FT60F12X.h: 222: unsigned FOSCCAL4 : 1;
+[; ;FT60F12X.h: 223: unsigned FOSCCAL5 : 1;
+[; ;FT60F12X.h: 224: };
+[; ;FT60F12X.h: 225: } FOSCCALbits @ 0x00D;
+"229
+[v _P1ADTL `Vuc ~T0 @X0 1 e@14 ]
+[; ;FT60F12X.h: 229: volatile unsigned char P1ADTL @ 0x00E;
+"233
+[v _P1BDTL `Vuc ~T0 @X0 1 e@15 ]
+[; ;FT60F12X.h: 233: volatile unsigned char P1BDTL @ 0x00F;
+"237
+[v _P1CDTL `Vuc ~T0 @X0 1 e@16 ]
+[; ;FT60F12X.h: 237: volatile unsigned char P1CDTL @ 0x010;
+"241
+[v _TMR2L `Vuc ~T0 @X0 1 e@17 ]
+[; ;FT60F12X.h: 241: volatile unsigned char TMR2L @ 0x011;
+"245
+[v _T2CON0 `Vuc ~T0 @X0 1 e@18 ]
+[; ;FT60F12X.h: 245: volatile unsigned char T2CON0 @ 0x012;
+"247
+[v _T2CKPS0 `Vb ~T0 @X0 1 e@144 ]
+[; ;FT60F12X.h: 247: volatile bit T2CKPS0 @ ((unsigned)&T2CON0*8)+0;
+"248
+[v _T2CKPS1 `Vb ~T0 @X0 1 e@145 ]
+[; ;FT60F12X.h: 248: volatile bit T2CKPS1 @ ((unsigned)&T2CON0*8)+1;
+"249
+[v _TMR2ON `Vb ~T0 @X0 1 e@146 ]
+[; ;FT60F12X.h: 249: volatile bit TMR2ON @ ((unsigned)&T2CON0*8)+2;
+"250
+[v _TOUTPS0 `Vb ~T0 @X0 1 e@147 ]
+[; ;FT60F12X.h: 250: volatile bit TOUTPS0 @ ((unsigned)&T2CON0*8)+3;
+"251
+[v _TOUTPS1 `Vb ~T0 @X0 1 e@148 ]
+[; ;FT60F12X.h: 251: volatile bit TOUTPS1 @ ((unsigned)&T2CON0*8)+4;
+"252
+[v _TOUTPS2 `Vb ~T0 @X0 1 e@149 ]
+[; ;FT60F12X.h: 252: volatile bit TOUTPS2 @ ((unsigned)&T2CON0*8)+5;
+"253
+[v _TOUTPS3 `Vb ~T0 @X0 1 e@150 ]
+[; ;FT60F12X.h: 253: volatile bit TOUTPS3 @ ((unsigned)&T2CON0*8)+6;
+"254
+[v _PR2U `Vb ~T0 @X0 1 e@151 ]
+[; ;FT60F12X.h: 254: volatile bit PR2U @ ((unsigned)&T2CON0*8)+7;
+"272
+[v _T2CON0bits `VS18 ~T0 @X0 1 e@18 ]
+[; ;FT60F12X.h: 256: volatile union {
+[; ;FT60F12X.h: 257: struct {
+[; ;FT60F12X.h: 258: unsigned T2CKPS : 2;
+[; ;FT60F12X.h: 259: unsigned TMR2ON : 1;
+[; ;FT60F12X.h: 260: unsigned TOUTPS : 4;
+[; ;FT60F12X.h: 261: unsigned PR2U : 1;
+[; ;FT60F12X.h: 262: };
+[; ;FT60F12X.h: 263: struct {
+[; ;FT60F12X.h: 264: unsigned T2CKPS0 : 1;
+[; ;FT60F12X.h: 265: unsigned T2CKPS1 : 1;
+[; ;FT60F12X.h: 266: unsigned : 1;
+[; ;FT60F12X.h: 267: unsigned TOUTPS0 : 1;
+[; ;FT60F12X.h: 268: unsigned TOUTPS1 : 1;
+[; ;FT60F12X.h: 269: unsigned TOUTPS2 : 1;
+[; ;FT60F12X.h: 270: unsigned TOUTPS3 : 1;
+[; ;FT60F12X.h: 271: };
+[; ;FT60F12X.h: 272: } T2CON0bits @ 0x012;
+"276
+[v _TMR2H `Vuc ~T0 @X0 1 e@19 ]
+[; ;FT60F12X.h: 276: volatile unsigned char TMR2H @ 0x013;
+"280
+[v _P1ADTH `Vuc ~T0 @X0 1 e@20 ]
+[; ;FT60F12X.h: 280: volatile unsigned char P1ADTH @ 0x014;
+"284
+[v _P1BDTH `Vuc ~T0 @X0 1 e@21 ]
+[; ;FT60F12X.h: 284: volatile unsigned char P1BDTH @ 0x015;
+"288
+[v _P1CON `Vuc ~T0 @X0 1 e@22 ]
+[; ;FT60F12X.h: 288: volatile unsigned char P1CON @ 0x016;
+"290
+[v _P1DC0 `Vb ~T0 @X0 1 e@176 ]
+[; ;FT60F12X.h: 290: volatile bit P1DC0 @ ((unsigned)&P1CON*8)+0;
+"291
+[v _P1DC1 `Vb ~T0 @X0 1 e@177 ]
+[; ;FT60F12X.h: 291: volatile bit P1DC1 @ ((unsigned)&P1CON*8)+1;
+"292
+[v _P1DC2 `Vb ~T0 @X0 1 e@178 ]
+[; ;FT60F12X.h: 292: volatile bit P1DC2 @ ((unsigned)&P1CON*8)+2;
+"293
+[v _P1DC3 `Vb ~T0 @X0 1 e@179 ]
+[; ;FT60F12X.h: 293: volatile bit P1DC3 @ ((unsigned)&P1CON*8)+3;
+"294
+[v _P1DC4 `Vb ~T0 @X0 1 e@180 ]
+[; ;FT60F12X.h: 294: volatile bit P1DC4 @ ((unsigned)&P1CON*8)+4;
+"295
+[v _P1DC5 `Vb ~T0 @X0 1 e@181 ]
+[; ;FT60F12X.h: 295: volatile bit P1DC5 @ ((unsigned)&P1CON*8)+5;
+"296
+[v _P1DC6 `Vb ~T0 @X0 1 e@182 ]
+[; ;FT60F12X.h: 296: volatile bit P1DC6 @ ((unsigned)&P1CON*8)+6;
+"297
+[v _P1AUE `Vb ~T0 @X0 1 e@183 ]
+[; ;FT60F12X.h: 297: volatile bit P1AUE @ ((unsigned)&P1CON*8)+7;
+"315
+[v _P1CONbits `VS21 ~T0 @X0 1 e@22 ]
+[; ;FT60F12X.h: 300: volatile union {
+[; ;FT60F12X.h: 301: struct {
+[; ;FT60F12X.h: 302: unsigned P1AUE : 1;
+[; ;FT60F12X.h: 303: unsigned P1DC : 7;
+[; ;FT60F12X.h: 304: };
+[; ;FT60F12X.h: 305: struct {
+[; ;FT60F12X.h: 306: unsigned : 1;
+[; ;FT60F12X.h: 307: unsigned P1DC0 : 1;
+[; ;FT60F12X.h: 308: unsigned P1DC1 : 1;
+[; ;FT60F12X.h: 309: unsigned P1DC2 : 1;
+[; ;FT60F12X.h: 310: unsigned P1DC3 : 1;
+[; ;FT60F12X.h: 311: unsigned P1DC4 : 1;
+[; ;FT60F12X.h: 312: unsigned P1DC5 : 1;
+[; ;FT60F12X.h: 313: unsigned P1DC6 : 1;
+[; ;FT60F12X.h: 314: };
+[; ;FT60F12X.h: 315: } P1CONbits @ 0x016;
+"320
+[v _P1BR0 `Vuc ~T0 @X0 1 e@23 ]
+[; ;FT60F12X.h: 320: volatile unsigned char P1BR0 @ 0x017;
+"322
+[v _P1ASS0 `Vb ~T0 @X0 1 e@184 ]
+[; ;FT60F12X.h: 322: volatile bit P1ASS0 @ ((unsigned)&P1BR0*8)+0;
+"323
+[v _P1ASS1 `Vb ~T0 @X0 1 e@185 ]
+[; ;FT60F12X.h: 323: volatile bit P1ASS1 @ ((unsigned)&P1BR0*8)+1;
+"324
+[v _P1BSS0 `Vb ~T0 @X0 1 e@186 ]
+[; ;FT60F12X.h: 324: volatile bit P1BSS0 @ ((unsigned)&P1BR0*8)+2;
+"325
+[v _P1BSS1 `Vb ~T0 @X0 1 e@187 ]
+[; ;FT60F12X.h: 325: volatile bit P1BSS1 @ ((unsigned)&P1BR0*8)+3;
+"326
+[v _P1BK2 `Vb ~T0 @X0 1 e@188 ]
+[; ;FT60F12X.h: 326: volatile bit P1BK2 @ ((unsigned)&P1BR0*8)+4;
+"327
+[v _P1BK1 `Vb ~T0 @X0 1 e@189 ]
+[; ;FT60F12X.h: 327: volatile bit P1BK1 @ ((unsigned)&P1BR0*8)+5;
+"328
+[v _P1BK0 `Vb ~T0 @X0 1 e@190 ]
+[; ;FT60F12X.h: 328: volatile bit P1BK0 @ ((unsigned)&P1BR0*8)+6;
+"329
+[v _P1BEVT `Vb ~T0 @X0 1 e@191 ]
+[; ;FT60F12X.h: 329: volatile bit P1BEVT @ ((unsigned)&P1BR0*8)+7;
+"348
+[v _P1BR0bits `VS24 ~T0 @X0 1 e@23 ]
+[; ;FT60F12X.h: 332: volatile union {
+[; ;FT60F12X.h: 333: struct {
+[; ;FT60F12X.h: 334: unsigned P1ASS : 2;
+[; ;FT60F12X.h: 335: unsigned P1BSS : 2;
+[; ;FT60F12X.h: 336: unsigned P1BK : 3;
+[; ;FT60F12X.h: 337: unsigned P1BEVT : 1;
+[; ;FT60F12X.h: 338: };
+[; ;FT60F12X.h: 339: struct {
+[; ;FT60F12X.h: 340: unsigned P1ASS0 : 1;
+[; ;FT60F12X.h: 341: unsigned P1ASS1 : 1;
+[; ;FT60F12X.h: 342: unsigned P1BSS0 : 1;
+[; ;FT60F12X.h: 343: unsigned P1BSS1 : 1;
+[; ;FT60F12X.h: 344: unsigned P1BK0 : 1;
+[; ;FT60F12X.h: 345: unsigned P1BK1 : 1;
+[; ;FT60F12X.h: 346: unsigned P1BK2 : 1;
+[; ;FT60F12X.h: 347: };
+[; ;FT60F12X.h: 348: } P1BR0bits @ 0x017;
+"352
+[v _WDTCON `Vuc ~T0 @X0 1 e@24 ]
+[; ;FT60F12X.h: 352: volatile unsigned char WDTCON @ 0x018;
+"354
+[v _SWDTEN `Vb ~T0 @X0 1 e@192 ]
+[; ;FT60F12X.h: 354: volatile bit SWDTEN @ ((unsigned)&WDTCON*8)+0;
+"355
+[v _WDTPS0 `Vb ~T0 @X0 1 e@193 ]
+[; ;FT60F12X.h: 355: volatile bit WDTPS0 @ ((unsigned)&WDTCON*8)+1;
+"356
+[v _WDTPS1 `Vb ~T0 @X0 1 e@194 ]
+[; ;FT60F12X.h: 356: volatile bit WDTPS1 @ ((unsigned)&WDTCON*8)+2;
+"357
+[v _WDTPS2 `Vb ~T0 @X0 1 e@195 ]
+[; ;FT60F12X.h: 357: volatile bit WDTPS2 @ ((unsigned)&WDTCON*8)+3;
+"358
+[v _WDTPS3 `Vb ~T0 @X0 1 e@196 ]
+[; ;FT60F12X.h: 358: volatile bit WDTPS3 @ ((unsigned)&WDTCON*8)+4;
+"359
+[v _WCKSRC0 `Vb ~T0 @X0 1 e@197 ]
+[; ;FT60F12X.h: 359: volatile bit WCKSRC0 @ ((unsigned)&WDTCON*8)+5;
+"360
+[v _WCKSRC1 `Vb ~T0 @X0 1 e@198 ]
+[; ;FT60F12X.h: 360: volatile bit WCKSRC1 @ ((unsigned)&WDTCON*8)+6;
+"361
+[v _LVDP `Vb ~T0 @X0 1 e@199 ]
+[; ;FT60F12X.h: 361: volatile bit LVDP @ ((unsigned)&WDTCON*8)+7;
+"380
+[v _WDTCONbits `VS27 ~T0 @X0 1 e@24 ]
+[; ;FT60F12X.h: 364: volatile union {
+[; ;FT60F12X.h: 365: struct {
+[; ;FT60F12X.h: 366: unsigned SWDTEN : 1;
+[; ;FT60F12X.h: 367: unsigned WDTPS : 4;
+[; ;FT60F12X.h: 368: unsigned WCKSRC : 2;
+[; ;FT60F12X.h: 369: unsigned LVDP : 1;
+[; ;FT60F12X.h: 370: };
+[; ;FT60F12X.h: 371: struct {
+[; ;FT60F12X.h: 372: unsigned : 1;
+[; ;FT60F12X.h: 373: unsigned WDTPS0 : 1;
+[; ;FT60F12X.h: 374: unsigned WDTPS1 : 1;
+[; ;FT60F12X.h: 375: unsigned WDTPS2 : 1;
+[; ;FT60F12X.h: 376: unsigned WDTPS3 : 1;
+[; ;FT60F12X.h: 377: unsigned WCKSRC0 : 1;
+[; ;FT60F12X.h: 378: unsigned WCKSRC1 : 1;
+[; ;FT60F12X.h: 379: };
+[; ;FT60F12X.h: 380: } WDTCONbits @ 0x018;
+"384
+[v _P1BR1 `Vuc ~T0 @X0 1 e@25 ]
+[; ;FT60F12X.h: 384: volatile unsigned char P1BR1 @ 0x019;
+"386
+[v _P1CSS0 `Vb ~T0 @X0 1 e@200 ]
+[; ;FT60F12X.h: 386: volatile bit P1CSS0 @ ((unsigned)&P1BR1*8)+0;
+"387
+[v _P1CSS1 `Vb ~T0 @X0 1 e@201 ]
+[; ;FT60F12X.h: 387: volatile bit P1CSS1 @ ((unsigned)&P1BR1*8)+1;
+"388
+[v _P1BALT `Vb ~T0 @X0 1 e@202 ]
+[; ;FT60F12X.h: 388: volatile bit P1BALT @ ((unsigned)&P1BR1*8)+2;
+"389
+[v _P1CALT `Vb ~T0 @X0 1 e@203 ]
+[; ;FT60F12X.h: 389: volatile bit P1CALT @ ((unsigned)&P1BR1*8)+3;
+"390
+[v _P1B2SS0 `Vb ~T0 @X0 1 e@204 ]
+[; ;FT60F12X.h: 390: volatile bit P1B2SS0 @ ((unsigned)&P1BR1*8)+4;
+"391
+[v _P1B2SS1 `Vb ~T0 @X0 1 e@205 ]
+[; ;FT60F12X.h: 391: volatile bit P1B2SS1 @ ((unsigned)&P1BR1*8)+5;
+"392
+[v _P1C2SS0 `Vb ~T0 @X0 1 e@206 ]
+[; ;FT60F12X.h: 392: volatile bit P1C2SS0 @ ((unsigned)&P1BR1*8)+6;
+"393
+[v _P1C2SS1 `Vb ~T0 @X0 1 e@207 ]
+[; ;FT60F12X.h: 393: volatile bit P1C2SS1 @ ((unsigned)&P1BR1*8)+7;
+"413
+[v _P1BR1bits `VS30 ~T0 @X0 1 e@25 ]
+[; ;FT60F12X.h: 396: volatile union {
+[; ;FT60F12X.h: 397: struct {
+[; ;FT60F12X.h: 398: unsigned P1CSS : 2;
+[; ;FT60F12X.h: 399: unsigned P1BALT : 1;
+[; ;FT60F12X.h: 400: unsigned P1CALT : 1;
+[; ;FT60F12X.h: 401: unsigned P1B2SS : 2;
+[; ;FT60F12X.h: 402: unsigned P1C2SS : 2;
+[; ;FT60F12X.h: 403: };
+[; ;FT60F12X.h: 404: struct {
+[; ;FT60F12X.h: 405: unsigned P1CSS0 : 1;
+[; ;FT60F12X.h: 406: unsigned P1CSS1 : 1;
+[; ;FT60F12X.h: 407: unsigned : 2;
+[; ;FT60F12X.h: 408: unsigned P1BSS0 : 1;
+[; ;FT60F12X.h: 409: unsigned P1BSS1 : 1;
+[; ;FT60F12X.h: 410: unsigned P1C2SS0 : 1;
+[; ;FT60F12X.h: 411: unsigned P1C2SS1 : 1;
+[; ;FT60F12X.h: 412: };
+[; ;FT60F12X.h: 413: } P1BR1bits @ 0x019;
+"417
+[v _P1CDTH `Vuc ~T0 @X0 1 e@26 ]
+[; ;FT60F12X.h: 417: volatile unsigned char P1CDTH @ 0x01A;
+"421
+[v _MSCON `Vuc ~T0 @X0 1 e@27 ]
+[; ;FT60F12X.h: 421: volatile unsigned char MSCON @ 0x01B;
+"423
+[v _T2CKRUN `Vb ~T0 @X0 1 e@216 ]
+[; ;FT60F12X.h: 423: volatile bit T2CKRUN @ ((unsigned)&MSCON*8)+0;
+"424
+[v _CKCNTI `Vb ~T0 @X0 1 e@217 ]
+[; ;FT60F12X.h: 424: volatile bit CKCNTI @ ((unsigned)&MSCON*8)+1;
+"425
+[v _CKMAVG `Vb ~T0 @X0 1 e@218 ]
+[; ;FT60F12X.h: 425: volatile bit CKMAVG @ ((unsigned)&MSCON*8)+2;
+"426
+[v _SLVREN `Vb ~T0 @X0 1 e@219 ]
+[; ;FT60F12X.h: 426: volatile bit SLVREN @ ((unsigned)&MSCON*8)+3;
+"427
+[v _PSRCAH3 `Vb ~T0 @X0 1 e@220 ]
+[; ;FT60F12X.h: 427: volatile bit PSRCAH3 @ ((unsigned)&MSCON*8)+4;
+"428
+[v _PSRCAH4 `Vb ~T0 @X0 1 e@221 ]
+[; ;FT60F12X.h: 428: volatile bit PSRCAH4 @ ((unsigned)&MSCON*8)+5;
+"440
+[v _MSCONbits `VS33 ~T0 @X0 1 e@27 ]
+[; ;FT60F12X.h: 431: volatile union {
+[; ;FT60F12X.h: 432: struct {
+[; ;FT60F12X.h: 433: unsigned T2CKRUN : 1;
+[; ;FT60F12X.h: 434: unsigned CKCNTI : 1;
+[; ;FT60F12X.h: 435: unsigned CKMAVG : 1;
+[; ;FT60F12X.h: 436: unsigned SLVREN : 1;
+[; ;FT60F12X.h: 437: unsigned PSRCAH3 : 1;
+[; ;FT60F12X.h: 438: unsigned PSRCAH4 : 1;
+[; ;FT60F12X.h: 439: };
+[; ;FT60F12X.h: 440: } MSCONbits @ 0x01B;
+"444
+[v _SOSCPRL `Vuc ~T0 @X0 1 e@28 ]
+[; ;FT60F12X.h: 444: volatile unsigned char SOSCPRL @ 0x01C;
+"448
+[v _SOSCPRH `Vuc ~T0 @X0 1 e@29 ]
+[; ;FT60F12X.h: 448: volatile unsigned char SOSCPRH @ 0x01D;
+"455
+[v _SOSCPRHbits `VS35 ~T0 @X0 1 e@29 ]
+[; ;FT60F12X.h: 451: volatile union {
+[; ;FT60F12X.h: 452: struct {
+[; ;FT60F12X.h: 453: unsigned SOSCPRH : 4;
+[; ;FT60F12X.h: 454: };
+[; ;FT60F12X.h: 455: } SOSCPRHbits @ 0x01D;
+"459
+[v _P1AUX `Vuc ~T0 @X0 1 e@30 ]
+[; ;FT60F12X.h: 459: volatile unsigned char P1AUX @ 0x01E;
+"460
+[v _P1BF2 `Vb ~T0 @X0 1 e@240 ]
+[; ;FT60F12X.h: 460: volatile bit P1BF2 @ ((unsigned)&P1AUX*8)+0;
+"461
+[v _P1BF2E `Vb ~T0 @X0 1 e@241 ]
+[; ;FT60F12X.h: 461: volatile bit P1BF2E @ ((unsigned)&P1AUX*8)+1;
+"462
+[v _P1CF2 `Vb ~T0 @X0 1 e@242 ]
+[; ;FT60F12X.h: 462: volatile bit P1CF2 @ ((unsigned)&P1AUX*8)+2;
+"463
+[v _P1CF2E `Vb ~T0 @X0 1 e@243 ]
+[; ;FT60F12X.h: 463: volatile bit P1CF2E @ ((unsigned)&P1AUX*8)+3;
+"473
+[v _P1AUXbits `VS37 ~T0 @X0 1 e@30 ]
+[; ;FT60F12X.h: 466: volatile union {
+[; ;FT60F12X.h: 467: struct {
+[; ;FT60F12X.h: 468: unsigned P1BF2 : 1;
+[; ;FT60F12X.h: 469: unsigned P1BF2E : 1;
+[; ;FT60F12X.h: 470: unsigned P1CF2 : 1;
+[; ;FT60F12X.h: 471: unsigned P1CF2E : 1;
+[; ;FT60F12X.h: 472: };
+[; ;FT60F12X.h: 473: } P1AUXbits @ 0x01E;
+"477
+[v _T0CON0 `Vuc ~T0 @X0 1 e@31 ]
+[; ;FT60F12X.h: 477: volatile unsigned char T0CON0 @ 0x01F;
+"478
+[v _T0CKSRC0 `Vb ~T0 @X0 1 e@248 ]
+[; ;FT60F12X.h: 478: volatile bit T0CKSRC0 @ ((unsigned)&T0CON0*8)+0;
+"479
+[v _T0CKSRC1 `Vb ~T0 @X0 1 e@249 ]
+[; ;FT60F12X.h: 479: volatile bit T0CKSRC1 @ ((unsigned)&T0CON0*8)+1;
+"480
+[v _T0CKRUN `Vb ~T0 @X0 1 e@250 ]
+[; ;FT60F12X.h: 480: volatile bit T0CKRUN @ ((unsigned)&T0CON0*8)+2;
+"481
+[v _T0ON `Vb ~T0 @X0 1 e@251 ]
+[; ;FT60F12X.h: 481: volatile bit T0ON @ ((unsigned)&T0CON0*8)+3;
+"494
+[v _T0CON0bits `VS39 ~T0 @X0 1 e@31 ]
+[; ;FT60F12X.h: 484: volatile union {
+[; ;FT60F12X.h: 485: struct {
+[; ;FT60F12X.h: 486: unsigned T0CKSRC : 2;
+[; ;FT60F12X.h: 487: unsigned T0CKRUN : 1;
+[; ;FT60F12X.h: 488: unsigned T0ON : 1;
+[; ;FT60F12X.h: 489: };
+[; ;FT60F12X.h: 490: struct {
+[; ;FT60F12X.h: 491: unsigned T0CKSRC0 : 1;
+[; ;FT60F12X.h: 492: unsigned T0CKSRC1 : 1;
+[; ;FT60F12X.h: 493: };
+[; ;FT60F12X.h: 494: } T0CON0bits @ 0x01F;
+"502
+[v _OPTION `Vuc ~T0 @X0 1 e@129 ]
+[; ;FT60F12X.h: 502: volatile unsigned char OPTION @ 0x081;
+"504
+[v _PS0 `Vb ~T0 @X0 1 e@1032 ]
+[; ;FT60F12X.h: 504: volatile bit PS0 @ ((unsigned)&OPTION*8)+0;
+"505
+[v _PS1 `Vb ~T0 @X0 1 e@1033 ]
+[; ;FT60F12X.h: 505: volatile bit PS1 @ ((unsigned)&OPTION*8)+1;
+"506
+[v _PS2 `Vb ~T0 @X0 1 e@1034 ]
+[; ;FT60F12X.h: 506: volatile bit PS2 @ ((unsigned)&OPTION*8)+2;
+"507
+[v _PSA `Vb ~T0 @X0 1 e@1035 ]
+[; ;FT60F12X.h: 507: volatile bit PSA @ ((unsigned)&OPTION*8)+3;
+"508
+[v _T0SE `Vb ~T0 @X0 1 e@1036 ]
+[; ;FT60F12X.h: 508: volatile bit T0SE @ ((unsigned)&OPTION*8)+4;
+"509
+[v _T0CS `Vb ~T0 @X0 1 e@1037 ]
+[; ;FT60F12X.h: 509: volatile bit T0CS @ ((unsigned)&OPTION*8)+5;
+"510
+[v _INTEDG `Vb ~T0 @X0 1 e@1038 ]
+[; ;FT60F12X.h: 510: volatile bit INTEDG @ ((unsigned)&OPTION*8)+6;
+"511
+[v _nPAPU `Vb ~T0 @X0 1 e@1039 ]
+[; ;FT60F12X.h: 511: volatile bit nPAPU @ ((unsigned)&OPTION*8)+7;
+"527
+[v _OPTIONbits `VS42 ~T0 @X0 1 e@129 ]
+[; ;FT60F12X.h: 513: volatile union {
+[; ;FT60F12X.h: 514: struct {
+[; ;FT60F12X.h: 515: unsigned PS : 3;
+[; ;FT60F12X.h: 516: unsigned PSA : 1;
+[; ;FT60F12X.h: 517: unsigned T0SE : 1;
+[; ;FT60F12X.h: 518: unsigned T0CS : 1;
+[; ;FT60F12X.h: 519: unsigned INTEDG : 1;
+[; ;FT60F12X.h: 520: unsigned nPAPU : 1;
+[; ;FT60F12X.h: 521: };
+[; ;FT60F12X.h: 522: struct {
+[; ;FT60F12X.h: 523: unsigned PS0 : 1;
+[; ;FT60F12X.h: 524: unsigned PS1 : 1;
+[; ;FT60F12X.h: 525: unsigned PS2 : 1;
+[; ;FT60F12X.h: 526: };
+[; ;FT60F12X.h: 527: } OPTIONbits @ 0x081;
+"531
+[v _TRISA `Vuc ~T0 @X0 1 e@133 ]
+[; ;FT60F12X.h: 531: volatile unsigned char TRISA @ 0x085;
+"533
+[v _TRISA0 `Vb ~T0 @X0 1 e@1064 ]
+[; ;FT60F12X.h: 533: volatile bit TRISA0 @ ((unsigned)&TRISA*8)+0;
+"534
+[v _TRISA1 `Vb ~T0 @X0 1 e@1065 ]
+[; ;FT60F12X.h: 534: volatile bit TRISA1 @ ((unsigned)&TRISA*8)+1;
+"535
+[v _TRISA2 `Vb ~T0 @X0 1 e@1066 ]
+[; ;FT60F12X.h: 535: volatile bit TRISA2 @ ((unsigned)&TRISA*8)+2;
+"536
+[v _TRISA3 `Vb ~T0 @X0 1 e@1067 ]
+[; ;FT60F12X.h: 536: volatile bit TRISA3 @ ((unsigned)&TRISA*8)+3;
+"537
+[v _TRISA4 `Vb ~T0 @X0 1 e@1068 ]
+[; ;FT60F12X.h: 537: volatile bit TRISA4 @ ((unsigned)&TRISA*8)+4;
+"538
+[v _TRISA5 `Vb ~T0 @X0 1 e@1069 ]
+[; ;FT60F12X.h: 538: volatile bit TRISA5 @ ((unsigned)&TRISA*8)+5;
+"539
+[v _TRISA6 `Vb ~T0 @X0 1 e@1070 ]
+[; ;FT60F12X.h: 539: volatile bit TRISA6 @ ((unsigned)&TRISA*8)+6;
+"540
+[v _TRISA7 `Vb ~T0 @X0 1 e@1071 ]
+[; ;FT60F12X.h: 540: volatile bit TRISA7 @ ((unsigned)&TRISA*8)+7;
+"556
+[v _TRISAbits `VS45 ~T0 @X0 1 e@133 ]
+[; ;FT60F12X.h: 542: volatile union {
+[; ;FT60F12X.h: 543: struct {
+[; ;FT60F12X.h: 544: unsigned TRISA0 : 1;
+[; ;FT60F12X.h: 545: unsigned TRISA1 : 1;
+[; ;FT60F12X.h: 546: unsigned TRISA2 : 1;
+[; ;FT60F12X.h: 547: unsigned TRISA3 : 1;
+[; ;FT60F12X.h: 548: unsigned TRISA4 : 1;
+[; ;FT60F12X.h: 549: unsigned TRISA5 : 1;
+[; ;FT60F12X.h: 550: unsigned TRISA6 : 1;
+[; ;FT60F12X.h: 551: unsigned TRISA7 : 1;
+[; ;FT60F12X.h: 552: };
+[; ;FT60F12X.h: 553: struct {
+[; ;FT60F12X.h: 554: unsigned TRISA : 8;
+[; ;FT60F12X.h: 555: };
+[; ;FT60F12X.h: 556: } TRISAbits @ 0x085;
+"561
+[v _TRISC `Vuc ~T0 @X0 1 e@135 ]
+[; ;FT60F12X.h: 561: volatile unsigned char TRISC @ 0x087;
+"563
+[v _TRISC0 `Vb ~T0 @X0 1 e@1080 ]
+[; ;FT60F12X.h: 563: volatile bit TRISC0 @ ((unsigned)&TRISC*8)+0;
+"564
+[v _TRISC1 `Vb ~T0 @X0 1 e@1081 ]
+[; ;FT60F12X.h: 564: volatile bit TRISC1 @ ((unsigned)&TRISC*8)+1;
+"565
+[v _TRISC2 `Vb ~T0 @X0 1 e@1082 ]
+[; ;FT60F12X.h: 565: volatile bit TRISC2 @ ((unsigned)&TRISC*8)+2;
+"566
+[v _TRISC3 `Vb ~T0 @X0 1 e@1083 ]
+[; ;FT60F12X.h: 566: volatile bit TRISC3 @ ((unsigned)&TRISC*8)+3;
+"567
+[v _TRISC4 `Vb ~T0 @X0 1 e@1084 ]
+[; ;FT60F12X.h: 567: volatile bit TRISC4 @ ((unsigned)&TRISC*8)+4;
+"568
+[v _TRISC5 `Vb ~T0 @X0 1 e@1085 ]
+[; ;FT60F12X.h: 568: volatile bit TRISC5 @ ((unsigned)&TRISC*8)+5;
+"582
+[v _TRISCbits `VS48 ~T0 @X0 1 e@135 ]
+[; ;FT60F12X.h: 570: volatile union {
+[; ;FT60F12X.h: 571: struct {
+[; ;FT60F12X.h: 572: unsigned TRISC0 : 1;
+[; ;FT60F12X.h: 573: unsigned TRISC1 : 1;
+[; ;FT60F12X.h: 574: unsigned TRISC2 : 1;
+[; ;FT60F12X.h: 575: unsigned TRISC3 : 1;
+[; ;FT60F12X.h: 576: unsigned TRISC4 : 1;
+[; ;FT60F12X.h: 577: unsigned TRISC5 : 1;
+[; ;FT60F12X.h: 578: };
+[; ;FT60F12X.h: 579: struct {
+[; ;FT60F12X.h: 580: unsigned TRISC : 6;
+[; ;FT60F12X.h: 581: };
+[; ;FT60F12X.h: 582: } TRISCbits @ 0x087;
+"586
+[v _PSRCA `Vuc ~T0 @X0 1 e@136 ]
+[; ;FT60F12X.h: 586: volatile unsigned char PSRCA @ 0x088;
+"588
+[v _WPDA `Vuc ~T0 @X0 1 e@137 ]
+[; ;FT60F12X.h: 588: volatile unsigned char WPDA @ 0x089;
+"590
+[v _PIE1 `Vuc ~T0 @X0 1 e@140 ]
+[; ;FT60F12X.h: 590: volatile unsigned char PIE1 @ 0x08C;
+"592
+[v _TMR2IE `Vb ~T0 @X0 1 e@1121 ]
+[; ;FT60F12X.h: 592: volatile bit TMR2IE @ ((unsigned)&PIE1*8)+1;
+"593
+[v _OSFIE `Vb ~T0 @X0 1 e@1122 ]
+[; ;FT60F12X.h: 593: volatile bit OSFIE @ ((unsigned)&PIE1*8)+2;
+"594
+[v _LVDIE `Vb ~T0 @X0 1 e@1125 ]
+[; ;FT60F12X.h: 594: volatile bit LVDIE @ ((unsigned)&PIE1*8)+5;
+"595
+[v _CKMIE `Vb ~T0 @X0 1 e@1126 ]
+[; ;FT60F12X.h: 595: volatile bit CKMIE @ ((unsigned)&PIE1*8)+6;
+"596
+[v _EEIE `Vb ~T0 @X0 1 e@1127 ]
+[; ;FT60F12X.h: 596: volatile bit EEIE @ ((unsigned)&PIE1*8)+7;
+"608
+[v _PIE1bits `VS51 ~T0 @X0 1 e@140 ]
+[; ;FT60F12X.h: 598: volatile union {
+[; ;FT60F12X.h: 599: struct {
+[; ;FT60F12X.h: 600: unsigned : 1;
+[; ;FT60F12X.h: 601: unsigned TMR2IE : 1;
+[; ;FT60F12X.h: 602: unsigned OSFIE : 1;
+[; ;FT60F12X.h: 603: unsigned : 2;
+[; ;FT60F12X.h: 604: unsigned LVDIE : 1;
+[; ;FT60F12X.h: 605: unsigned CKMIE : 1;
+[; ;FT60F12X.h: 606: unsigned EEIE : 1;
+[; ;FT60F12X.h: 607: };
+[; ;FT60F12X.h: 608: } PIE1bits @ 0x08C;
+"613
+[v _WPDC `Vuc ~T0 @X0 1 e@141 ]
+[; ;FT60F12X.h: 613: volatile unsigned char WPDC @ 0x08D;
+"615
+[v _WPDC0 `Vb ~T0 @X0 1 e@1128 ]
+[; ;FT60F12X.h: 615: volatile bit WPDC0 @ ((unsigned)&WPDC*8)+0;
+"616
+[v _WPDC1 `Vb ~T0 @X0 1 e@1129 ]
+[; ;FT60F12X.h: 616: volatile bit WPDC1 @ ((unsigned)&WPDC*8)+1;
+"617
+[v _WPDC2 `Vb ~T0 @X0 1 e@1130 ]
+[; ;FT60F12X.h: 617: volatile bit WPDC2 @ ((unsigned)&WPDC*8)+2;
+"618
+[v _WPDC3 `Vb ~T0 @X0 1 e@1131 ]
+[; ;FT60F12X.h: 618: volatile bit WPDC3 @ ((unsigned)&WPDC*8)+3;
+"619
+[v _WPDC4 `Vb ~T0 @X0 1 e@1132 ]
+[; ;FT60F12X.h: 619: volatile bit WPDC4 @ ((unsigned)&WPDC*8)+4;
+"620
+[v _WPDC5 `Vb ~T0 @X0 1 e@1133 ]
+[; ;FT60F12X.h: 620: volatile bit WPDC5 @ ((unsigned)&WPDC*8)+5;
+"635
+[v _WPDCbits `VS53 ~T0 @X0 1 e@141 ]
+[; ;FT60F12X.h: 622: volatile union {
+[; ;FT60F12X.h: 623: struct {
+[; ;FT60F12X.h: 624: unsigned WPDC : 6;
+[; ;FT60F12X.h: 625: };
+[; ;FT60F12X.h: 626: struct {
+[; ;FT60F12X.h: 627: unsigned WPDC0 : 1;
+[; ;FT60F12X.h: 628: unsigned WPDC1 : 1;
+[; ;FT60F12X.h: 629: unsigned WPDC2 : 1;
+[; ;FT60F12X.h: 630: unsigned WPDC3 : 1;
+[; ;FT60F12X.h: 631: unsigned WPDC4 : 1;
+[; ;FT60F12X.h: 632: unsigned WPDC5 : 1;
+[; ;FT60F12X.h: 633: unsigned WPDC6 : 1;
+[; ;FT60F12X.h: 634: };
+[; ;FT60F12X.h: 635: } WPDCbits @ 0x08D;
+"638
+[v _PCON `Vuc ~T0 @X0 1 e@142 ]
+[; ;FT60F12X.h: 638: volatile unsigned char PCON @ 0x08E;
+"640
+[v _nBOR `Vb ~T0 @X0 1 e@1136 ]
+[; ;FT60F12X.h: 640: volatile bit nBOR @ ((unsigned)&PCON*8)+0;
+"641
+[v _nPOR `Vb ~T0 @X0 1 e@1137 ]
+[; ;FT60F12X.h: 641: volatile bit nPOR @ ((unsigned)&PCON*8)+1;
+"642
+[v _LVDW `Vb ~T0 @X0 1 e@1138 ]
+[; ;FT60F12X.h: 642: volatile bit LVDW @ ((unsigned)&PCON*8)+2;
+"643
+[v _LVDEN `Vb ~T0 @X0 1 e@1139 ]
+[; ;FT60F12X.h: 643: volatile bit LVDEN @ ((unsigned)&PCON*8)+3;
+"644
+[v _LVDL0 `Vb ~T0 @X0 1 e@1140 ]
+[; ;FT60F12X.h: 644: volatile bit LVDL0 @ ((unsigned)&PCON*8)+4;
+"645
+[v _LVDL1 `Vb ~T0 @X0 1 e@1141 ]
+[; ;FT60F12X.h: 645: volatile bit LVDL1 @ ((unsigned)&PCON*8)+5;
+"646
+[v _LVDL2 `Vb ~T0 @X0 1 e@1142 ]
+[; ;FT60F12X.h: 646: volatile bit LVDL2 @ ((unsigned)&PCON*8)+6;
+"647
+[v _LVDM `Vb ~T0 @X0 1 e@1143 ]
+[; ;FT60F12X.h: 647: volatile bit LVDM @ ((unsigned)&PCON*8)+7;
+"664
+[v _PCONbits `VS56 ~T0 @X0 1 e@142 ]
+[; ;FT60F12X.h: 649: volatile union {
+[; ;FT60F12X.h: 650: struct {
+[; ;FT60F12X.h: 651: unsigned nBOR : 1;
+[; ;FT60F12X.h: 652: unsigned nPOR : 1;
+[; ;FT60F12X.h: 653: unsigned LVDW : 1;
+[; ;FT60F12X.h: 654: unsigned LVDEN : 1;
+[; ;FT60F12X.h: 655: unsigned LVDL : 3;
+[; ;FT60F12X.h: 656: unsigned LVDM : 1;
+[; ;FT60F12X.h: 657: };
+[; ;FT60F12X.h: 658: struct {
+[; ;FT60F12X.h: 659: unsigned : 4;
+[; ;FT60F12X.h: 660: unsigned LVDL0 : 1;
+[; ;FT60F12X.h: 661: unsigned LVDL1 : 1;
+[; ;FT60F12X.h: 662: unsigned LVDL2 : 1;
+[; ;FT60F12X.h: 663: };
+[; ;FT60F12X.h: 664: } PCONbits @ 0x08E;
+"668
+[v _OSCCON `Vuc ~T0 @X0 1 e@143 ]
+[; ;FT60F12X.h: 668: volatile unsigned char OSCCON @ 0x08F;
+"670
+[v _SCS `Vb ~T0 @X0 1 e@1144 ]
+[; ;FT60F12X.h: 670: volatile bit SCS @ ((unsigned)&OSCCON*8)+0;
+"671
+[v _LTS `Vb ~T0 @X0 1 e@1145 ]
+[; ;FT60F12X.h: 671: volatile bit LTS @ ((unsigned)&OSCCON*8)+1;
+"672
+[v _HTS `Vb ~T0 @X0 1 e@1146 ]
+[; ;FT60F12X.h: 672: volatile bit HTS @ ((unsigned)&OSCCON*8)+2;
+"673
+[v _OSTS `Vb ~T0 @X0 1 e@1147 ]
+[; ;FT60F12X.h: 673: volatile bit OSTS @ ((unsigned)&OSCCON*8)+3;
+"674
+[v _IRCF0 `Vb ~T0 @X0 1 e@1148 ]
+[; ;FT60F12X.h: 674: volatile bit IRCF0 @ ((unsigned)&OSCCON*8)+4;
+"675
+[v _IRCF1 `Vb ~T0 @X0 1 e@1149 ]
+[; ;FT60F12X.h: 675: volatile bit IRCF1 @ ((unsigned)&OSCCON*8)+5;
+"676
+[v _IRCF2 `Vb ~T0 @X0 1 e@1150 ]
+[; ;FT60F12X.h: 676: volatile bit IRCF2 @ ((unsigned)&OSCCON*8)+6;
+"677
+[v _LFMOD `Vb ~T0 @X0 1 e@1151 ]
+[; ;FT60F12X.h: 677: volatile bit LFMOD @ ((unsigned)&OSCCON*8)+7;
+"695
+[v _OSCCONbits `VS59 ~T0 @X0 1 e@143 ]
+[; ;FT60F12X.h: 679: volatile union {
+[; ;FT60F12X.h: 680: struct {
+[; ;FT60F12X.h: 681: unsigned SCS : 1;
+[; ;FT60F12X.h: 682: unsigned LTS : 1;
+[; ;FT60F12X.h: 683: unsigned HTS : 1;
+[; ;FT60F12X.h: 684: unsigned OSTS : 1;
+[; ;FT60F12X.h: 685: unsigned IRCF : 3;
+[; ;FT60F12X.h: 686: unsigned LFMOD : 1;
+[; ;FT60F12X.h: 687: };
+[; ;FT60F12X.h: 688: struct {
+[; ;FT60F12X.h: 689: unsigned : 4;
+[; ;FT60F12X.h: 690: unsigned IRCF0 : 1;
+[; ;FT60F12X.h: 691: unsigned IRCF1 : 1;
+[; ;FT60F12X.h: 692: unsigned IRCF2 : 1;
+[; ;FT60F12X.h: 693: unsigned : 1;
+[; ;FT60F12X.h: 694: };
+[; ;FT60F12X.h: 695: } OSCCONbits @ 0x08F;
+"699
+[v _P1OE `Vuc ~T0 @X0 1 e@144 ]
+[; ;FT60F12X.h: 699: volatile unsigned char P1OE @ 0x090;
+"701
+[v _P1A0OE `Vb ~T0 @X0 1 e@1152 ]
+[; ;FT60F12X.h: 701: volatile bit P1A0OE @ ((unsigned)&P1OE*8)+0;
+"702
+[v _P1A0NOE `Vb ~T0 @X0 1 e@1153 ]
+[; ;FT60F12X.h: 702: volatile bit P1A0NOE @ ((unsigned)&P1OE*8)+1;
+"703
+[v _P1A1OE `Vb ~T0 @X0 1 e@1154 ]
+[; ;FT60F12X.h: 703: volatile bit P1A1OE @ ((unsigned)&P1OE*8)+2;
+"704
+[v _P1A1NOE `Vb ~T0 @X0 1 e@1155 ]
+[; ;FT60F12X.h: 704: volatile bit P1A1NOE @ ((unsigned)&P1OE*8)+3;
+"705
+[v _P1A2OE `Vb ~T0 @X0 1 e@1156 ]
+[; ;FT60F12X.h: 705: volatile bit P1A2OE @ ((unsigned)&P1OE*8)+4;
+"706
+[v _P1A2NOE `Vb ~T0 @X0 1 e@1157 ]
+[; ;FT60F12X.h: 706: volatile bit P1A2NOE @ ((unsigned)&P1OE*8)+5;
+"707
+[v _P1BOE `Vb ~T0 @X0 1 e@1158 ]
+[; ;FT60F12X.h: 707: volatile bit P1BOE @ ((unsigned)&P1OE*8)+6;
+"708
+[v _P1COE `Vb ~T0 @X0 1 e@1159 ]
+[; ;FT60F12X.h: 708: volatile bit P1COE @ ((unsigned)&P1OE*8)+7;
+"721
+[v _P1OEbits `VS62 ~T0 @X0 1 e@144 ]
+[; ;FT60F12X.h: 710: volatile union {
+[; ;FT60F12X.h: 711: struct {
+[; ;FT60F12X.h: 712: unsigned P1A0OE : 1;
+[; ;FT60F12X.h: 713: unsigned P1A0NOE : 1;
+[; ;FT60F12X.h: 714: unsigned P1A1OE : 1;
+[; ;FT60F12X.h: 715: unsigned P1A1NOE : 1;
+[; ;FT60F12X.h: 716: unsigned P1A2OE : 1;
+[; ;FT60F12X.h: 717: unsigned P1A2NOE : 1;
+[; ;FT60F12X.h: 718: unsigned P1BOE : 1;
+[; ;FT60F12X.h: 719: unsigned P1COE : 1;
+[; ;FT60F12X.h: 720: };
+[; ;FT60F12X.h: 721: } P1OEbits @ 0x090;
+"724
+[v _PR2L `Vuc ~T0 @X0 1 e@145 ]
+[; ;FT60F12X.h: 724: volatile unsigned char PR2L @ 0x091;
+"727
+[v _PR2H `Vuc ~T0 @X0 1 e@146 ]
+[; ;FT60F12X.h: 727: volatile unsigned char PR2H @ 0x092;
+"731
+[v _WPUC `Vuc ~T0 @X0 1 e@147 ]
+[; ;FT60F12X.h: 731: volatile unsigned char WPUC @ 0x093;
+"733
+[v _WPUC0 `Vb ~T0 @X0 1 e@1176 ]
+[; ;FT60F12X.h: 733: volatile bit WPUC0 @ ((unsigned)&WPUC*8)+0;
+"734
+[v _WPUC1 `Vb ~T0 @X0 1 e@1177 ]
+[; ;FT60F12X.h: 734: volatile bit WPUC1 @ ((unsigned)&WPUC*8)+1;
+"735
+[v _WPUC2 `Vb ~T0 @X0 1 e@1178 ]
+[; ;FT60F12X.h: 735: volatile bit WPUC2 @ ((unsigned)&WPUC*8)+2;
+"736
+[v _WPUC3 `Vb ~T0 @X0 1 e@1179 ]
+[; ;FT60F12X.h: 736: volatile bit WPUC3 @ ((unsigned)&WPUC*8)+3;
+"737
+[v _WPUC4 `Vb ~T0 @X0 1 e@1180 ]
+[; ;FT60F12X.h: 737: volatile bit WPUC4 @ ((unsigned)&WPUC*8)+4;
+"738
+[v _WPUC5 `Vb ~T0 @X0 1 e@1181 ]
+[; ;FT60F12X.h: 738: volatile bit WPUC5 @ ((unsigned)&WPUC*8)+5;
+"752
+[v _WPUCbits `VS64 ~T0 @X0 1 e@147 ]
+[; ;FT60F12X.h: 740: volatile union {
+[; ;FT60F12X.h: 741: struct {
+[; ;FT60F12X.h: 742: unsigned WPUC : 6;
+[; ;FT60F12X.h: 743: };
+[; ;FT60F12X.h: 744: struct {
+[; ;FT60F12X.h: 745: unsigned WPUC0 : 1;
+[; ;FT60F12X.h: 746: unsigned WPUC1 : 1;
+[; ;FT60F12X.h: 747: unsigned WPUC2 : 1;
+[; ;FT60F12X.h: 748: unsigned WPUC3 : 1;
+[; ;FT60F12X.h: 749: unsigned WPUC4 : 1;
+[; ;FT60F12X.h: 750: unsigned WPUC5 : 1;
+[; ;FT60F12X.h: 751: };
+[; ;FT60F12X.h: 752: } WPUCbits @ 0x093;
+"755
+[v _PSRCC `Vuc ~T0 @X0 1 e@148 ]
+[; ;FT60F12X.h: 755: volatile unsigned char PSRCC @ 0x094;
+"757
+[v _PSRCC0 `Vb ~T0 @X0 1 e@1184 ]
+[; ;FT60F12X.h: 757: volatile bit PSRCC0 @ ((unsigned)&PSRCC*8)+0;
+"758
+[v _PSRCC1 `Vb ~T0 @X0 1 e@1185 ]
+[; ;FT60F12X.h: 758: volatile bit PSRCC1 @ ((unsigned)&PSRCC*8)+1;
+"759
+[v _PSRCC2 `Vb ~T0 @X0 1 e@1186 ]
+[; ;FT60F12X.h: 759: volatile bit PSRCC2 @ ((unsigned)&PSRCC*8)+2;
+"760
+[v _PSRCC3 `Vb ~T0 @X0 1 e@1187 ]
+[; ;FT60F12X.h: 760: volatile bit PSRCC3 @ ((unsigned)&PSRCC*8)+3;
+"761
+[v _PSRCC4 `Vb ~T0 @X0 1 e@1188 ]
+[; ;FT60F12X.h: 761: volatile bit PSRCC4 @ ((unsigned)&PSRCC*8)+4;
+"762
+[v _PSRCC5 `Vb ~T0 @X0 1 e@1189 ]
+[; ;FT60F12X.h: 762: volatile bit PSRCC5 @ ((unsigned)&PSRCC*8)+5;
+"776
+[v _PSRCCbits `VS67 ~T0 @X0 1 e@148 ]
+[; ;FT60F12X.h: 764: volatile union {
+[; ;FT60F12X.h: 765: struct {
+[; ;FT60F12X.h: 766: unsigned PSRCC : 6;
+[; ;FT60F12X.h: 767: };
+[; ;FT60F12X.h: 768: struct {
+[; ;FT60F12X.h: 769: unsigned PSRCC0 : 1;
+[; ;FT60F12X.h: 770: unsigned PSRCC1 : 1;
+[; ;FT60F12X.h: 771: unsigned PSRCC2 : 1;
+[; ;FT60F12X.h: 772: unsigned PSRCC3 : 1;
+[; ;FT60F12X.h: 773: unsigned PSRCC4 : 1;
+[; ;FT60F12X.h: 774: unsigned PSRCC5 : 1;
+[; ;FT60F12X.h: 775: };
+[; ;FT60F12X.h: 776: } PSRCCbits @ 0x094;
+"779
+[v _WPUA `Vuc ~T0 @X0 1 e@149 ]
+[; ;FT60F12X.h: 779: volatile unsigned char WPUA @ 0x095;
+"780
+[v _WPU `Vuc ~T0 @X0 1 e@149 ]
+[; ;FT60F12X.h: 780: volatile unsigned char WPU @ 0x095;
+"782
+[v _WPUA0 `Vb ~T0 @X0 1 e@1192 ]
+[; ;FT60F12X.h: 782: volatile bit WPUA0 @ ((unsigned)&WPUA*8)+0;
+"783
+[v _WPUA1 `Vb ~T0 @X0 1 e@1193 ]
+[; ;FT60F12X.h: 783: volatile bit WPUA1 @ ((unsigned)&WPUA*8)+1;
+"784
+[v _WPUA2 `Vb ~T0 @X0 1 e@1194 ]
+[; ;FT60F12X.h: 784: volatile bit WPUA2 @ ((unsigned)&WPUA*8)+2;
+"785
+[v _WPUA3 `Vb ~T0 @X0 1 e@1195 ]
+[; ;FT60F12X.h: 785: volatile bit WPUA3 @ ((unsigned)&WPUA*8)+3;
+"786
+[v _WPUA4 `Vb ~T0 @X0 1 e@1196 ]
+[; ;FT60F12X.h: 786: volatile bit WPUA4 @ ((unsigned)&WPUA*8)+4;
+"787
+[v _WPUA5 `Vb ~T0 @X0 1 e@1197 ]
+[; ;FT60F12X.h: 787: volatile bit WPUA5 @ ((unsigned)&WPUA*8)+5;
+"788
+[v _WPUA6 `Vb ~T0 @X0 1 e@1198 ]
+[; ;FT60F12X.h: 788: volatile bit WPUA6 @ ((unsigned)&WPUA*8)+6;
+"789
+[v _WPUA7 `Vb ~T0 @X0 1 e@1199 ]
+[; ;FT60F12X.h: 789: volatile bit WPUA7 @ ((unsigned)&WPUA*8)+7;
+"791
+[v _WPU0 `Vb ~T0 @X0 1 e@1192 ]
+[; ;FT60F12X.h: 791: volatile bit WPU0 @ ((unsigned)&WPUA*8)+0;
+"792
+[v _WPU1 `Vb ~T0 @X0 1 e@1193 ]
+[; ;FT60F12X.h: 792: volatile bit WPU1 @ ((unsigned)&WPUA*8)+1;
+"793
+[v _WPU2 `Vb ~T0 @X0 1 e@1194 ]
+[; ;FT60F12X.h: 793: volatile bit WPU2 @ ((unsigned)&WPUA*8)+2;
+"794
+[v _WPU3 `Vb ~T0 @X0 1 e@1195 ]
+[; ;FT60F12X.h: 794: volatile bit WPU3 @ ((unsigned)&WPUA*8)+3;
+"795
+[v _WPU4 `Vb ~T0 @X0 1 e@1196 ]
+[; ;FT60F12X.h: 795: volatile bit WPU4 @ ((unsigned)&WPUA*8)+4;
+"796
+[v _WPU5 `Vb ~T0 @X0 1 e@1197 ]
+[; ;FT60F12X.h: 796: volatile bit WPU5 @ ((unsigned)&WPUA*8)+5;
+"797
+[v _WPU6 `Vb ~T0 @X0 1 e@1198 ]
+[; ;FT60F12X.h: 797: volatile bit WPU6 @ ((unsigned)&WPUA*8)+6;
+"798
+[v _WPU7 `Vb ~T0 @X0 1 e@1199 ]
+[; ;FT60F12X.h: 798: volatile bit WPU7 @ ((unsigned)&WPUA*8)+7;
+"807
+[v _WPUAbits `VS70 ~T0 @X0 1 e@149 ]
+[; ;FT60F12X.h: 800: volatile union {
+[; ;FT60F12X.h: 801: struct {
+[; ;FT60F12X.h: 802: unsigned WPUA : 8;
+[; ;FT60F12X.h: 803: };
+[; ;FT60F12X.h: 804: struct {
+[; ;FT60F12X.h: 805: unsigned WPU : 8;
+[; ;FT60F12X.h: 806: };
+[; ;FT60F12X.h: 807: } WPUAbits @ 0x095;
+"811
+[v _IOCA `Vuc ~T0 @X0 1 e@150 ]
+[; ;FT60F12X.h: 811: volatile unsigned char IOCA @ 0x096;
+"812
+[v _IOC `Vuc ~T0 @X0 1 e@150 ]
+[; ;FT60F12X.h: 812: volatile unsigned char IOC @ 0x096;
+"814
+[v _IOCA0 `Vb ~T0 @X0 1 e@1200 ]
+[; ;FT60F12X.h: 814: volatile bit IOCA0 @ ((unsigned)&IOCA*8)+0;
+"815
+[v _IOCA1 `Vb ~T0 @X0 1 e@1201 ]
+[; ;FT60F12X.h: 815: volatile bit IOCA1 @ ((unsigned)&IOCA*8)+1;
+"816
+[v _IOCA2 `Vb ~T0 @X0 1 e@1202 ]
+[; ;FT60F12X.h: 816: volatile bit IOCA2 @ ((unsigned)&IOCA*8)+2;
+"817
+[v _IOCA3 `Vb ~T0 @X0 1 e@1203 ]
+[; ;FT60F12X.h: 817: volatile bit IOCA3 @ ((unsigned)&IOCA*8)+3;
+"818
+[v _IOCA4 `Vb ~T0 @X0 1 e@1204 ]
+[; ;FT60F12X.h: 818: volatile bit IOCA4 @ ((unsigned)&IOCA*8)+4;
+"819
+[v _IOCA5 `Vb ~T0 @X0 1 e@1205 ]
+[; ;FT60F12X.h: 819: volatile bit IOCA5 @ ((unsigned)&IOCA*8)+5;
+"820
+[v _IOCA6 `Vb ~T0 @X0 1 e@1206 ]
+[; ;FT60F12X.h: 820: volatile bit IOCA6 @ ((unsigned)&IOCA*8)+6;
+"821
+[v _IOCA7 `Vb ~T0 @X0 1 e@1207 ]
+[; ;FT60F12X.h: 821: volatile bit IOCA7 @ ((unsigned)&IOCA*8)+7;
+"823
+[v _IOC0 `Vb ~T0 @X0 1 e@1200 ]
+[; ;FT60F12X.h: 823: volatile bit IOC0 @ ((unsigned)&IOCA*8)+0;
+"824
+[v _IOC1 `Vb ~T0 @X0 1 e@1201 ]
+[; ;FT60F12X.h: 824: volatile bit IOC1 @ ((unsigned)&IOCA*8)+1;
+"825
+[v _IOC2 `Vb ~T0 @X0 1 e@1202 ]
+[; ;FT60F12X.h: 825: volatile bit IOC2 @ ((unsigned)&IOCA*8)+2;
+"826
+[v _IOC3 `Vb ~T0 @X0 1 e@1203 ]
+[; ;FT60F12X.h: 826: volatile bit IOC3 @ ((unsigned)&IOCA*8)+3;
+"827
+[v _IOC4 `Vb ~T0 @X0 1 e@1204 ]
+[; ;FT60F12X.h: 827: volatile bit IOC4 @ ((unsigned)&IOCA*8)+4;
+"828
+[v _IOC5 `Vb ~T0 @X0 1 e@1205 ]
+[; ;FT60F12X.h: 828: volatile bit IOC5 @ ((unsigned)&IOCA*8)+5;
+"829
+[v _IOC6 `Vb ~T0 @X0 1 e@1206 ]
+[; ;FT60F12X.h: 829: volatile bit IOC6 @ ((unsigned)&IOCA*8)+6;
+"830
+[v _IOC7 `Vb ~T0 @X0 1 e@1207 ]
+[; ;FT60F12X.h: 830: volatile bit IOC7 @ ((unsigned)&IOCA*8)+7;
+"839
+[v _IOCAbits `VS73 ~T0 @X0 1 e@150 ]
+[; ;FT60F12X.h: 832: volatile union {
+[; ;FT60F12X.h: 833: struct {
+[; ;FT60F12X.h: 834: unsigned IOCA : 8;
+[; ;FT60F12X.h: 835: };
+[; ;FT60F12X.h: 836: struct {
+[; ;FT60F12X.h: 837: unsigned IOC : 8;
+[; ;FT60F12X.h: 838: };
+[; ;FT60F12X.h: 839: } IOCAbits @ 0x096;
+"843
+[v _PSINKA `Vuc ~T0 @X0 1 e@151 ]
+[; ;FT60F12X.h: 843: volatile unsigned char PSINKA @ 0x097;
+"846
+[v _P1POL `Vuc ~T0 @X0 1 e@153 ]
+[; ;FT60F12X.h: 846: volatile unsigned char P1POL @ 0x099;
+"848
+[v _P1A0P `Vb ~T0 @X0 1 e@1224 ]
+[; ;FT60F12X.h: 848: volatile bit P1A0P @ ((unsigned)&P1POL*8)+0;
+"849
+[v _P1A0NP `Vb ~T0 @X0 1 e@1225 ]
+[; ;FT60F12X.h: 849: volatile bit P1A0NP @ ((unsigned)&P1POL*8)+1;
+"850
+[v _P1A1P `Vb ~T0 @X0 1 e@1226 ]
+[; ;FT60F12X.h: 850: volatile bit P1A1P @ ((unsigned)&P1POL*8)+2;
+"851
+[v _P1A1NP `Vb ~T0 @X0 1 e@1227 ]
+[; ;FT60F12X.h: 851: volatile bit P1A1NP @ ((unsigned)&P1POL*8)+3;
+"852
+[v _P1A2P `Vb ~T0 @X0 1 e@1228 ]
+[; ;FT60F12X.h: 852: volatile bit P1A2P @ ((unsigned)&P1POL*8)+4;
+"853
+[v _P1A2NP `Vb ~T0 @X0 1 e@1229 ]
+[; ;FT60F12X.h: 853: volatile bit P1A2NP @ ((unsigned)&P1POL*8)+5;
+"854
+[v _P1BP `Vb ~T0 @X0 1 e@1230 ]
+[; ;FT60F12X.h: 854: volatile bit P1BP @ ((unsigned)&P1POL*8)+6;
+"855
+[v _P1CP `Vb ~T0 @X0 1 e@1231 ]
+[; ;FT60F12X.h: 855: volatile bit P1CP @ ((unsigned)&P1POL*8)+7;
+"868
+[v _P1POLbits `VS76 ~T0 @X0 1 e@153 ]
+[; ;FT60F12X.h: 857: volatile union {
+[; ;FT60F12X.h: 858: struct {
+[; ;FT60F12X.h: 859: unsigned P1A0P : 1;
+[; ;FT60F12X.h: 860: unsigned P1A0NP : 1;
+[; ;FT60F12X.h: 861: unsigned P1A1P : 1;
+[; ;FT60F12X.h: 862: unsigned P1A1NP : 1;
+[; ;FT60F12X.h: 863: unsigned P1A2P : 1;
+[; ;FT60F12X.h: 864: unsigned P1A2NP : 1;
+[; ;FT60F12X.h: 865: unsigned P1BP : 1;
+[; ;FT60F12X.h: 866: unsigned P1CP : 1;
+[; ;FT60F12X.h: 867: };
+[; ;FT60F12X.h: 868: } P1POLbits @ 0x099;
+"872
+[v _EEDAT `Vuc ~T0 @X0 1 e@154 ]
+[; ;FT60F12X.h: 872: volatile unsigned char EEDAT @ 0x09A;
+"873
+[v _EEDATA `Vuc ~T0 @X0 1 e@154 ]
+[; ;FT60F12X.h: 873: volatile unsigned char EEDATA @ 0x09A;
+"877
+[v _EEADR `Vuc ~T0 @X0 1 e@155 ]
+[; ;FT60F12X.h: 877: volatile unsigned char EEADR @ 0x09B;
+"882
+[v _EECON1 `Vuc ~T0 @X0 1 e@156 ]
+[; ;FT60F12X.h: 882: volatile unsigned char EECON1 @ 0x09C;
+"884
+[v _RD `Vb ~T0 @X0 1 e@1248 ]
+[; ;FT60F12X.h: 884: volatile bit RD @ ((unsigned)&EECON1*8)+0;
+"885
+[v _WREN1 `Vb ~T0 @X0 1 e@1250 ]
+[; ;FT60F12X.h: 885: volatile bit WREN1 @ ((unsigned)&EECON1*8)+2;
+"886
+[v _WRERR `Vb ~T0 @X0 1 e@1251 ]
+[; ;FT60F12X.h: 886: volatile bit WRERR @ ((unsigned)&EECON1*8)+3;
+"887
+[v _WREN2 `Vb ~T0 @X0 1 e@1252 ]
+[; ;FT60F12X.h: 887: volatile bit WREN2 @ ((unsigned)&EECON1*8)+4;
+"888
+[v _WREN3 `Vb ~T0 @X0 1 e@1253 ]
+[; ;FT60F12X.h: 888: volatile bit WREN3 @ ((unsigned)&EECON1*8)+5;
+"899
+[v _EECON1bits `VS78 ~T0 @X0 1 e@156 ]
+[; ;FT60F12X.h: 890: volatile union {
+[; ;FT60F12X.h: 891: struct {
+[; ;FT60F12X.h: 892: unsigned RD : 1;
+[; ;FT60F12X.h: 893: unsigned : 1;
+[; ;FT60F12X.h: 894: unsigned WREN1 : 1;
+[; ;FT60F12X.h: 895: unsigned WRERR : 1;
+[; ;FT60F12X.h: 896: unsigned WREN2 : 1;
+[; ;FT60F12X.h: 897: unsigned WREN3 : 1;
+[; ;FT60F12X.h: 898: };
+[; ;FT60F12X.h: 899: } EECON1bits @ 0x09C;
+"903
+[v _EECON2 `Vuc ~T0 @X0 1 e@157 ]
+[; ;FT60F12X.h: 903: volatile unsigned char EECON2 @ 0x09D;
+"905
+[v _WR `Vb ~T0 @X0 1 e@1256 ]
+[; ;FT60F12X.h: 905: volatile bit WR @ ((unsigned)&EECON2*8)+0;
+"911
+[v _EECON2bits `VS80 ~T0 @X0 1 e@157 ]
+[; ;FT60F12X.h: 907: volatile union {
+[; ;FT60F12X.h: 908: struct {
+[; ;FT60F12X.h: 909: unsigned WR : 1;
+[; ;FT60F12X.h: 910: };
+[; ;FT60F12X.h: 911: } EECON2bits @ 0x09D;
+"915
+[v _T2CON1 `Vuc ~T0 @X0 1 e@158 ]
+[; ;FT60F12X.h: 915: volatile unsigned char T2CON1 @ 0x09E;
+"917
+[v _T2CKSRC0 `Vb ~T0 @X0 1 e@1264 ]
+[; ;FT60F12X.h: 917: volatile bit T2CKSRC0 @ ((unsigned)&T2CON1*8)+0;
+"918
+[v _T2CKSRC1 `Vb ~T0 @X0 1 e@1265 ]
+[; ;FT60F12X.h: 918: volatile bit T2CKSRC1 @ ((unsigned)&T2CON1*8)+1;
+"919
+[v _T2CKSRC2 `Vb ~T0 @X0 1 e@1266 ]
+[; ;FT60F12X.h: 919: volatile bit T2CKSRC2 @ ((unsigned)&T2CON1*8)+2;
+"920
+[v _P1BZM `Vb ~T0 @X0 1 e@1267 ]
+[; ;FT60F12X.h: 920: volatile bit P1BZM @ ((unsigned)&T2CON1*8)+3;
+"921
+[v _P1OS `Vb ~T0 @X0 1 e@1268 ]
+[; ;FT60F12X.h: 921: volatile bit P1OS @ ((unsigned)&T2CON1*8)+4;
+"929
+[v _T2CON1bits `VS82 ~T0 @X0 1 e@158 ]
+[; ;FT60F12X.h: 923: volatile union {
+[; ;FT60F12X.h: 924: struct {
+[; ;FT60F12X.h: 925: unsigned T2CKSRC : 3;
+[; ;FT60F12X.h: 926: unsigned P1BZM : 1;
+[; ;FT60F12X.h: 927: unsigned P1OS : 1;
+[; ;FT60F12X.h: 928: };
+[; ;FT60F12X.h: 929: } T2CON1bits @ 0x09E;
+"932
+[v _PSINKC `Vuc ~T0 @X0 1 e@159 ]
+[; ;FT60F12X.h: 932: volatile unsigned char PSINKC @ 0x09F;
+"934
+[v _PSINKC0 `Vb ~T0 @X0 1 e@1272 ]
+[; ;FT60F12X.h: 934: volatile bit PSINKC0 @ ((unsigned)&PSINKC*8)+0;
+"935
+[v _PSINKC1 `Vb ~T0 @X0 1 e@1273 ]
+[; ;FT60F12X.h: 935: volatile bit PSINKC1 @ ((unsigned)&PSINKC*8)+1;
+"936
+[v _PSINKC2 `Vb ~T0 @X0 1 e@1274 ]
+[; ;FT60F12X.h: 936: volatile bit PSINKC2 @ ((unsigned)&PSINKC*8)+2;
+"937
+[v _PSINKC3 `Vb ~T0 @X0 1 e@1275 ]
+[; ;FT60F12X.h: 937: volatile bit PSINKC3 @ ((unsigned)&PSINKC*8)+3;
+"938
+[v _PSINKC4 `Vb ~T0 @X0 1 e@1276 ]
+[; ;FT60F12X.h: 938: volatile bit PSINKC4 @ ((unsigned)&PSINKC*8)+4;
+"939
+[v _PSINKC5 `Vb ~T0 @X0 1 e@1277 ]
+[; ;FT60F12X.h: 939: volatile bit PSINKC5 @ ((unsigned)&PSINKC*8)+5;
+"945
+[v _PSINKCbits `VS84 ~T0 @X0 1 e@159 ]
+[; ;FT60F12X.h: 941: volatile union {
+[; ;FT60F12X.h: 942: struct {
+[; ;FT60F12X.h: 943: unsigned PSINKC : 6;
+[; ;FT60F12X.h: 944: };
+[; ;FT60F12X.h: 945: }PSINKCbits @ 0x09F;
+"948
+[v _SFR00 `Vuc ~T0 @X0 1 e@0 ]
+[; ;FT60F12X.h: 948: volatile unsigned char SFR00 @0x000;
+"949
+[v _SFR01 `Vuc ~T0 @X0 1 e@1 ]
+[; ;FT60F12X.h: 949: volatile unsigned char SFR01 @0x001;
+"950
+[v _SFR02 `Vuc ~T0 @X0 1 e@2 ]
+[; ;FT60F12X.h: 950: volatile unsigned char SFR02 @0x002;
+"951
+[v _SFR03 `Vuc ~T0 @X0 1 e@3 ]
+[; ;FT60F12X.h: 951: volatile unsigned char SFR03 @0x003;
+"952
+[v _SFR04 `Vuc ~T0 @X0 1 e@4 ]
+[; ;FT60F12X.h: 952: volatile unsigned char SFR04 @0x004;
+"953
+[v _SFR05 `Vuc ~T0 @X0 1 e@5 ]
+[; ;FT60F12X.h: 953: volatile unsigned char SFR05 @0x005;
+"954
+[v _SFR06 `Vuc ~T0 @X0 1 e@6 ]
+[; ;FT60F12X.h: 954: volatile unsigned char SFR06 @0x006;
+"955
+[v _SFR07 `Vuc ~T0 @X0 1 e@7 ]
+[; ;FT60F12X.h: 955: volatile unsigned char SFR07 @0x007;
+"956
+[v _SFR08 `Vuc ~T0 @X0 1 e@8 ]
+[; ;FT60F12X.h: 956: volatile unsigned char SFR08 @0x008;
+"957
+[v _SFR09 `Vuc ~T0 @X0 1 e@9 ]
+[; ;FT60F12X.h: 957: volatile unsigned char SFR09 @0x009;
+"958
+[v _SFR0A `Vuc ~T0 @X0 1 e@10 ]
+[; ;FT60F12X.h: 958: volatile unsigned char SFR0A @0x00A;
+"959
+[v _SFR0B `Vuc ~T0 @X0 1 e@11 ]
+[; ;FT60F12X.h: 959: volatile unsigned char SFR0B @0x00B;
+"960
+[v _SFR0C `Vuc ~T0 @X0 1 e@12 ]
+[; ;FT60F12X.h: 960: volatile unsigned char SFR0C @0x00C;
+"961
+[v _SFR0D `Vuc ~T0 @X0 1 e@13 ]
+[; ;FT60F12X.h: 961: volatile unsigned char SFR0D @0x00D;
+"962
+[v _SFR0E `Vuc ~T0 @X0 1 e@14 ]
+[; ;FT60F12X.h: 962: volatile unsigned char SFR0E @0x00E;
+"963
+[v _SFR0F `Vuc ~T0 @X0 1 e@15 ]
+[; ;FT60F12X.h: 963: volatile unsigned char SFR0F @0x00F;
+"965
+[v _SFR10 `Vuc ~T0 @X0 1 e@16 ]
+[; ;FT60F12X.h: 965: volatile unsigned char SFR10 @0x010;
+"966
+[v _SFR11 `Vuc ~T0 @X0 1 e@17 ]
+[; ;FT60F12X.h: 966: volatile unsigned char SFR11 @0x011;
+"967
+[v _SFR12 `Vuc ~T0 @X0 1 e@18 ]
+[; ;FT60F12X.h: 967: volatile unsigned char SFR12 @0x012;
+"968
+[v _SFR13 `Vuc ~T0 @X0 1 e@19 ]
+[; ;FT60F12X.h: 968: volatile unsigned char SFR13 @0x013;
+"969
+[v _SFR14 `Vuc ~T0 @X0 1 e@20 ]
+[; ;FT60F12X.h: 969: volatile unsigned char SFR14 @0x014;
+"970
+[v _SFR15 `Vuc ~T0 @X0 1 e@21 ]
+[; ;FT60F12X.h: 970: volatile unsigned char SFR15 @0x015;
+"971
+[v _SFR16 `Vuc ~T0 @X0 1 e@22 ]
+[; ;FT60F12X.h: 971: volatile unsigned char SFR16 @0x016;
+"972
+[v _SFR17 `Vuc ~T0 @X0 1 e@23 ]
+[; ;FT60F12X.h: 972: volatile unsigned char SFR17 @0x017;
+"973
+[v _SFR18 `Vuc ~T0 @X0 1 e@24 ]
+[; ;FT60F12X.h: 973: volatile unsigned char SFR18 @0x018;
+"974
+[v _SFR19 `Vuc ~T0 @X0 1 e@25 ]
+[; ;FT60F12X.h: 974: volatile unsigned char SFR19 @0x019;
+"975
+[v _SFR1A `Vuc ~T0 @X0 1 e@26 ]
+[; ;FT60F12X.h: 975: volatile unsigned char SFR1A @0x01A;
+"976
+[v _SFR1B `Vuc ~T0 @X0 1 e@27 ]
+[; ;FT60F12X.h: 976: volatile unsigned char SFR1B @0x01B;
+"977
+[v _SFR1C `Vuc ~T0 @X0 1 e@28 ]
+[; ;FT60F12X.h: 977: volatile unsigned char SFR1C @0x01C;
+"978
+[v _SFR1D `Vuc ~T0 @X0 1 e@29 ]
+[; ;FT60F12X.h: 978: volatile unsigned char SFR1D @0x01D;
+"979
+[v _SFR1E `Vuc ~T0 @X0 1 e@30 ]
+[; ;FT60F12X.h: 979: volatile unsigned char SFR1E @0x01E;
+"980
+[v _SFR1F `Vuc ~T0 @X0 1 e@31 ]
+[; ;FT60F12X.h: 980: volatile unsigned char SFR1F @0x01F;
+"983
+[v _SFR80 `Vuc ~T0 @X0 1 e@128 ]
+[; ;FT60F12X.h: 983: volatile unsigned char SFR80 @0x080;
+"984
+[v _SFR81 `Vuc ~T0 @X0 1 e@129 ]
+[; ;FT60F12X.h: 984: volatile unsigned char SFR81 @0x081;
+"985
+[v _SFR82 `Vuc ~T0 @X0 1 e@130 ]
+[; ;FT60F12X.h: 985: volatile unsigned char SFR82 @0x082;
+"986
+[v _SFR83 `Vuc ~T0 @X0 1 e@131 ]
+[; ;FT60F12X.h: 986: volatile unsigned char SFR83 @0x083;
+"987
+[v _SFR84 `Vuc ~T0 @X0 1 e@132 ]
+[; ;FT60F12X.h: 987: volatile unsigned char SFR84 @0x084;
+"988
+[v _SFR85 `Vuc ~T0 @X0 1 e@133 ]
+[; ;FT60F12X.h: 988: volatile unsigned char SFR85 @0x085;
+"989
+[v _SFR86 `Vuc ~T0 @X0 1 e@134 ]
+[; ;FT60F12X.h: 989: volatile unsigned char SFR86 @0x086;
+"990
+[v _SFR87 `Vuc ~T0 @X0 1 e@135 ]
+[; ;FT60F12X.h: 990: volatile unsigned char SFR87 @0x087;
+"991
+[v _SFR88 `Vuc ~T0 @X0 1 e@136 ]
+[; ;FT60F12X.h: 991: volatile unsigned char SFR88 @0x088;
+"992
+[v _SFR89 `Vuc ~T0 @X0 1 e@137 ]
+[; ;FT60F12X.h: 992: volatile unsigned char SFR89 @0x089;
+"993
+[v _SFR8A `Vuc ~T0 @X0 1 e@138 ]
+[; ;FT60F12X.h: 993: volatile unsigned char SFR8A @0x08A;
+"994
+[v _SFR8B `Vuc ~T0 @X0 1 e@139 ]
+[; ;FT60F12X.h: 994: volatile unsigned char SFR8B @0x08B;
+"995
+[v _SFR8C `Vuc ~T0 @X0 1 e@140 ]
+[; ;FT60F12X.h: 995: volatile unsigned char SFR8C @0x08C;
+"996
+[v _SFR8D `Vuc ~T0 @X0 1 e@141 ]
+[; ;FT60F12X.h: 996: volatile unsigned char SFR8D @0x08D;
+"997
+[v _SFR8E `Vuc ~T0 @X0 1 e@142 ]
+[; ;FT60F12X.h: 997: volatile unsigned char SFR8E @0x08E;
+"998
+[v _SFR8F `Vuc ~T0 @X0 1 e@143 ]
+[; ;FT60F12X.h: 998: volatile unsigned char SFR8F @0x08F;
+"1000
+[v _SFR90 `Vuc ~T0 @X0 1 e@144 ]
+[; ;FT60F12X.h: 1000: volatile unsigned char SFR90 @0x090;
+"1001
+[v _SFR91 `Vuc ~T0 @X0 1 e@145 ]
+[; ;FT60F12X.h: 1001: volatile unsigned char SFR91 @0x091;
+"1002
+[v _SFR92 `Vuc ~T0 @X0 1 e@146 ]
+[; ;FT60F12X.h: 1002: volatile unsigned char SFR92 @0x092;
+"1003
+[v _SFR93 `Vuc ~T0 @X0 1 e@147 ]
+[; ;FT60F12X.h: 1003: volatile unsigned char SFR93 @0x093;
+"1004
+[v _SFR94 `Vuc ~T0 @X0 1 e@148 ]
+[; ;FT60F12X.h: 1004: volatile unsigned char SFR94 @0x094;
+"1005
+[v _SFR95 `Vuc ~T0 @X0 1 e@149 ]
+[; ;FT60F12X.h: 1005: volatile unsigned char SFR95 @0x095;
+"1006
+[v _SFR96 `Vuc ~T0 @X0 1 e@150 ]
+[; ;FT60F12X.h: 1006: volatile unsigned char SFR96 @0x096;
+"1007
+[v _SFR97 `Vuc ~T0 @X0 1 e@151 ]
+[; ;FT60F12X.h: 1007: volatile unsigned char SFR97 @0x097;
+"1008
+[v _SFR98 `Vuc ~T0 @X0 1 e@152 ]
+[; ;FT60F12X.h: 1008: volatile unsigned char SFR98 @0x098;
+"1009
+[v _SFR99 `Vuc ~T0 @X0 1 e@153 ]
+[; ;FT60F12X.h: 1009: volatile unsigned char SFR99 @0x099;
+"1010
+[v _SFR9A `Vuc ~T0 @X0 1 e@154 ]
+[; ;FT60F12X.h: 1010: volatile unsigned char SFR9A @0x09A;
+"1011
+[v _SFR9B `Vuc ~T0 @X0 1 e@155 ]
+[; ;FT60F12X.h: 1011: volatile unsigned char SFR9B @0x09B;
+"1012
+[v _SFR9C `Vuc ~T0 @X0 1 e@156 ]
+[; ;FT60F12X.h: 1012: volatile unsigned char SFR9C @0x09C;
+"1013
+[v _SFR9D `Vuc ~T0 @X0 1 e@157 ]
+[; ;FT60F12X.h: 1013: volatile unsigned char SFR9D @0x09D;
+"1014
+[v _SFR9E `Vuc ~T0 @X0 1 e@158 ]
+[; ;FT60F12X.h: 1014: volatile unsigned char SFR9E @0x09E;
+"1015
+[v _SFR9F `Vuc ~T0 @X0 1 e@159 ]
+[; ;FT60F12X.h: 1015: volatile unsigned char SFR9F @0x09F;
+[; ;SYSCFG.h: 31: extern void __nop(void);
+[; ;SYSCFG.h: 61: extern unsigned int flash_read(unsigned short addr);
+[; ;eeprom_routines.h: 41: extern void eeprom_write(unsigned char addr, unsigned char value);
+[; ;eeprom_routines.h: 42: extern unsigned char eeprom_read(unsigned char addr);
+[; ;eeprom_routines.h: 43: extern void eecpymem(volatile unsigned char *to, __eeprom unsigned char *from, unsigned char size);
+[; ;eeprom_routines.h: 44: extern void memcpyee(__eeprom unsigned char *to, const unsigned char *from, unsigned char size);
+[; ;SYSCFG.h: 135: extern __nonreentrant void _delay(unsigned long);
+[; ;SYSCFG.h: 157: extern unsigned char __resetbits;
+[; ;SYSCFG.h: 158: extern __bit __powerdown;
+[; ;SYSCFG.h: 159: extern __bit __timeout;
+[; ;ZX-FT60F12X-4BIT.C: 1: ;
+[; ;ZX-FT60F12X-4BIT.C: 2: typedef unsigned char u8;
+[; ;ZX-FT60F12X-4BIT.C: 3: typedef unsigned int u16;
+[; ;ZX-FT60F12X-4BIT.C: 9: typedef struct
+[; ;ZX-FT60F12X-4BIT.C: 10: {
+[; ;ZX-FT60F12X-4BIT.C: 11: u8 DutyCount;
+[; ;ZX-FT60F12X-4BIT.C: 12: u16 OnOffCount;
+[; ;ZX-FT60F12X-4BIT.C: 13: u8 HitCount;
+[; ;ZX-FT60F12X-4BIT.C: 14: } time_t;
+[; ;ZX-FT60F12X-4BIT.C: 16: typedef union
+[; ;ZX-FT60F12X-4BIT.C: 17: {
+[; ;ZX-FT60F12X-4BIT.C: 18: struct
+[; ;ZX-FT60F12X-4BIT.C: 19: {
+[; ;ZX-FT60F12X-4BIT.C: 20: unsigned KeyHit : 1;
+[; ;ZX-FT60F12X-4BIT.C: 21: unsigned ToEEPROM : 1;
+[; ;ZX-FT60F12X-4BIT.C: 22: unsigned ToWhite : 1;
+[; ;ZX-FT60F12X-4BIT.C: 23: unsigned : 6;
+[; ;ZX-FT60F12X-4BIT.C: 24: } bits;
+[; ;ZX-FT60F12X-4BIT.C: 25: u8 allBits;
+[; ;ZX-FT60F12X-4BIT.C: 26: } flag_t;
+"28 ZX-FT60F12X-4BIT.C
+[v _Time `S86 ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 28: time_t Time;
+"29
+[v _Flag `S87 ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 29: flag_t Flag;
+"31
+[v _Dang `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 31: u8 Dang;
+"32
+[v _ModeState `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 32: u8 ModeState;
+"33
+[v _LEDBits `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 33: u8 LEDBits;
+"34
+[v _ShanCnt `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 34: u8 ShanCnt;
+"35
+[v _Shinkbits `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 35: u8 Shinkbits;
+"36
+[v _TempH `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 36: u8 TempH;
+"37
+[v _TempM `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 37: u8 TempM;
+"38
+[v _TempL `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 38: u8 TempL;
+"39
+[v _TempC `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 39: u8 TempC;
+"40
+[v _TempW1 `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 40: u8 TempW1;
+"41
+[v _TempW2 `uc ~T0 @X0 1 e ]
+[; ;ZX-FT60F12X-4BIT.C: 41: u8 TempW2;
+[; ;ZX-FT60F12X-4BIT.C: 43: void Power_Initial(void);
+[; ;ZX-FT60F12X-4BIT.C: 44: void EEPROMwrite(u8 EEAddr, u8 Data);
+[; ;ZX-FT60F12X-4BIT.C: 45: u8 EEPROMread(u8 EEAddr);
+[; ;ZX-FT60F12X-4BIT.C: 46: void DelayUs(u8 TimeUs);
+[; ;ZX-FT60F12X-4BIT.C: 47: void LEDDisplay(void);
+[; ;ZX-FT60F12X-4BIT.C: 48: void KeyCheck(void);
+[; ;ZX-FT60F12X-4BIT.C: 49: void ModeMachine(void);
+[; ;ZX-FT60F12X-4BIT.C: 50: void Shinking(u8 dutyon, u8 dutyoff);
+[; ;ZX-FT60F12X-4BIT.C: 51: void D8ToDo(void);
+"53
+[v _Shinking `(v ~T0 @X0 1 ef2`uc`uc ]
+"54
+{
+[; ;ZX-FT60F12X-4BIT.C: 53: void Shinking(u8 dutyon, u8 dutyoff)
+[; ;ZX-FT60F12X-4BIT.C: 54: {
+[e :U _Shinking ]
+"53
+[v _dutyon `uc ~T0 @X0 1 r1 ]
+[v _dutyoff `uc ~T0 @X0 1 r2 ]
+"54
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 55: if (Time.DutyCount == 0)
+"55
+[e $ ! == -> . _Time 0 `i -> 0 `i 90  ]
+[; ;ZX-FT60F12X-4BIT.C: 56: {
+"56
+{
+[; ;ZX-FT60F12X-4BIT.C: 57: if (Shinkbits)
+"57
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 91  ]
+[; ;ZX-FT60F12X-4BIT.C: 58: {
+"58
+{
+[; ;ZX-FT60F12X-4BIT.C: 59: Shinkbits = 0;
+"59
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 60: Time.DutyCount = dutyoff;
+"60
+[e = . _Time 0 _dutyoff ]
+[; ;ZX-FT60F12X-4BIT.C: 61: ShanCnt++;
+"61
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"62
+}
+[; ;ZX-FT60F12X-4BIT.C: 62: }
+[e $U 92  ]
+"63
+[e :U 91 ]
+[; ;ZX-FT60F12X-4BIT.C: 63: else
+[; ;ZX-FT60F12X-4BIT.C: 64: {
+"64
+{
+[; ;ZX-FT60F12X-4BIT.C: 65: Shinkbits = 0xff;
+"65
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 66: Time.DutyCount = dutyon;
+"66
+[e = . _Time 0 _dutyon ]
+"67
+}
+[e :U 92 ]
+"68
+}
+[e :U 90 ]
+[; ;ZX-FT60F12X-4BIT.C: 67: }
+[; ;ZX-FT60F12X-4BIT.C: 68: }
+[; ;ZX-FT60F12X-4BIT.C: 69: }
+"69
+[e :UE 89 ]
+}
+"71
+[v _LEDDisplay `(v ~T0 @X0 1 ef ]
+"72
+{
+[; ;ZX-FT60F12X-4BIT.C: 71: void LEDDisplay(void)
+[; ;ZX-FT60F12X-4BIT.C: 72: {
+[e :U _LEDDisplay ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 74: if (LEDBits & 0x01)
+"74
+[e $ ! != & -> _LEDBits `i -> 1 `i -> 0 `i 94  ]
+[; ;ZX-FT60F12X-4BIT.C: 75: RA4 = 1;
+"75
+[e = _RA4 -> -> 1 `i `b ]
+[e $U 95  ]
+"76
+[e :U 94 ]
+[; ;ZX-FT60F12X-4BIT.C: 76: else
+[; ;ZX-FT60F12X-4BIT.C: 77: RA4 = 0;
+"77
+[e = _RA4 -> -> 0 `i `b ]
+[e :U 95 ]
+[; ;ZX-FT60F12X-4BIT.C: 79: if (LEDBits & 0x02)
+"79
+[e $ ! != & -> _LEDBits `i -> 2 `i -> 0 `i 96  ]
+[; ;ZX-FT60F12X-4BIT.C: 80: RA0 = 1;
+"80
+[e = _RA0 -> -> 1 `i `b ]
+[e $U 97  ]
+"81
+[e :U 96 ]
+[; ;ZX-FT60F12X-4BIT.C: 81: else
+[; ;ZX-FT60F12X-4BIT.C: 82: RA0 = 0;
+"82
+[e = _RA0 -> -> 0 `i `b ]
+[e :U 97 ]
+[; ;ZX-FT60F12X-4BIT.C: 84: if (LEDBits & 0x04)
+"84
+[e $ ! != & -> _LEDBits `i -> 4 `i -> 0 `i 98  ]
+[; ;ZX-FT60F12X-4BIT.C: 85: RA1 = 1;
+"85
+[e = _RA1 -> -> 1 `i `b ]
+[e $U 99  ]
+"86
+[e :U 98 ]
+[; ;ZX-FT60F12X-4BIT.C: 86: else
+[; ;ZX-FT60F12X-4BIT.C: 87: RA1 = 0;
+"87
+[e = _RA1 -> -> 0 `i `b ]
+[e :U 99 ]
+[; ;ZX-FT60F12X-4BIT.C: 89: if (LEDBits & 0x08)
+"89
+[e $ ! != & -> _LEDBits `i -> 8 `i -> 0 `i 100  ]
+[; ;ZX-FT60F12X-4BIT.C: 90: RA2 = 1;
+"90
+[e = _RA2 -> -> 1 `i `b ]
+[e $U 101  ]
+"91
+[e :U 100 ]
+[; ;ZX-FT60F12X-4BIT.C: 91: else
+[; ;ZX-FT60F12X-4BIT.C: 92: RA2 = 0;
+"92
+[e = _RA2 -> -> 0 `i `b ]
+[e :U 101 ]
+[; ;ZX-FT60F12X-4BIT.C: 93: }
+"93
+[e :UE 93 ]
+}
+"95
+[v _KeyCheck `(v ~T0 @X0 1 ef ]
+"96
+{
+[; ;ZX-FT60F12X-4BIT.C: 95: void KeyCheck(void)
+[; ;ZX-FT60F12X-4BIT.C: 96: {
+[e :U _KeyCheck ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 97: if (RA5 == 0)
+"97
+[e $ ! == -> _RA5 `i -> 0 `i 103  ]
+[; ;ZX-FT60F12X-4BIT.C: 98: {
+"98
+{
+[; ;ZX-FT60F12X-4BIT.C: 99: if (Time.HitCount == 0)
+"99
+[e $ ! == -> . _Time 2 `i -> 0 `i 104  ]
+[; ;ZX-FT60F12X-4BIT.C: 100: {
+"100
+{
+[; ;ZX-FT60F12X-4BIT.C: 101: if (Flag.bits.KeyHit == 0)
+"101
+[e $ ! == -> . . _Flag 0 0 `i -> 0 `i 105  ]
+[; ;ZX-FT60F12X-4BIT.C: 102: {
+"102
+{
+[; ;ZX-FT60F12X-4BIT.C: 103: Flag.bits.KeyHit = 1;
+"103
+[e = . . _Flag 0 0 -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 104: ModeState = 0;
+"104
+[e = _ModeState -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 105: LEDBits = 0;
+"105
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 106: TempH = 0;
+"106
+[e = _TempH -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 107: TempM = 0;
+"107
+[e = _TempM -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 108: TempL = 0;
+"108
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 109: TempC = 0;
+"109
+[e = _TempC -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 110: TempW1 = 0;
+"110
+[e = _TempW1 -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 111: TempW2 = 0;
+"111
+[e = _TempW2 -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 112: ShanCnt = 0;
+"112
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 113: Time.OnOffCount = 0;
+"113
+[e = . _Time 1 -> -> 0 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 114: if (Dang >= 17)
+"114
+[e $ ! >= -> _Dang `i -> 17 `i 106  ]
+[; ;ZX-FT60F12X-4BIT.C: 115: Dang = 0;
+"115
+[e = _Dang -> -> 0 `i `uc ]
+[e $U 107  ]
+"116
+[e :U 106 ]
+[; ;ZX-FT60F12X-4BIT.C: 116: else
+[; ;ZX-FT60F12X-4BIT.C: 117: {
+"117
+{
+[; ;ZX-FT60F12X-4BIT.C: 118: Dang++;
+"118
+[e ++ _Dang -> -> 1 `i `uc ]
+"119
+}
+[e :U 107 ]
+[; ;ZX-FT60F12X-4BIT.C: 119: }
+[; ;ZX-FT60F12X-4BIT.C: 120: EEPROMwrite(0x00, Dang);
+"120
+[e ( _EEPROMwrite (2 , -> -> 0 `i `uc _Dang ]
+"121
+}
+[e :U 105 ]
+"122
+}
+[e :U 104 ]
+"123
+}
+[; ;ZX-FT60F12X-4BIT.C: 121: }
+[; ;ZX-FT60F12X-4BIT.C: 122: }
+[; ;ZX-FT60F12X-4BIT.C: 123: }
+[e $U 108  ]
+"124
+[e :U 103 ]
+[; ;ZX-FT60F12X-4BIT.C: 124: else
+[; ;ZX-FT60F12X-4BIT.C: 125: {
+"125
+{
+[; ;ZX-FT60F12X-4BIT.C: 126: Flag.bits.KeyHit = 0;
+"126
+[e = . . _Flag 0 0 -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 127: Time.HitCount = 60;
+"127
+[e = . _Time 2 -> -> 60 `i `uc ]
+"128
+}
+[e :U 108 ]
+[; ;ZX-FT60F12X-4BIT.C: 128: }
+[; ;ZX-FT60F12X-4BIT.C: 129: }
+"129
+[e :UE 102 ]
+}
+"131
+[v _DelayUs `(v ~T0 @X0 1 ef1`uc ]
+"132
+{
+[; ;ZX-FT60F12X-4BIT.C: 131: void DelayUs(u8 TimeUs)
+[; ;ZX-FT60F12X-4BIT.C: 132: {
+[e :U _DelayUs ]
+"131
+[v _TimeUs `uc ~T0 @X0 1 r1 ]
+"132
+[f ]
+"133
+[v _a `uc ~T0 @X0 1 a ]
+[; ;ZX-FT60F12X-4BIT.C: 133: u8 a;
+[; ;ZX-FT60F12X-4BIT.C: 134: for (a = 0; a < TimeUs; a++)
+"134
+{
+[e = _a -> -> 0 `i `uc ]
+[e $U 113  ]
+"135
+[e :U 110 ]
+[; ;ZX-FT60F12X-4BIT.C: 135: {
+{
+[; ;ZX-FT60F12X-4BIT.C: 136: __nop();
+"136
+[e ( ___nop ..  ]
+"137
+}
+"134
+[e ++ _a -> -> 1 `i `uc ]
+[e :U 113 ]
+[e $ < -> _a `i -> _TimeUs `i 110  ]
+[e :U 111 ]
+"137
+}
+[; ;ZX-FT60F12X-4BIT.C: 137: }
+[; ;ZX-FT60F12X-4BIT.C: 138: }
+"138
+[e :UE 109 ]
+}
+"140
+[v _EEPROMread `(uc ~T0 @X0 1 ef1`uc ]
+"141
+{
+[; ;ZX-FT60F12X-4BIT.C: 140: u8 EEPROMread(u8 EEAddr)
+[; ;ZX-FT60F12X-4BIT.C: 141: {
+[e :U _EEPROMread ]
+"140
+[v _EEAddr `uc ~T0 @X0 1 r1 ]
+"141
+[f ]
+"142
+[v _ReEEPROMread `uc ~T0 @X0 1 a ]
+[; ;ZX-FT60F12X-4BIT.C: 142: u8 ReEEPROMread;
+[; ;ZX-FT60F12X-4BIT.C: 144: EEADR = EEAddr;
+"144
+[e = _EEADR _EEAddr ]
+[; ;ZX-FT60F12X-4BIT.C: 145: RD = 1;
+"145
+[e = _RD -> -> 1 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 146: ReEEPROMread = EEDAT;
+"146
+[e = _ReEEPROMread _EEDAT ]
+[; ;ZX-FT60F12X-4BIT.C: 147: return ReEEPROMread;
+"147
+[e ) _ReEEPROMread ]
+[e $UE 114  ]
+[; ;ZX-FT60F12X-4BIT.C: 148: }
+"148
+[e :UE 114 ]
+}
+"150
+[v _EEPROMwrite `(v ~T0 @X0 1 ef2`uc`uc ]
+"151
+{
+[; ;ZX-FT60F12X-4BIT.C: 150: void EEPROMwrite(u8 EEAddr, u8 Data)
+[; ;ZX-FT60F12X-4BIT.C: 151: {
+[e :U _EEPROMwrite ]
+"150
+[v _EEAddr `uc ~T0 @X0 1 r1 ]
+[v _Data `uc ~T0 @X0 1 r2 ]
+"151
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 152: while (GIE)
+"152
+[e $U 116  ]
+[e :U 117 ]
+[; ;ZX-FT60F12X-4BIT.C: 153: {
+"153
+{
+[; ;ZX-FT60F12X-4BIT.C: 154: GIE = 0;
+"154
+[e = _GIE -> -> 0 `i `b ]
+"155
+}
+[e :U 116 ]
+"152
+[e $ _GIE 117  ]
+[e :U 118 ]
+[; ;ZX-FT60F12X-4BIT.C: 155: }
+[; ;ZX-FT60F12X-4BIT.C: 156: EEADR = EEAddr;
+"156
+[e = _EEADR _EEAddr ]
+[; ;ZX-FT60F12X-4BIT.C: 157: EEDAT = Data;
+"157
+[e = _EEDAT _Data ]
+[; ;ZX-FT60F12X-4BIT.C: 158: EEIF = 0;
+"158
+[e = _EEIF -> -> 0 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 159: EECON1 |= 0x34;
+"159
+[e =| _EECON1 -> -> 52 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 160: WR = 1;
+"160
+[e = _WR -> -> 1 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 161: __nop();
+"161
+[e ( ___nop ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 162: __nop();
+"162
+[e ( ___nop ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 163: GIE = 1;
+"163
+[e = _GIE -> -> 1 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 164: while (WR)
+"164
+[e $U 119  ]
+[e :U 120 ]
+[; ;ZX-FT60F12X-4BIT.C: 165: ;
+"165
+[e :U 119 ]
+"164
+[e $ _WR 120  ]
+[e :U 121 ]
+[; ;ZX-FT60F12X-4BIT.C: 166: }
+"166
+[e :UE 115 ]
+}
+"168
+[v _Power_Initial `(v ~T0 @X0 1 ef ]
+"169
+{
+[; ;ZX-FT60F12X-4BIT.C: 168: void Power_Initial(void)
+[; ;ZX-FT60F12X-4BIT.C: 169: {
+[e :U _Power_Initial ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 170: OSCCON = 0B01110001;
+"170
+[e = _OSCCON -> -> 113 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 171: INTCON = 0;
+"171
+[e = _INTCON -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 172: PORTA = 0B00000000;
+"172
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 173: TRISA = 0B00100000;
+"173
+[e = _TRISA -> -> 32 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 174: WPUA = 0B00100000;
+"174
+[e = _WPUA -> -> 32 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 176: PORTC = 0B00000000;
+"176
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 177: TRISC = 0B11101011;
+"177
+[e = _TRISC -> -> 235 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 178: WPUC = 0B11101011;
+"178
+[e = _WPUC -> -> 235 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 180: asm("clrwdt");
+"180
+[; <" clrwdt ;# ">
+[; ;ZX-FT60F12X-4BIT.C: 182: OPTION = 0B00000100;
+"182
+[e = _OPTION -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 183: WDTCON = 0B00010000;
+"183
+[e = _WDTCON -> -> 16 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 184: TMR0 = 5;
+"184
+[e = _TMR0 -> -> 5 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 186: PSRCA = 0B11111111;
+"186
+[e = _PSRCA -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 187: PSRCC = 0B11111111;
+"187
+[e = _PSRCC -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 188: PSINKA = 0B11111111;
+"188
+[e = _PSINKA -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 189: PSINKC = 0B11111111;
+"189
+[e = _PSINKC -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 191: MSCON = 0B00110000;
+"191
+[e = _MSCON -> -> 48 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 192: }
+"192
+[e :UE 122 ]
+}
+"195
+[v _ModeMachine `(v ~T0 @X0 1 ef ]
+"196
+{
+[; ;ZX-FT60F12X-4BIT.C: 195: void ModeMachine(void)
+[; ;ZX-FT60F12X-4BIT.C: 196: {
+[e :U _ModeMachine ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 197: switch (Dang)
+"197
+[e $U 125  ]
+[; ;ZX-FT60F12X-4BIT.C: 198: {
+"198
+{
+[; ;ZX-FT60F12X-4BIT.C: 199: case 0:
+"199
+[e :U 126 ]
+[; ;ZX-FT60F12X-4BIT.C: 200: Shinking(5, 2);
+"200
+[e ( _Shinking (2 , -> -> 5 `i `uc -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 201: LEDBits = Shinkbits;
+"201
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 202: break;
+"202
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 204: case 1:
+"204
+[e :U 127 ]
+[; ;ZX-FT60F12X-4BIT.C: 205: {
+"205
+{
+[; ;ZX-FT60F12X-4BIT.C: 211: if (Time.OnOffCount == 0)
+"211
+[e $ ! == . _Time 1 -> -> 0 `i `ui 128  ]
+[; ;ZX-FT60F12X-4BIT.C: 212: {
+"212
+{
+[; ;ZX-FT60F12X-4BIT.C: 213: Time.OnOffCount = 160;
+"213
+[e = . _Time 1 -> -> 160 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 215: if (TempW2 == 0)
+"215
+[e $ ! == -> _TempW2 `i -> 0 `i 129  ]
+[; ;ZX-FT60F12X-4BIT.C: 216: {
+"216
+{
+[; ;ZX-FT60F12X-4BIT.C: 217: LEDBits = 0x06;
+"217
+[e = _LEDBits -> -> 6 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 218: TempW2 = 1;
+"218
+[e = _TempW2 -> -> 1 `i `uc ]
+"219
+}
+[; ;ZX-FT60F12X-4BIT.C: 219: }
+[e $U 130  ]
+"220
+[e :U 129 ]
+[; ;ZX-FT60F12X-4BIT.C: 220: else
+[; ;ZX-FT60F12X-4BIT.C: 221: {
+"221
+{
+[; ;ZX-FT60F12X-4BIT.C: 222: LEDBits = 0x09;
+"222
+[e = _LEDBits -> -> 9 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 223: TempW2 = 0;
+"223
+[e = _TempW2 -> -> 0 `i `uc ]
+"224
+}
+[e :U 130 ]
+"225
+}
+[e :U 128 ]
+"226
+}
+[; ;ZX-FT60F12X-4BIT.C: 224: }
+[; ;ZX-FT60F12X-4BIT.C: 225: }
+[; ;ZX-FT60F12X-4BIT.C: 226: }
+[; ;ZX-FT60F12X-4BIT.C: 227: break;
+"227
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 229: case 2:
+"229
+[e :U 131 ]
+[; ;ZX-FT60F12X-4BIT.C: 230: {
+"230
+{
+[; ;ZX-FT60F12X-4BIT.C: 234: if (TempM == 0)
+"234
+[e $ ! == -> _TempM `i -> 0 `i 132  ]
+[; ;ZX-FT60F12X-4BIT.C: 235: {
+"235
+{
+[; ;ZX-FT60F12X-4BIT.C: 237: if (Time.DutyCount == 0)
+"237
+[e $ ! == -> . _Time 0 `i -> 0 `i 133  ]
+[; ;ZX-FT60F12X-4BIT.C: 238: {
+"238
+{
+[; ;ZX-FT60F12X-4BIT.C: 239: if (Shinkbits)
+"239
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 134  ]
+[; ;ZX-FT60F12X-4BIT.C: 240: {
+"240
+{
+[; ;ZX-FT60F12X-4BIT.C: 241: Shinkbits = 0;
+"241
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 242: Time.DutyCount = 50;
+"242
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 243: ShanCnt++;
+"243
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"244
+}
+[; ;ZX-FT60F12X-4BIT.C: 244: }
+[e $U 135  ]
+"245
+[e :U 134 ]
+[; ;ZX-FT60F12X-4BIT.C: 245: else
+[; ;ZX-FT60F12X-4BIT.C: 246: {
+"246
+{
+[; ;ZX-FT60F12X-4BIT.C: 247: Shinkbits = 0xFF;
+"247
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 248: Time.DutyCount = 50;
+"248
+[e = . _Time 0 -> -> 50 `i `uc ]
+"249
+}
+[e :U 135 ]
+"250
+}
+[e :U 133 ]
+[; ;ZX-FT60F12X-4BIT.C: 249: }
+[; ;ZX-FT60F12X-4BIT.C: 250: }
+[; ;ZX-FT60F12X-4BIT.C: 252: LEDBits = Shinkbits;
+"252
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 254: if (ShanCnt >= 10)
+"254
+[e $ ! >= -> _ShanCnt `i -> 10 `i 136  ]
+[; ;ZX-FT60F12X-4BIT.C: 255: {
+"255
+{
+[; ;ZX-FT60F12X-4BIT.C: 256: ShanCnt = 0;
+"256
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 257: LEDBits = 0;
+"257
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 258: TempM = 1;
+"258
+[e = _TempM -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 259: Time.OnOffCount = 500;
+"259
+[e = . _Time 1 -> -> 500 `i `ui ]
+"260
+}
+[e :U 136 ]
+"261
+}
+[; ;ZX-FT60F12X-4BIT.C: 260: }
+[; ;ZX-FT60F12X-4BIT.C: 261: }
+[e $U 137  ]
+"262
+[e :U 132 ]
+[; ;ZX-FT60F12X-4BIT.C: 262: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 138  ]
+[; ;ZX-FT60F12X-4BIT.C: 263: {
+"263
+{
+[; ;ZX-FT60F12X-4BIT.C: 264: LEDBits = 0;
+"264
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 266: if (Time.OnOffCount == 0)
+"266
+[e $ ! == . _Time 1 -> -> 0 `i `ui 139  ]
+[; ;ZX-FT60F12X-4BIT.C: 267: {
+"267
+{
+[; ;ZX-FT60F12X-4BIT.C: 268: TempM = 0;
+"268
+[e = _TempM -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 269: ShanCnt = 0;
+"269
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 270: Shinkbits = 0;
+"270
+[e = _Shinkbits -> -> 0 `i `uc ]
+"271
+}
+[e :U 139 ]
+"272
+}
+[e :U 138 ]
+"273
+[e :U 137 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 271: }
+[; ;ZX-FT60F12X-4BIT.C: 272: }
+[; ;ZX-FT60F12X-4BIT.C: 273: }
+[; ;ZX-FT60F12X-4BIT.C: 274: break;
+"274
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 276: case 3:
+"276
+[e :U 140 ]
+[; ;ZX-FT60F12X-4BIT.C: 277: {
+"277
+{
+[; ;ZX-FT60F12X-4BIT.C: 285: if (TempM == 0)
+"285
+[e $ ! == -> _TempM `i -> 0 `i 141  ]
+[; ;ZX-FT60F12X-4BIT.C: 286: {
+"286
+{
+[; ;ZX-FT60F12X-4BIT.C: 288: if (Time.DutyCount == 0)
+"288
+[e $ ! == -> . _Time 0 `i -> 0 `i 142  ]
+[; ;ZX-FT60F12X-4BIT.C: 289: {
+"289
+{
+[; ;ZX-FT60F12X-4BIT.C: 290: if (Shinkbits)
+"290
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 143  ]
+[; ;ZX-FT60F12X-4BIT.C: 291: {
+"291
+{
+[; ;ZX-FT60F12X-4BIT.C: 292: Shinkbits = 0;
+"292
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 293: Time.DutyCount = 50;
+"293
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 294: ShanCnt++;
+"294
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"295
+}
+[; ;ZX-FT60F12X-4BIT.C: 295: }
+[e $U 144  ]
+"296
+[e :U 143 ]
+[; ;ZX-FT60F12X-4BIT.C: 296: else
+[; ;ZX-FT60F12X-4BIT.C: 297: {
+"297
+{
+[; ;ZX-FT60F12X-4BIT.C: 298: Shinkbits = 0xFF;
+"298
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 299: Time.DutyCount = 50;
+"299
+[e = . _Time 0 -> -> 50 `i `uc ]
+"300
+}
+[e :U 144 ]
+"301
+}
+[e :U 142 ]
+[; ;ZX-FT60F12X-4BIT.C: 300: }
+[; ;ZX-FT60F12X-4BIT.C: 301: }
+[; ;ZX-FT60F12X-4BIT.C: 303: LEDBits = Shinkbits;
+"303
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 305: if (ShanCnt >= 10)
+"305
+[e $ ! >= -> _ShanCnt `i -> 10 `i 145  ]
+[; ;ZX-FT60F12X-4BIT.C: 306: {
+"306
+{
+[; ;ZX-FT60F12X-4BIT.C: 307: ShanCnt = 0;
+"307
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 308: TempM = 1;
+"308
+[e = _TempM -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 309: TempL = 0;
+"309
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 310: Time.OnOffCount = 100;
+"310
+[e = . _Time 1 -> -> 100 `i `ui ]
+"311
+}
+[e :U 145 ]
+"312
+}
+[; ;ZX-FT60F12X-4BIT.C: 311: }
+[; ;ZX-FT60F12X-4BIT.C: 312: }
+[e $U 146  ]
+"313
+[e :U 141 ]
+[; ;ZX-FT60F12X-4BIT.C: 313: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 147  ]
+[; ;ZX-FT60F12X-4BIT.C: 314: {
+"314
+{
+[; ;ZX-FT60F12X-4BIT.C: 315: if (Time.OnOffCount == 0)
+"315
+[e $ ! == . _Time 1 -> -> 0 `i `ui 148  ]
+[; ;ZX-FT60F12X-4BIT.C: 316: {
+"316
+{
+[; ;ZX-FT60F12X-4BIT.C: 317: Time.OnOffCount = 100;
+"317
+[e = . _Time 1 -> -> 100 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 319: if (TempL == 0)
+"319
+[e $ ! == -> _TempL `i -> 0 `i 149  ]
+[; ;ZX-FT60F12X-4BIT.C: 320: {
+"320
+{
+[; ;ZX-FT60F12X-4BIT.C: 321: LEDBits = 0x01;
+"321
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 322: TempL = 1;
+"322
+[e = _TempL -> -> 1 `i `uc ]
+"323
+}
+[; ;ZX-FT60F12X-4BIT.C: 323: }
+[e $U 150  ]
+"324
+[e :U 149 ]
+[; ;ZX-FT60F12X-4BIT.C: 324: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 151  ]
+[; ;ZX-FT60F12X-4BIT.C: 325: {
+"325
+{
+[; ;ZX-FT60F12X-4BIT.C: 326: LEDBits = 0x02;
+"326
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 327: TempL = 2;
+"327
+[e = _TempL -> -> 2 `i `uc ]
+"328
+}
+[; ;ZX-FT60F12X-4BIT.C: 328: }
+[e $U 152  ]
+"329
+[e :U 151 ]
+[; ;ZX-FT60F12X-4BIT.C: 329: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 153  ]
+[; ;ZX-FT60F12X-4BIT.C: 330: {
+"330
+{
+[; ;ZX-FT60F12X-4BIT.C: 331: LEDBits = 0x04;
+"331
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 332: TempL = 3;
+"332
+[e = _TempL -> -> 3 `i `uc ]
+"333
+}
+[; ;ZX-FT60F12X-4BIT.C: 333: }
+[e $U 154  ]
+"334
+[e :U 153 ]
+[; ;ZX-FT60F12X-4BIT.C: 334: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 155  ]
+[; ;ZX-FT60F12X-4BIT.C: 335: {
+"335
+{
+[; ;ZX-FT60F12X-4BIT.C: 336: LEDBits = 0x08;
+"336
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 337: TempL = 4;
+"337
+[e = _TempL -> -> 4 `i `uc ]
+"338
+}
+[; ;ZX-FT60F12X-4BIT.C: 338: }
+[e $U 156  ]
+"339
+[e :U 155 ]
+[; ;ZX-FT60F12X-4BIT.C: 339: else if (TempL == 4)
+[e $ ! == -> _TempL `i -> 4 `i 157  ]
+[; ;ZX-FT60F12X-4BIT.C: 340: {
+"340
+{
+[; ;ZX-FT60F12X-4BIT.C: 341: LEDBits = 0x01;
+"341
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 342: TempL = 5;
+"342
+[e = _TempL -> -> 5 `i `uc ]
+"343
+}
+[; ;ZX-FT60F12X-4BIT.C: 343: }
+[e $U 158  ]
+"344
+[e :U 157 ]
+[; ;ZX-FT60F12X-4BIT.C: 344: else if (TempL == 5)
+[e $ ! == -> _TempL `i -> 5 `i 159  ]
+[; ;ZX-FT60F12X-4BIT.C: 345: {
+"345
+{
+[; ;ZX-FT60F12X-4BIT.C: 346: LEDBits = 0x02;
+"346
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 347: TempL = 6;
+"347
+[e = _TempL -> -> 6 `i `uc ]
+"348
+}
+[; ;ZX-FT60F12X-4BIT.C: 348: }
+[e $U 160  ]
+"349
+[e :U 159 ]
+[; ;ZX-FT60F12X-4BIT.C: 349: else if (TempL == 6)
+[e $ ! == -> _TempL `i -> 6 `i 161  ]
+[; ;ZX-FT60F12X-4BIT.C: 350: {
+"350
+{
+[; ;ZX-FT60F12X-4BIT.C: 351: LEDBits = 0x04;
+"351
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 352: TempL = 7;
+"352
+[e = _TempL -> -> 7 `i `uc ]
+"353
+}
+[; ;ZX-FT60F12X-4BIT.C: 353: }
+[e $U 162  ]
+"354
+[e :U 161 ]
+[; ;ZX-FT60F12X-4BIT.C: 354: else if (TempL == 7)
+[e $ ! == -> _TempL `i -> 7 `i 163  ]
+[; ;ZX-FT60F12X-4BIT.C: 355: {
+"355
+{
+[; ;ZX-FT60F12X-4BIT.C: 356: LEDBits = 0;
+"356
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 357: TempL = 0;
+"357
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 358: TempM = 2;
+"358
+[e = _TempM -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 359: ShanCnt = 0;
+"359
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 360: Shinkbits = 0;
+"360
+[e = _Shinkbits -> -> 0 `i `uc ]
+"361
+}
+[e :U 163 ]
+"362
+[e :U 162 ]
+[e :U 160 ]
+[e :U 158 ]
+[e :U 156 ]
+[e :U 154 ]
+[e :U 152 ]
+[e :U 150 ]
+}
+[e :U 148 ]
+"363
+}
+[; ;ZX-FT60F12X-4BIT.C: 361: }
+[; ;ZX-FT60F12X-4BIT.C: 362: }
+[; ;ZX-FT60F12X-4BIT.C: 363: }
+[e $U 164  ]
+"364
+[e :U 147 ]
+[; ;ZX-FT60F12X-4BIT.C: 364: else if (TempM == 2)
+[e $ ! == -> _TempM `i -> 2 `i 165  ]
+[; ;ZX-FT60F12X-4BIT.C: 365: {
+"365
+{
+[; ;ZX-FT60F12X-4BIT.C: 367: if (Time.DutyCount == 0)
+"367
+[e $ ! == -> . _Time 0 `i -> 0 `i 166  ]
+[; ;ZX-FT60F12X-4BIT.C: 368: {
+"368
+{
+[; ;ZX-FT60F12X-4BIT.C: 369: if (Shinkbits)
+"369
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 167  ]
+[; ;ZX-FT60F12X-4BIT.C: 370: {
+"370
+{
+[; ;ZX-FT60F12X-4BIT.C: 371: Shinkbits = 0;
+"371
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 372: Time.DutyCount = 50;
+"372
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 373: ShanCnt++;
+"373
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"374
+}
+[; ;ZX-FT60F12X-4BIT.C: 374: }
+[e $U 168  ]
+"375
+[e :U 167 ]
+[; ;ZX-FT60F12X-4BIT.C: 375: else
+[; ;ZX-FT60F12X-4BIT.C: 376: {
+"376
+{
+[; ;ZX-FT60F12X-4BIT.C: 377: Shinkbits = 0xFF;
+"377
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 378: Time.DutyCount = 50;
+"378
+[e = . _Time 0 -> -> 50 `i `uc ]
+"379
+}
+[e :U 168 ]
+"380
+}
+[e :U 166 ]
+[; ;ZX-FT60F12X-4BIT.C: 379: }
+[; ;ZX-FT60F12X-4BIT.C: 380: }
+[; ;ZX-FT60F12X-4BIT.C: 382: LEDBits = Shinkbits;
+"382
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 384: if (ShanCnt >= 10)
+"384
+[e $ ! >= -> _ShanCnt `i -> 10 `i 169  ]
+[; ;ZX-FT60F12X-4BIT.C: 385: {
+"385
+{
+[; ;ZX-FT60F12X-4BIT.C: 386: ShanCnt = 0;
+"386
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 387: TempM = 3;
+"387
+[e = _TempM -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 388: TempL = 0;
+"388
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 389: Time.OnOffCount = 100;
+"389
+[e = . _Time 1 -> -> 100 `i `ui ]
+"390
+}
+[e :U 169 ]
+"391
+}
+[; ;ZX-FT60F12X-4BIT.C: 390: }
+[; ;ZX-FT60F12X-4BIT.C: 391: }
+[e $U 170  ]
+"392
+[e :U 165 ]
+[; ;ZX-FT60F12X-4BIT.C: 392: else if (TempM == 3)
+[e $ ! == -> _TempM `i -> 3 `i 171  ]
+[; ;ZX-FT60F12X-4BIT.C: 393: {
+"393
+{
+[; ;ZX-FT60F12X-4BIT.C: 394: if (Time.OnOffCount == 0)
+"394
+[e $ ! == . _Time 1 -> -> 0 `i `ui 172  ]
+[; ;ZX-FT60F12X-4BIT.C: 395: {
+"395
+{
+[; ;ZX-FT60F12X-4BIT.C: 396: Time.OnOffCount = 100;
+"396
+[e = . _Time 1 -> -> 100 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 398: if (TempL == 0)
+"398
+[e $ ! == -> _TempL `i -> 0 `i 173  ]
+[; ;ZX-FT60F12X-4BIT.C: 399: {
+"399
+{
+[; ;ZX-FT60F12X-4BIT.C: 400: LEDBits = 0x08;
+"400
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 401: TempL = 1;
+"401
+[e = _TempL -> -> 1 `i `uc ]
+"402
+}
+[; ;ZX-FT60F12X-4BIT.C: 402: }
+[e $U 174  ]
+"403
+[e :U 173 ]
+[; ;ZX-FT60F12X-4BIT.C: 403: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 175  ]
+[; ;ZX-FT60F12X-4BIT.C: 404: {
+"404
+{
+[; ;ZX-FT60F12X-4BIT.C: 405: LEDBits = 0x04;
+"405
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 406: TempL = 2;
+"406
+[e = _TempL -> -> 2 `i `uc ]
+"407
+}
+[; ;ZX-FT60F12X-4BIT.C: 407: }
+[e $U 176  ]
+"408
+[e :U 175 ]
+[; ;ZX-FT60F12X-4BIT.C: 408: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 177  ]
+[; ;ZX-FT60F12X-4BIT.C: 409: {
+"409
+{
+[; ;ZX-FT60F12X-4BIT.C: 410: LEDBits = 0x02;
+"410
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 411: TempL = 3;
+"411
+[e = _TempL -> -> 3 `i `uc ]
+"412
+}
+[; ;ZX-FT60F12X-4BIT.C: 412: }
+[e $U 178  ]
+"413
+[e :U 177 ]
+[; ;ZX-FT60F12X-4BIT.C: 413: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 179  ]
+[; ;ZX-FT60F12X-4BIT.C: 414: {
+"414
+{
+[; ;ZX-FT60F12X-4BIT.C: 415: LEDBits = 0x01;
+"415
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 416: TempL = 4;
+"416
+[e = _TempL -> -> 4 `i `uc ]
+"417
+}
+[; ;ZX-FT60F12X-4BIT.C: 417: }
+[e $U 180  ]
+"418
+[e :U 179 ]
+[; ;ZX-FT60F12X-4BIT.C: 418: else if (TempL == 4)
+[e $ ! == -> _TempL `i -> 4 `i 181  ]
+[; ;ZX-FT60F12X-4BIT.C: 419: {
+"419
+{
+[; ;ZX-FT60F12X-4BIT.C: 420: LEDBits = 0x08;
+"420
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 421: TempL = 5;
+"421
+[e = _TempL -> -> 5 `i `uc ]
+"422
+}
+[; ;ZX-FT60F12X-4BIT.C: 422: }
+[e $U 182  ]
+"423
+[e :U 181 ]
+[; ;ZX-FT60F12X-4BIT.C: 423: else if (TempL == 5)
+[e $ ! == -> _TempL `i -> 5 `i 183  ]
+[; ;ZX-FT60F12X-4BIT.C: 424: {
+"424
+{
+[; ;ZX-FT60F12X-4BIT.C: 425: LEDBits = 0x04;
+"425
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 426: TempL = 6;
+"426
+[e = _TempL -> -> 6 `i `uc ]
+"427
+}
+[; ;ZX-FT60F12X-4BIT.C: 427: }
+[e $U 184  ]
+"428
+[e :U 183 ]
+[; ;ZX-FT60F12X-4BIT.C: 428: else if (TempL == 6)
+[e $ ! == -> _TempL `i -> 6 `i 185  ]
+[; ;ZX-FT60F12X-4BIT.C: 429: {
+"429
+{
+[; ;ZX-FT60F12X-4BIT.C: 430: LEDBits = 0x02;
+"430
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 431: TempL = 7;
+"431
+[e = _TempL -> -> 7 `i `uc ]
+"432
+}
+[; ;ZX-FT60F12X-4BIT.C: 432: }
+[e $U 186  ]
+"433
+[e :U 185 ]
+[; ;ZX-FT60F12X-4BIT.C: 433: else if (TempL == 7)
+[e $ ! == -> _TempL `i -> 7 `i 187  ]
+[; ;ZX-FT60F12X-4BIT.C: 434: {
+"434
+{
+[; ;ZX-FT60F12X-4BIT.C: 435: LEDBits = 0;
+"435
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 436: TempL = 0;
+"436
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 437: TempM = 0;
+"437
+[e = _TempM -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 438: ShanCnt = 0;
+"438
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 439: Shinkbits = 0;
+"439
+[e = _Shinkbits -> -> 0 `i `uc ]
+"440
+}
+[e :U 187 ]
+"441
+[e :U 186 ]
+[e :U 184 ]
+[e :U 182 ]
+[e :U 180 ]
+[e :U 178 ]
+[e :U 176 ]
+[e :U 174 ]
+}
+[e :U 172 ]
+"442
+}
+[e :U 171 ]
+"443
+[e :U 170 ]
+[e :U 164 ]
+[e :U 146 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 440: }
+[; ;ZX-FT60F12X-4BIT.C: 441: }
+[; ;ZX-FT60F12X-4BIT.C: 442: }
+[; ;ZX-FT60F12X-4BIT.C: 443: }
+[; ;ZX-FT60F12X-4BIT.C: 444: break;
+"444
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 446: case 4:
+"446
+[e :U 188 ]
+[; ;ZX-FT60F12X-4BIT.C: 447: D8ToDo();
+"447
+[e ( _D8ToDo ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 448: break;
+"448
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 450: case 5:
+"450
+[e :U 189 ]
+[; ;ZX-FT60F12X-4BIT.C: 451: {
+"451
+{
+[; ;ZX-FT60F12X-4BIT.C: 456: Shinking(70, 70);
+"456
+[e ( _Shinking (2 , -> -> 70 `i `uc -> -> 70 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 458: LEDBits = Shinkbits;
+"458
+[e = _LEDBits _Shinkbits ]
+"459
+}
+[; ;ZX-FT60F12X-4BIT.C: 459: }
+[; ;ZX-FT60F12X-4BIT.C: 460: break;
+"460
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 462: case 6:
+"462
+[e :U 190 ]
+[; ;ZX-FT60F12X-4BIT.C: 463: {
+"463
+{
+[; ;ZX-FT60F12X-4BIT.C: 469: if (Time.OnOffCount == 0)
+"469
+[e $ ! == . _Time 1 -> -> 0 `i `ui 191  ]
+[; ;ZX-FT60F12X-4BIT.C: 470: {
+"470
+{
+[; ;ZX-FT60F12X-4BIT.C: 471: Time.OnOffCount = 80;
+"471
+[e = . _Time 1 -> -> 80 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 473: if (TempM == 0)
+"473
+[e $ ! == -> _TempM `i -> 0 `i 192  ]
+[; ;ZX-FT60F12X-4BIT.C: 474: {
+"474
+{
+[; ;ZX-FT60F12X-4BIT.C: 475: if (TempL == 0)
+"475
+[e $ ! == -> _TempL `i -> 0 `i 193  ]
+[; ;ZX-FT60F12X-4BIT.C: 476: {
+"476
+{
+[; ;ZX-FT60F12X-4BIT.C: 477: LEDBits = 0x01;
+"477
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 478: TempL = 1;
+"478
+[e = _TempL -> -> 1 `i `uc ]
+"479
+}
+[; ;ZX-FT60F12X-4BIT.C: 479: }
+[e $U 194  ]
+"480
+[e :U 193 ]
+[; ;ZX-FT60F12X-4BIT.C: 480: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 195  ]
+[; ;ZX-FT60F12X-4BIT.C: 481: {
+"481
+{
+[; ;ZX-FT60F12X-4BIT.C: 482: LEDBits = 0x02;
+"482
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 483: TempL = 2;
+"483
+[e = _TempL -> -> 2 `i `uc ]
+"484
+}
+[; ;ZX-FT60F12X-4BIT.C: 484: }
+[e $U 196  ]
+"485
+[e :U 195 ]
+[; ;ZX-FT60F12X-4BIT.C: 485: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 197  ]
+[; ;ZX-FT60F12X-4BIT.C: 486: {
+"486
+{
+[; ;ZX-FT60F12X-4BIT.C: 487: LEDBits = 0x04;
+"487
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 488: TempL = 3;
+"488
+[e = _TempL -> -> 3 `i `uc ]
+"489
+}
+[; ;ZX-FT60F12X-4BIT.C: 489: }
+[e $U 198  ]
+"490
+[e :U 197 ]
+[; ;ZX-FT60F12X-4BIT.C: 490: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 199  ]
+[; ;ZX-FT60F12X-4BIT.C: 491: {
+"491
+{
+[; ;ZX-FT60F12X-4BIT.C: 492: LEDBits = 0x08;
+"492
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 493: TempL = 0;
+"493
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 494: TempM = 1;
+"494
+[e = _TempM -> -> 1 `i `uc ]
+"495
+}
+[e :U 199 ]
+"496
+[e :U 198 ]
+[e :U 196 ]
+[e :U 194 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 495: }
+[; ;ZX-FT60F12X-4BIT.C: 496: }
+[e $U 200  ]
+"497
+[e :U 192 ]
+[; ;ZX-FT60F12X-4BIT.C: 497: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 201  ]
+[; ;ZX-FT60F12X-4BIT.C: 498: {
+"498
+{
+[; ;ZX-FT60F12X-4BIT.C: 499: if (TempL == 0)
+"499
+[e $ ! == -> _TempL `i -> 0 `i 202  ]
+[; ;ZX-FT60F12X-4BIT.C: 500: {
+"500
+{
+[; ;ZX-FT60F12X-4BIT.C: 501: LEDBits = 0x08;
+"501
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 502: TempL = 1;
+"502
+[e = _TempL -> -> 1 `i `uc ]
+"503
+}
+[; ;ZX-FT60F12X-4BIT.C: 503: }
+[e $U 203  ]
+"504
+[e :U 202 ]
+[; ;ZX-FT60F12X-4BIT.C: 504: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 204  ]
+[; ;ZX-FT60F12X-4BIT.C: 505: {
+"505
+{
+[; ;ZX-FT60F12X-4BIT.C: 506: LEDBits = 0x04;
+"506
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 507: TempL = 2;
+"507
+[e = _TempL -> -> 2 `i `uc ]
+"508
+}
+[; ;ZX-FT60F12X-4BIT.C: 508: }
+[e $U 205  ]
+"509
+[e :U 204 ]
+[; ;ZX-FT60F12X-4BIT.C: 509: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 206  ]
+[; ;ZX-FT60F12X-4BIT.C: 510: {
+"510
+{
+[; ;ZX-FT60F12X-4BIT.C: 511: LEDBits = 0x02;
+"511
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 512: TempL = 3;
+"512
+[e = _TempL -> -> 3 `i `uc ]
+"513
+}
+[; ;ZX-FT60F12X-4BIT.C: 513: }
+[e $U 207  ]
+"514
+[e :U 206 ]
+[; ;ZX-FT60F12X-4BIT.C: 514: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 208  ]
+[; ;ZX-FT60F12X-4BIT.C: 515: {
+"515
+{
+[; ;ZX-FT60F12X-4BIT.C: 516: LEDBits = 0x01;
+"516
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 517: TempL = 0;
+"517
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 518: TempM = 0;
+"518
+[e = _TempM -> -> 0 `i `uc ]
+"519
+}
+[e :U 208 ]
+"520
+[e :U 207 ]
+[e :U 205 ]
+[e :U 203 ]
+}
+[e :U 201 ]
+"521
+[e :U 200 ]
+}
+[e :U 191 ]
+"522
+}
+[; ;ZX-FT60F12X-4BIT.C: 519: }
+[; ;ZX-FT60F12X-4BIT.C: 520: }
+[; ;ZX-FT60F12X-4BIT.C: 521: }
+[; ;ZX-FT60F12X-4BIT.C: 522: }
+[; ;ZX-FT60F12X-4BIT.C: 523: break;
+"523
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 525: case 7:
+"525
+[e :U 209 ]
+[; ;ZX-FT60F12X-4BIT.C: 526: {
+"526
+{
+[; ;ZX-FT60F12X-4BIT.C: 533: if (TempM == 0)
+"533
+[e $ ! == -> _TempM `i -> 0 `i 210  ]
+[; ;ZX-FT60F12X-4BIT.C: 534: {
+"534
+{
+[; ;ZX-FT60F12X-4BIT.C: 536: Shinking(50, 50);
+"536
+[e ( _Shinking (2 , -> -> 50 `i `uc -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 538: LEDBits = Shinkbits & 0x0C;
+"538
+[e = _LEDBits -> & -> _Shinkbits `i -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 540: if (ShanCnt >= 6)
+"540
+[e $ ! >= -> _ShanCnt `i -> 6 `i 211  ]
+[; ;ZX-FT60F12X-4BIT.C: 541: {
+"541
+{
+[; ;ZX-FT60F12X-4BIT.C: 542: ShanCnt = 0;
+"542
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 543: Shinkbits = 0;
+"543
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 544: TempM = 1;
+"544
+[e = _TempM -> -> 1 `i `uc ]
+"545
+}
+[e :U 211 ]
+"546
+}
+[; ;ZX-FT60F12X-4BIT.C: 545: }
+[; ;ZX-FT60F12X-4BIT.C: 546: }
+[e $U 212  ]
+"547
+[e :U 210 ]
+[; ;ZX-FT60F12X-4BIT.C: 547: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 213  ]
+[; ;ZX-FT60F12X-4BIT.C: 548: {
+"548
+{
+[; ;ZX-FT60F12X-4BIT.C: 550: Shinking(50, 50);
+"550
+[e ( _Shinking (2 , -> -> 50 `i `uc -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 552: LEDBits = Shinkbits & 0x03;
+"552
+[e = _LEDBits -> & -> _Shinkbits `i -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 554: if (ShanCnt >= 6)
+"554
+[e $ ! >= -> _ShanCnt `i -> 6 `i 214  ]
+[; ;ZX-FT60F12X-4BIT.C: 555: {
+"555
+{
+[; ;ZX-FT60F12X-4BIT.C: 556: ShanCnt = 0;
+"556
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 557: Shinkbits = 0;
+"557
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 558: TempM = 2;
+"558
+[e = _TempM -> -> 2 `i `uc ]
+"559
+}
+[e :U 214 ]
+"560
+}
+[; ;ZX-FT60F12X-4BIT.C: 559: }
+[; ;ZX-FT60F12X-4BIT.C: 560: }
+[e $U 215  ]
+"561
+[e :U 213 ]
+[; ;ZX-FT60F12X-4BIT.C: 561: else if (TempM == 2)
+[e $ ! == -> _TempM `i -> 2 `i 216  ]
+[; ;ZX-FT60F12X-4BIT.C: 562: {
+"562
+{
+[; ;ZX-FT60F12X-4BIT.C: 564: Shinking(50, 50);
+"564
+[e ( _Shinking (2 , -> -> 50 `i `uc -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 566: LEDBits = Shinkbits & 0x0F;
+"566
+[e = _LEDBits -> & -> _Shinkbits `i -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 568: if (ShanCnt >= 12)
+"568
+[e $ ! >= -> _ShanCnt `i -> 12 `i 217  ]
+[; ;ZX-FT60F12X-4BIT.C: 569: {
+"569
+{
+[; ;ZX-FT60F12X-4BIT.C: 570: ShanCnt = 0;
+"570
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 571: Shinkbits = 0;
+"571
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 572: TempM = 0;
+"572
+[e = _TempM -> -> 0 `i `uc ]
+"573
+}
+[e :U 217 ]
+"574
+}
+[e :U 216 ]
+"575
+[e :U 215 ]
+[e :U 212 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 573: }
+[; ;ZX-FT60F12X-4BIT.C: 574: }
+[; ;ZX-FT60F12X-4BIT.C: 575: }
+[; ;ZX-FT60F12X-4BIT.C: 576: break;
+"576
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 578: case 8:
+"578
+[e :U 218 ]
+[; ;ZX-FT60F12X-4BIT.C: 579: {
+"579
+{
+[; ;ZX-FT60F12X-4BIT.C: 585: if (TempM == 0)
+"585
+[e $ ! == -> _TempM `i -> 0 `i 219  ]
+[; ;ZX-FT60F12X-4BIT.C: 586: {
+"586
+{
+[; ;ZX-FT60F12X-4BIT.C: 588: Shinking(50, 50);
+"588
+[e ( _Shinking (2 , -> -> 50 `i `uc -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 590: LEDBits = Shinkbits & 0x0C;
+"590
+[e = _LEDBits -> & -> _Shinkbits `i -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 592: if (ShanCnt >= 10)
+"592
+[e $ ! >= -> _ShanCnt `i -> 10 `i 220  ]
+[; ;ZX-FT60F12X-4BIT.C: 593: {
+"593
+{
+[; ;ZX-FT60F12X-4BIT.C: 594: ShanCnt = 0;
+"594
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 595: Shinkbits = 0;
+"595
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 596: TempM = 1;
+"596
+[e = _TempM -> -> 1 `i `uc ]
+"597
+}
+[e :U 220 ]
+"598
+}
+[; ;ZX-FT60F12X-4BIT.C: 597: }
+[; ;ZX-FT60F12X-4BIT.C: 598: }
+[e $U 221  ]
+"599
+[e :U 219 ]
+[; ;ZX-FT60F12X-4BIT.C: 599: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 222  ]
+[; ;ZX-FT60F12X-4BIT.C: 600: {
+"600
+{
+[; ;ZX-FT60F12X-4BIT.C: 602: Shinking(50, 50);
+"602
+[e ( _Shinking (2 , -> -> 50 `i `uc -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 604: LEDBits = Shinkbits & 0x03;
+"604
+[e = _LEDBits -> & -> _Shinkbits `i -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 606: if (ShanCnt >= 10)
+"606
+[e $ ! >= -> _ShanCnt `i -> 10 `i 223  ]
+[; ;ZX-FT60F12X-4BIT.C: 607: {
+"607
+{
+[; ;ZX-FT60F12X-4BIT.C: 608: ShanCnt = 0;
+"608
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 609: Shinkbits = 0;
+"609
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 610: TempM = 0;
+"610
+[e = _TempM -> -> 0 `i `uc ]
+"611
+}
+[e :U 223 ]
+"612
+}
+[e :U 222 ]
+"613
+[e :U 221 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 611: }
+[; ;ZX-FT60F12X-4BIT.C: 612: }
+[; ;ZX-FT60F12X-4BIT.C: 613: }
+[; ;ZX-FT60F12X-4BIT.C: 614: break;
+"614
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 616: case 9:
+"616
+[e :U 224 ]
+[; ;ZX-FT60F12X-4BIT.C: 617: {
+"617
+{
+[; ;ZX-FT60F12X-4BIT.C: 622: if (Time.OnOffCount == 0)
+"622
+[e $ ! == . _Time 1 -> -> 0 `i `ui 225  ]
+[; ;ZX-FT60F12X-4BIT.C: 623: {
+"623
+{
+[; ;ZX-FT60F12X-4BIT.C: 624: Time.OnOffCount = 60;
+"624
+[e = . _Time 1 -> -> 60 `i `ui ]
+[v F1098 `uc ~T0 @X0 -> 18 `i s ]
+[i F1098
+:U ..
+"628
+-> -> 3 `i `uc
+-> -> 6 `i `uc
+-> -> 12 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+-> -> 9 `i `uc
+"629
+-> -> 8 `i `uc
+-> -> 12 `i `uc
+-> -> 6 `i `uc
+-> -> 3 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 4 `i `uc
+-> -> 12 `i `uc
+"630
+-> -> 8 `i `uc
+"631
+-> -> 1 `i `uc
+..
+]
+"627
+[v _led_sequence `uc ~T0 @X0 -> 18 `i a ]
+[; ;ZX-FT60F12X-4BIT.C: 627: u8 led_sequence[18] = {
+[; ;ZX-FT60F12X-4BIT.C: 628: 0x03, 0x06, 0x0C, 0x08, 0x02, 0x04, 0x01, 0x09,
+[; ;ZX-FT60F12X-4BIT.C: 629: 0x08, 0x0C, 0x06, 0x03, 0x01, 0x08, 0x04, 0x0C,
+[; ;ZX-FT60F12X-4BIT.C: 630: 0x08, 0x01
+[; ;ZX-FT60F12X-4BIT.C: 631: };
+"631
+[e = _led_sequence F1098 ]
+[; ;ZX-FT60F12X-4BIT.C: 634: LEDBits = led_sequence[TempL];
+"634
+[e = _LEDBits *U + &U _led_sequence * -> _TempL `ux -> -> # *U &U _led_sequence `ui `ux ]
+[; ;ZX-FT60F12X-4BIT.C: 637: TempL++;
+"637
+[e ++ _TempL -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 638: if (TempL >= 18)
+"638
+[e $ ! >= -> _TempL `i -> 18 `i 226  ]
+[; ;ZX-FT60F12X-4BIT.C: 639: TempL = 0;
+"639
+[e = _TempL -> -> 0 `i `uc ]
+[e :U 226 ]
+"640
+}
+[e :U 225 ]
+"641
+}
+[; ;ZX-FT60F12X-4BIT.C: 640: }
+[; ;ZX-FT60F12X-4BIT.C: 641: }
+[; ;ZX-FT60F12X-4BIT.C: 642: break;
+"642
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 644: case 10:
+"644
+[e :U 227 ]
+[; ;ZX-FT60F12X-4BIT.C: 645: {
+"645
+{
+[; ;ZX-FT60F12X-4BIT.C: 654: if (Time.OnOffCount == 0)
+"654
+[e $ ! == . _Time 1 -> -> 0 `i `ui 228  ]
+[; ;ZX-FT60F12X-4BIT.C: 655: {
+"655
+{
+[; ;ZX-FT60F12X-4BIT.C: 656: if (TempM == 0)
+"656
+[e $ ! == -> _TempM `i -> 0 `i 229  ]
+[; ;ZX-FT60F12X-4BIT.C: 657: {
+"657
+{
+[; ;ZX-FT60F12X-4BIT.C: 658: LEDBits = 0x06;
+"658
+[e = _LEDBits -> -> 6 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 659: Time.OnOffCount = 50;
+"659
+[e = . _Time 1 -> -> 50 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 660: TempM = 1;
+"660
+[e = _TempM -> -> 1 `i `uc ]
+"661
+}
+[; ;ZX-FT60F12X-4BIT.C: 661: }
+[e $U 230  ]
+"662
+[e :U 229 ]
+[; ;ZX-FT60F12X-4BIT.C: 662: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 231  ]
+[; ;ZX-FT60F12X-4BIT.C: 663: {
+"663
+{
+[; ;ZX-FT60F12X-4BIT.C: 664: LEDBits = 0;
+"664
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 665: Time.OnOffCount = 120;
+"665
+[e = . _Time 1 -> -> 120 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 666: TempM = 2;
+"666
+[e = _TempM -> -> 2 `i `uc ]
+"667
+}
+[; ;ZX-FT60F12X-4BIT.C: 667: }
+[e $U 232  ]
+"668
+[e :U 231 ]
+[; ;ZX-FT60F12X-4BIT.C: 668: else if (TempM == 2)
+[e $ ! == -> _TempM `i -> 2 `i 233  ]
+[; ;ZX-FT60F12X-4BIT.C: 669: {
+"669
+{
+[; ;ZX-FT60F12X-4BIT.C: 670: LEDBits = 0x0F;
+"670
+[e = _LEDBits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 671: Time.OnOffCount = 50;
+"671
+[e = . _Time 1 -> -> 50 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 672: TempM = 3;
+"672
+[e = _TempM -> -> 3 `i `uc ]
+"673
+}
+[; ;ZX-FT60F12X-4BIT.C: 673: }
+[e $U 234  ]
+"674
+[e :U 233 ]
+[; ;ZX-FT60F12X-4BIT.C: 674: else if (TempM == 3)
+[e $ ! == -> _TempM `i -> 3 `i 235  ]
+[; ;ZX-FT60F12X-4BIT.C: 675: {
+"675
+{
+[; ;ZX-FT60F12X-4BIT.C: 676: LEDBits = 0;
+"676
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 677: Time.OnOffCount = 50;
+"677
+[e = . _Time 1 -> -> 50 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 678: TempM = 0;
+"678
+[e = _TempM -> -> 0 `i `uc ]
+"679
+}
+[e :U 235 ]
+"680
+[e :U 234 ]
+[e :U 232 ]
+[e :U 230 ]
+}
+[e :U 228 ]
+"681
+}
+[; ;ZX-FT60F12X-4BIT.C: 679: }
+[; ;ZX-FT60F12X-4BIT.C: 680: }
+[; ;ZX-FT60F12X-4BIT.C: 681: }
+[; ;ZX-FT60F12X-4BIT.C: 682: break;
+"682
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 684: case 11:
+"684
+[e :U 236 ]
+[; ;ZX-FT60F12X-4BIT.C: 685: {
+"685
+{
+[; ;ZX-FT60F12X-4BIT.C: 692: if (Time.OnOffCount == 0)
+"692
+[e $ ! == . _Time 1 -> -> 0 `i `ui 237  ]
+[; ;ZX-FT60F12X-4BIT.C: 693: {
+"693
+{
+[; ;ZX-FT60F12X-4BIT.C: 694: if (TempM == 0)
+"694
+[e $ ! == -> _TempM `i -> 0 `i 238  ]
+[; ;ZX-FT60F12X-4BIT.C: 695: {
+"695
+{
+[; ;ZX-FT60F12X-4BIT.C: 697: if (Time.DutyCount == 0)
+"697
+[e $ ! == -> . _Time 0 `i -> 0 `i 239  ]
+[; ;ZX-FT60F12X-4BIT.C: 698: {
+"698
+{
+[; ;ZX-FT60F12X-4BIT.C: 699: if (Shinkbits)
+"699
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 240  ]
+[; ;ZX-FT60F12X-4BIT.C: 700: {
+"700
+{
+[; ;ZX-FT60F12X-4BIT.C: 701: Shinkbits = 0;
+"701
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 702: Time.DutyCount = 40;
+"702
+[e = . _Time 0 -> -> 40 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 703: ShanCnt++;
+"703
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"704
+}
+[; ;ZX-FT60F12X-4BIT.C: 704: }
+[e $U 241  ]
+"705
+[e :U 240 ]
+[; ;ZX-FT60F12X-4BIT.C: 705: else
+[; ;ZX-FT60F12X-4BIT.C: 706: {
+"706
+{
+[; ;ZX-FT60F12X-4BIT.C: 707: Shinkbits = 0xFF;
+"707
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 708: Time.DutyCount = 40;
+"708
+[e = . _Time 0 -> -> 40 `i `uc ]
+"709
+}
+[e :U 241 ]
+"710
+}
+[e :U 239 ]
+[; ;ZX-FT60F12X-4BIT.C: 709: }
+[; ;ZX-FT60F12X-4BIT.C: 710: }
+[; ;ZX-FT60F12X-4BIT.C: 712: LEDBits = Shinkbits & 0x05;
+"712
+[e = _LEDBits -> & -> _Shinkbits `i -> 5 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 714: if (ShanCnt >= 6)
+"714
+[e $ ! >= -> _ShanCnt `i -> 6 `i 242  ]
+[; ;ZX-FT60F12X-4BIT.C: 715: {
+"715
+{
+[; ;ZX-FT60F12X-4BIT.C: 716: ShanCnt = 0;
+"716
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 717: Shinkbits = 0;
+"717
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 718: TempM = 1;
+"718
+[e = _TempM -> -> 1 `i `uc ]
+"719
+}
+[e :U 242 ]
+"720
+}
+[; ;ZX-FT60F12X-4BIT.C: 719: }
+[; ;ZX-FT60F12X-4BIT.C: 720: }
+[e $U 243  ]
+"721
+[e :U 238 ]
+[; ;ZX-FT60F12X-4BIT.C: 721: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 244  ]
+[; ;ZX-FT60F12X-4BIT.C: 722: {
+"722
+{
+[; ;ZX-FT60F12X-4BIT.C: 724: if (Time.DutyCount == 0)
+"724
+[e $ ! == -> . _Time 0 `i -> 0 `i 245  ]
+[; ;ZX-FT60F12X-4BIT.C: 725: {
+"725
+{
+[; ;ZX-FT60F12X-4BIT.C: 726: if (Shinkbits)
+"726
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 246  ]
+[; ;ZX-FT60F12X-4BIT.C: 727: {
+"727
+{
+[; ;ZX-FT60F12X-4BIT.C: 728: Shinkbits = 0;
+"728
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 729: Time.DutyCount = 40;
+"729
+[e = . _Time 0 -> -> 40 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 730: ShanCnt++;
+"730
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"731
+}
+[; ;ZX-FT60F12X-4BIT.C: 731: }
+[e $U 247  ]
+"732
+[e :U 246 ]
+[; ;ZX-FT60F12X-4BIT.C: 732: else
+[; ;ZX-FT60F12X-4BIT.C: 733: {
+"733
+{
+[; ;ZX-FT60F12X-4BIT.C: 734: Shinkbits = 0xFF;
+"734
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 735: Time.DutyCount = 40;
+"735
+[e = . _Time 0 -> -> 40 `i `uc ]
+"736
+}
+[e :U 247 ]
+"737
+}
+[e :U 245 ]
+[; ;ZX-FT60F12X-4BIT.C: 736: }
+[; ;ZX-FT60F12X-4BIT.C: 737: }
+[; ;ZX-FT60F12X-4BIT.C: 739: LEDBits = Shinkbits & 0x0A;
+"739
+[e = _LEDBits -> & -> _Shinkbits `i -> 10 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 741: if (ShanCnt >= 6)
+"741
+[e $ ! >= -> _ShanCnt `i -> 6 `i 248  ]
+[; ;ZX-FT60F12X-4BIT.C: 742: {
+"742
+{
+[; ;ZX-FT60F12X-4BIT.C: 743: ShanCnt = 0;
+"743
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 744: Shinkbits = 0;
+"744
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 745: TempM = 0;
+"745
+[e = _TempM -> -> 0 `i `uc ]
+"746
+}
+[e :U 248 ]
+"747
+}
+[e :U 244 ]
+"748
+[e :U 243 ]
+}
+[e :U 237 ]
+"749
+}
+[; ;ZX-FT60F12X-4BIT.C: 746: }
+[; ;ZX-FT60F12X-4BIT.C: 747: }
+[; ;ZX-FT60F12X-4BIT.C: 748: }
+[; ;ZX-FT60F12X-4BIT.C: 749: }
+[; ;ZX-FT60F12X-4BIT.C: 750: break;
+"750
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 752: case 12:
+"752
+[e :U 249 ]
+[; ;ZX-FT60F12X-4BIT.C: 753: {
+"753
+{
+[; ;ZX-FT60F12X-4BIT.C: 759: if (Time.OnOffCount == 0)
+"759
+[e $ ! == . _Time 1 -> -> 0 `i `ui 250  ]
+[; ;ZX-FT60F12X-4BIT.C: 760: {
+"760
+{
+[; ;ZX-FT60F12X-4BIT.C: 761: Time.OnOffCount = 20;
+"761
+[e = . _Time 1 -> -> 20 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 763: if (TempM == 0)
+"763
+[e $ ! == -> _TempM `i -> 0 `i 251  ]
+[; ;ZX-FT60F12X-4BIT.C: 764: {
+"764
+{
+[; ;ZX-FT60F12X-4BIT.C: 765: if (TempL == 0)
+"765
+[e $ ! == -> _TempL `i -> 0 `i 252  ]
+[; ;ZX-FT60F12X-4BIT.C: 766: {
+"766
+{
+[; ;ZX-FT60F12X-4BIT.C: 767: LEDBits = 0x01;
+"767
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 768: TempL = 1;
+"768
+[e = _TempL -> -> 1 `i `uc ]
+"769
+}
+[; ;ZX-FT60F12X-4BIT.C: 769: }
+[e $U 253  ]
+"770
+[e :U 252 ]
+[; ;ZX-FT60F12X-4BIT.C: 770: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 254  ]
+[; ;ZX-FT60F12X-4BIT.C: 771: {
+"771
+{
+[; ;ZX-FT60F12X-4BIT.C: 772: LEDBits = 0x02;
+"772
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 773: TempL = 2;
+"773
+[e = _TempL -> -> 2 `i `uc ]
+"774
+}
+[; ;ZX-FT60F12X-4BIT.C: 774: }
+[e $U 255  ]
+"775
+[e :U 254 ]
+[; ;ZX-FT60F12X-4BIT.C: 775: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 256  ]
+[; ;ZX-FT60F12X-4BIT.C: 776: {
+"776
+{
+[; ;ZX-FT60F12X-4BIT.C: 777: LEDBits = 0x04;
+"777
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 778: TempL = 3;
+"778
+[e = _TempL -> -> 3 `i `uc ]
+"779
+}
+[; ;ZX-FT60F12X-4BIT.C: 779: }
+[e $U 257  ]
+"780
+[e :U 256 ]
+[; ;ZX-FT60F12X-4BIT.C: 780: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 258  ]
+[; ;ZX-FT60F12X-4BIT.C: 781: {
+"781
+{
+[; ;ZX-FT60F12X-4BIT.C: 782: LEDBits = 0x08;
+"782
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 783: TempL = 0;
+"783
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 784: TempM = 1;
+"784
+[e = _TempM -> -> 1 `i `uc ]
+"785
+}
+[e :U 258 ]
+"786
+[e :U 257 ]
+[e :U 255 ]
+[e :U 253 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 785: }
+[; ;ZX-FT60F12X-4BIT.C: 786: }
+[e $U 259  ]
+"787
+[e :U 251 ]
+[; ;ZX-FT60F12X-4BIT.C: 787: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 260  ]
+[; ;ZX-FT60F12X-4BIT.C: 788: {
+"788
+{
+[; ;ZX-FT60F12X-4BIT.C: 789: if (TempL == 0)
+"789
+[e $ ! == -> _TempL `i -> 0 `i 261  ]
+[; ;ZX-FT60F12X-4BIT.C: 790: {
+"790
+{
+[; ;ZX-FT60F12X-4BIT.C: 791: LEDBits = 0x08;
+"791
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 792: TempL = 1;
+"792
+[e = _TempL -> -> 1 `i `uc ]
+"793
+}
+[; ;ZX-FT60F12X-4BIT.C: 793: }
+[e $U 262  ]
+"794
+[e :U 261 ]
+[; ;ZX-FT60F12X-4BIT.C: 794: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 263  ]
+[; ;ZX-FT60F12X-4BIT.C: 795: {
+"795
+{
+[; ;ZX-FT60F12X-4BIT.C: 796: LEDBits = 0x04;
+"796
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 797: TempL = 2;
+"797
+[e = _TempL -> -> 2 `i `uc ]
+"798
+}
+[; ;ZX-FT60F12X-4BIT.C: 798: }
+[e $U 264  ]
+"799
+[e :U 263 ]
+[; ;ZX-FT60F12X-4BIT.C: 799: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 265  ]
+[; ;ZX-FT60F12X-4BIT.C: 800: {
+"800
+{
+[; ;ZX-FT60F12X-4BIT.C: 801: LEDBits = 0x02;
+"801
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 802: TempL = 3;
+"802
+[e = _TempL -> -> 3 `i `uc ]
+"803
+}
+[; ;ZX-FT60F12X-4BIT.C: 803: }
+[e $U 266  ]
+"804
+[e :U 265 ]
+[; ;ZX-FT60F12X-4BIT.C: 804: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 267  ]
+[; ;ZX-FT60F12X-4BIT.C: 805: {
+"805
+{
+[; ;ZX-FT60F12X-4BIT.C: 806: LEDBits = 0x01;
+"806
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 807: TempL = 0;
+"807
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 808: TempM = 0;
+"808
+[e = _TempM -> -> 0 `i `uc ]
+"809
+}
+[e :U 267 ]
+"810
+[e :U 266 ]
+[e :U 264 ]
+[e :U 262 ]
+}
+[e :U 260 ]
+"811
+[e :U 259 ]
+}
+[e :U 250 ]
+"812
+}
+[; ;ZX-FT60F12X-4BIT.C: 809: }
+[; ;ZX-FT60F12X-4BIT.C: 810: }
+[; ;ZX-FT60F12X-4BIT.C: 811: }
+[; ;ZX-FT60F12X-4BIT.C: 812: }
+[; ;ZX-FT60F12X-4BIT.C: 813: break;
+"813
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 815: case 13:
+"815
+[e :U 268 ]
+[; ;ZX-FT60F12X-4BIT.C: 816: {
+"816
+{
+[; ;ZX-FT60F12X-4BIT.C: 824: if (Time.OnOffCount == 0)
+"824
+[e $ ! == . _Time 1 -> -> 0 `i `ui 269  ]
+[; ;ZX-FT60F12X-4BIT.C: 825: {
+"825
+{
+[; ;ZX-FT60F12X-4BIT.C: 826: Time.OnOffCount = 80;
+"826
+[e = . _Time 1 -> -> 80 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 828: if (TempM == 0)
+"828
+[e $ ! == -> _TempM `i -> 0 `i 270  ]
+[; ;ZX-FT60F12X-4BIT.C: 829: {
+"829
+{
+[; ;ZX-FT60F12X-4BIT.C: 830: if (TempL == 0)
+"830
+[e $ ! == -> _TempL `i -> 0 `i 271  ]
+[; ;ZX-FT60F12X-4BIT.C: 831: {
+"831
+{
+[; ;ZX-FT60F12X-4BIT.C: 832: LEDBits = 0x01;
+"832
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 833: TempL = 1;
+"833
+[e = _TempL -> -> 1 `i `uc ]
+"834
+}
+[; ;ZX-FT60F12X-4BIT.C: 834: }
+[e $U 272  ]
+"835
+[e :U 271 ]
+[; ;ZX-FT60F12X-4BIT.C: 835: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 273  ]
+[; ;ZX-FT60F12X-4BIT.C: 836: {
+"836
+{
+[; ;ZX-FT60F12X-4BIT.C: 837: LEDBits = 0x03;
+"837
+[e = _LEDBits -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 838: TempL = 2;
+"838
+[e = _TempL -> -> 2 `i `uc ]
+"839
+}
+[; ;ZX-FT60F12X-4BIT.C: 839: }
+[e $U 274  ]
+"840
+[e :U 273 ]
+[; ;ZX-FT60F12X-4BIT.C: 840: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 275  ]
+[; ;ZX-FT60F12X-4BIT.C: 841: {
+"841
+{
+[; ;ZX-FT60F12X-4BIT.C: 842: LEDBits = 0x07;
+"842
+[e = _LEDBits -> -> 7 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 843: TempL = 3;
+"843
+[e = _TempL -> -> 3 `i `uc ]
+"844
+}
+[; ;ZX-FT60F12X-4BIT.C: 844: }
+[e $U 276  ]
+"845
+[e :U 275 ]
+[; ;ZX-FT60F12X-4BIT.C: 845: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 277  ]
+[; ;ZX-FT60F12X-4BIT.C: 846: {
+"846
+{
+[; ;ZX-FT60F12X-4BIT.C: 847: LEDBits = 0x0F;
+"847
+[e = _LEDBits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 848: TempL = 0;
+"848
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 849: TempM = 1;
+"849
+[e = _TempM -> -> 1 `i `uc ]
+"850
+}
+[e :U 277 ]
+"851
+[e :U 276 ]
+[e :U 274 ]
+[e :U 272 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 850: }
+[; ;ZX-FT60F12X-4BIT.C: 851: }
+[e $U 278  ]
+"852
+[e :U 270 ]
+[; ;ZX-FT60F12X-4BIT.C: 852: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 279  ]
+[; ;ZX-FT60F12X-4BIT.C: 853: {
+"853
+{
+[; ;ZX-FT60F12X-4BIT.C: 854: if (TempL == 0)
+"854
+[e $ ! == -> _TempL `i -> 0 `i 280  ]
+[; ;ZX-FT60F12X-4BIT.C: 855: {
+"855
+{
+[; ;ZX-FT60F12X-4BIT.C: 856: LEDBits = 0x0E;
+"856
+[e = _LEDBits -> -> 14 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 857: TempL = 1;
+"857
+[e = _TempL -> -> 1 `i `uc ]
+"858
+}
+[; ;ZX-FT60F12X-4BIT.C: 858: }
+[e $U 281  ]
+"859
+[e :U 280 ]
+[; ;ZX-FT60F12X-4BIT.C: 859: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 282  ]
+[; ;ZX-FT60F12X-4BIT.C: 860: {
+"860
+{
+[; ;ZX-FT60F12X-4BIT.C: 861: LEDBits = 0x0C;
+"861
+[e = _LEDBits -> -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 862: TempL = 2;
+"862
+[e = _TempL -> -> 2 `i `uc ]
+"863
+}
+[; ;ZX-FT60F12X-4BIT.C: 863: }
+[e $U 283  ]
+"864
+[e :U 282 ]
+[; ;ZX-FT60F12X-4BIT.C: 864: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 284  ]
+[; ;ZX-FT60F12X-4BIT.C: 865: {
+"865
+{
+[; ;ZX-FT60F12X-4BIT.C: 866: LEDBits = 0x08;
+"866
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 867: TempL = 3;
+"867
+[e = _TempL -> -> 3 `i `uc ]
+"868
+}
+[; ;ZX-FT60F12X-4BIT.C: 868: }
+[e $U 285  ]
+"869
+[e :U 284 ]
+[; ;ZX-FT60F12X-4BIT.C: 869: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 286  ]
+[; ;ZX-FT60F12X-4BIT.C: 870: {
+"870
+{
+[; ;ZX-FT60F12X-4BIT.C: 871: LEDBits = 0x00;
+"871
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 872: TempL = 0;
+"872
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 873: TempM = 2;
+"873
+[e = _TempM -> -> 2 `i `uc ]
+"874
+}
+[e :U 286 ]
+"875
+[e :U 285 ]
+[e :U 283 ]
+[e :U 281 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 874: }
+[; ;ZX-FT60F12X-4BIT.C: 875: }
+[e $U 287  ]
+"876
+[e :U 279 ]
+[; ;ZX-FT60F12X-4BIT.C: 876: else if (TempM == 2)
+[e $ ! == -> _TempM `i -> 2 `i 288  ]
+[; ;ZX-FT60F12X-4BIT.C: 877: {
+"877
+{
+[; ;ZX-FT60F12X-4BIT.C: 878: if (TempL == 0)
+"878
+[e $ ! == -> _TempL `i -> 0 `i 289  ]
+[; ;ZX-FT60F12X-4BIT.C: 879: {
+"879
+{
+[; ;ZX-FT60F12X-4BIT.C: 880: LEDBits = 0x08;
+"880
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 881: TempL = 1;
+"881
+[e = _TempL -> -> 1 `i `uc ]
+"882
+}
+[; ;ZX-FT60F12X-4BIT.C: 882: }
+[e $U 290  ]
+"883
+[e :U 289 ]
+[; ;ZX-FT60F12X-4BIT.C: 883: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 291  ]
+[; ;ZX-FT60F12X-4BIT.C: 884: {
+"884
+{
+[; ;ZX-FT60F12X-4BIT.C: 885: LEDBits = 0x0C;
+"885
+[e = _LEDBits -> -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 886: TempL = 2;
+"886
+[e = _TempL -> -> 2 `i `uc ]
+"887
+}
+[; ;ZX-FT60F12X-4BIT.C: 887: }
+[e $U 292  ]
+"888
+[e :U 291 ]
+[; ;ZX-FT60F12X-4BIT.C: 888: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 293  ]
+[; ;ZX-FT60F12X-4BIT.C: 889: {
+"889
+{
+[; ;ZX-FT60F12X-4BIT.C: 890: LEDBits = 0x0E;
+"890
+[e = _LEDBits -> -> 14 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 891: TempL = 3;
+"891
+[e = _TempL -> -> 3 `i `uc ]
+"892
+}
+[; ;ZX-FT60F12X-4BIT.C: 892: }
+[e $U 294  ]
+"893
+[e :U 293 ]
+[; ;ZX-FT60F12X-4BIT.C: 893: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 295  ]
+[; ;ZX-FT60F12X-4BIT.C: 894: {
+"894
+{
+[; ;ZX-FT60F12X-4BIT.C: 895: LEDBits = 0x0F;
+"895
+[e = _LEDBits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 896: TempL = 0;
+"896
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 897: TempM = 3;
+"897
+[e = _TempM -> -> 3 `i `uc ]
+"898
+}
+[e :U 295 ]
+"899
+[e :U 294 ]
+[e :U 292 ]
+[e :U 290 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 898: }
+[; ;ZX-FT60F12X-4BIT.C: 899: }
+[e $U 296  ]
+"900
+[e :U 288 ]
+[; ;ZX-FT60F12X-4BIT.C: 900: else if (TempM == 3)
+[e $ ! == -> _TempM `i -> 3 `i 297  ]
+[; ;ZX-FT60F12X-4BIT.C: 901: {
+"901
+{
+[; ;ZX-FT60F12X-4BIT.C: 902: if (TempL == 0)
+"902
+[e $ ! == -> _TempL `i -> 0 `i 298  ]
+[; ;ZX-FT60F12X-4BIT.C: 903: {
+"903
+{
+[; ;ZX-FT60F12X-4BIT.C: 904: LEDBits = 0x07;
+"904
+[e = _LEDBits -> -> 7 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 905: TempL = 1;
+"905
+[e = _TempL -> -> 1 `i `uc ]
+"906
+}
+[; ;ZX-FT60F12X-4BIT.C: 906: }
+[e $U 299  ]
+"907
+[e :U 298 ]
+[; ;ZX-FT60F12X-4BIT.C: 907: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 300  ]
+[; ;ZX-FT60F12X-4BIT.C: 908: {
+"908
+{
+[; ;ZX-FT60F12X-4BIT.C: 909: LEDBits = 0x03;
+"909
+[e = _LEDBits -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 910: TempL = 2;
+"910
+[e = _TempL -> -> 2 `i `uc ]
+"911
+}
+[; ;ZX-FT60F12X-4BIT.C: 911: }
+[e $U 301  ]
+"912
+[e :U 300 ]
+[; ;ZX-FT60F12X-4BIT.C: 912: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 302  ]
+[; ;ZX-FT60F12X-4BIT.C: 913: {
+"913
+{
+[; ;ZX-FT60F12X-4BIT.C: 914: LEDBits = 0x01;
+"914
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 915: TempL = 3;
+"915
+[e = _TempL -> -> 3 `i `uc ]
+"916
+}
+[; ;ZX-FT60F12X-4BIT.C: 916: }
+[e $U 303  ]
+"917
+[e :U 302 ]
+[; ;ZX-FT60F12X-4BIT.C: 917: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 304  ]
+[; ;ZX-FT60F12X-4BIT.C: 918: {
+"918
+{
+[; ;ZX-FT60F12X-4BIT.C: 919: LEDBits = 0x00;
+"919
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 920: TempL = 0;
+"920
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 921: TempM = 0;
+"921
+[e = _TempM -> -> 0 `i `uc ]
+"922
+}
+[e :U 304 ]
+"923
+[e :U 303 ]
+[e :U 301 ]
+[e :U 299 ]
+}
+[e :U 297 ]
+"924
+[e :U 296 ]
+[e :U 287 ]
+[e :U 278 ]
+}
+[e :U 269 ]
+"925
+}
+[; ;ZX-FT60F12X-4BIT.C: 922: }
+[; ;ZX-FT60F12X-4BIT.C: 923: }
+[; ;ZX-FT60F12X-4BIT.C: 924: }
+[; ;ZX-FT60F12X-4BIT.C: 925: }
+[; ;ZX-FT60F12X-4BIT.C: 926: break;
+"926
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 928: case 14:
+"928
+[e :U 305 ]
+[; ;ZX-FT60F12X-4BIT.C: 929: {
+"929
+{
+[; ;ZX-FT60F12X-4BIT.C: 935: if (TempM == 0)
+"935
+[e $ ! == -> _TempM `i -> 0 `i 306  ]
+[; ;ZX-FT60F12X-4BIT.C: 936: {
+"936
+{
+[; ;ZX-FT60F12X-4BIT.C: 938: if (Time.DutyCount == 0)
+"938
+[e $ ! == -> . _Time 0 `i -> 0 `i 307  ]
+[; ;ZX-FT60F12X-4BIT.C: 939: {
+"939
+{
+[; ;ZX-FT60F12X-4BIT.C: 940: if (Shinkbits)
+"940
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 308  ]
+[; ;ZX-FT60F12X-4BIT.C: 941: {
+"941
+{
+[; ;ZX-FT60F12X-4BIT.C: 942: Shinkbits = 0;
+"942
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 943: Time.DutyCount = 50;
+"943
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 944: ShanCnt++;
+"944
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"945
+}
+[; ;ZX-FT60F12X-4BIT.C: 945: }
+[e $U 309  ]
+"946
+[e :U 308 ]
+[; ;ZX-FT60F12X-4BIT.C: 946: else
+[; ;ZX-FT60F12X-4BIT.C: 947: {
+"947
+{
+[; ;ZX-FT60F12X-4BIT.C: 948: Shinkbits = 0xFF;
+"948
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 949: Time.DutyCount = 50;
+"949
+[e = . _Time 0 -> -> 50 `i `uc ]
+"950
+}
+[e :U 309 ]
+"951
+}
+[e :U 307 ]
+[; ;ZX-FT60F12X-4BIT.C: 950: }
+[; ;ZX-FT60F12X-4BIT.C: 951: }
+[; ;ZX-FT60F12X-4BIT.C: 953: LEDBits = Shinkbits;
+"953
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 955: if (ShanCnt >= 10)
+"955
+[e $ ! >= -> _ShanCnt `i -> 10 `i 310  ]
+[; ;ZX-FT60F12X-4BIT.C: 956: {
+"956
+{
+[; ;ZX-FT60F12X-4BIT.C: 957: ShanCnt = 0;
+"957
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 958: Shinkbits = 0;
+"958
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 959: LEDBits = 0;
+"959
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 960: TempM = 1;
+"960
+[e = _TempM -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 961: Time.OnOffCount = 500;
+"961
+[e = . _Time 1 -> -> 500 `i `ui ]
+"962
+}
+[e :U 310 ]
+"963
+}
+[; ;ZX-FT60F12X-4BIT.C: 962: }
+[; ;ZX-FT60F12X-4BIT.C: 963: }
+[e $U 311  ]
+"964
+[e :U 306 ]
+[; ;ZX-FT60F12X-4BIT.C: 964: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 312  ]
+[; ;ZX-FT60F12X-4BIT.C: 965: {
+"965
+{
+[; ;ZX-FT60F12X-4BIT.C: 966: LEDBits = 0;
+"966
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 968: if (Time.OnOffCount == 0)
+"968
+[e $ ! == . _Time 1 -> -> 0 `i `ui 313  ]
+[; ;ZX-FT60F12X-4BIT.C: 969: {
+"969
+{
+[; ;ZX-FT60F12X-4BIT.C: 970: TempM = 0;
+"970
+[e = _TempM -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 971: ShanCnt = 0;
+"971
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 972: Shinkbits = 0;
+"972
+[e = _Shinkbits -> -> 0 `i `uc ]
+"973
+}
+[e :U 313 ]
+"974
+}
+[e :U 312 ]
+"975
+[e :U 311 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 973: }
+[; ;ZX-FT60F12X-4BIT.C: 974: }
+[; ;ZX-FT60F12X-4BIT.C: 975: }
+[; ;ZX-FT60F12X-4BIT.C: 976: break;
+"976
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 978: case 15:
+"978
+[e :U 314 ]
+[; ;ZX-FT60F12X-4BIT.C: 979: {
+"979
+{
+[; ;ZX-FT60F12X-4BIT.C: 985: if (Time.OnOffCount == 0)
+"985
+[e $ ! == . _Time 1 -> -> 0 `i `ui 315  ]
+[; ;ZX-FT60F12X-4BIT.C: 986: {
+"986
+{
+[; ;ZX-FT60F12X-4BIT.C: 987: Time.OnOffCount = 150;
+"987
+[e = . _Time 1 -> -> 150 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 989: if (TempM == 0)
+"989
+[e $ ! == -> _TempM `i -> 0 `i 316  ]
+[; ;ZX-FT60F12X-4BIT.C: 990: {
+"990
+{
+[; ;ZX-FT60F12X-4BIT.C: 991: if (TempL == 0)
+"991
+[e $ ! == -> _TempL `i -> 0 `i 317  ]
+[; ;ZX-FT60F12X-4BIT.C: 992: {
+"992
+{
+[; ;ZX-FT60F12X-4BIT.C: 993: LEDBits = 0x01;
+"993
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 994: TempL = 1;
+"994
+[e = _TempL -> -> 1 `i `uc ]
+"995
+}
+[; ;ZX-FT60F12X-4BIT.C: 995: }
+[e $U 318  ]
+"996
+[e :U 317 ]
+[; ;ZX-FT60F12X-4BIT.C: 996: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 319  ]
+[; ;ZX-FT60F12X-4BIT.C: 997: {
+"997
+{
+[; ;ZX-FT60F12X-4BIT.C: 998: LEDBits = 0x02;
+"998
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 999: TempL = 2;
+"999
+[e = _TempL -> -> 2 `i `uc ]
+"1000
+}
+[; ;ZX-FT60F12X-4BIT.C: 1000: }
+[e $U 320  ]
+"1001
+[e :U 319 ]
+[; ;ZX-FT60F12X-4BIT.C: 1001: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 321  ]
+[; ;ZX-FT60F12X-4BIT.C: 1002: {
+"1002
+{
+[; ;ZX-FT60F12X-4BIT.C: 1003: LEDBits = 0x04;
+"1003
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1004: TempL = 3;
+"1004
+[e = _TempL -> -> 3 `i `uc ]
+"1005
+}
+[; ;ZX-FT60F12X-4BIT.C: 1005: }
+[e $U 322  ]
+"1006
+[e :U 321 ]
+[; ;ZX-FT60F12X-4BIT.C: 1006: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 323  ]
+[; ;ZX-FT60F12X-4BIT.C: 1007: {
+"1007
+{
+[; ;ZX-FT60F12X-4BIT.C: 1008: LEDBits = 0x08;
+"1008
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1009: TempL = 0;
+"1009
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1010: TempM = 1;
+"1010
+[e = _TempM -> -> 1 `i `uc ]
+"1011
+}
+[e :U 323 ]
+"1012
+[e :U 322 ]
+[e :U 320 ]
+[e :U 318 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 1011: }
+[; ;ZX-FT60F12X-4BIT.C: 1012: }
+[e $U 324  ]
+"1013
+[e :U 316 ]
+[; ;ZX-FT60F12X-4BIT.C: 1013: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 325  ]
+[; ;ZX-FT60F12X-4BIT.C: 1014: {
+"1014
+{
+[; ;ZX-FT60F12X-4BIT.C: 1015: if (TempL == 0)
+"1015
+[e $ ! == -> _TempL `i -> 0 `i 326  ]
+[; ;ZX-FT60F12X-4BIT.C: 1016: {
+"1016
+{
+[; ;ZX-FT60F12X-4BIT.C: 1017: LEDBits = 0x08;
+"1017
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1018: TempL = 1;
+"1018
+[e = _TempL -> -> 1 `i `uc ]
+"1019
+}
+[; ;ZX-FT60F12X-4BIT.C: 1019: }
+[e $U 327  ]
+"1020
+[e :U 326 ]
+[; ;ZX-FT60F12X-4BIT.C: 1020: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 328  ]
+[; ;ZX-FT60F12X-4BIT.C: 1021: {
+"1021
+{
+[; ;ZX-FT60F12X-4BIT.C: 1022: LEDBits = 0x04;
+"1022
+[e = _LEDBits -> -> 4 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1023: TempL = 2;
+"1023
+[e = _TempL -> -> 2 `i `uc ]
+"1024
+}
+[; ;ZX-FT60F12X-4BIT.C: 1024: }
+[e $U 329  ]
+"1025
+[e :U 328 ]
+[; ;ZX-FT60F12X-4BIT.C: 1025: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 330  ]
+[; ;ZX-FT60F12X-4BIT.C: 1026: {
+"1026
+{
+[; ;ZX-FT60F12X-4BIT.C: 1027: LEDBits = 0x02;
+"1027
+[e = _LEDBits -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1028: TempL = 3;
+"1028
+[e = _TempL -> -> 3 `i `uc ]
+"1029
+}
+[; ;ZX-FT60F12X-4BIT.C: 1029: }
+[e $U 331  ]
+"1030
+[e :U 330 ]
+[; ;ZX-FT60F12X-4BIT.C: 1030: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 332  ]
+[; ;ZX-FT60F12X-4BIT.C: 1031: {
+"1031
+{
+[; ;ZX-FT60F12X-4BIT.C: 1032: LEDBits = 0x01;
+"1032
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1033: TempL = 0;
+"1033
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1034: TempM = 0;
+"1034
+[e = _TempM -> -> 0 `i `uc ]
+"1035
+}
+[e :U 332 ]
+"1036
+[e :U 331 ]
+[e :U 329 ]
+[e :U 327 ]
+}
+[e :U 325 ]
+"1037
+[e :U 324 ]
+}
+[e :U 315 ]
+"1038
+}
+[; ;ZX-FT60F12X-4BIT.C: 1035: }
+[; ;ZX-FT60F12X-4BIT.C: 1036: }
+[; ;ZX-FT60F12X-4BIT.C: 1037: }
+[; ;ZX-FT60F12X-4BIT.C: 1038: }
+[; ;ZX-FT60F12X-4BIT.C: 1039: break;
+"1039
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 1041: case 16:
+"1041
+[e :U 333 ]
+[; ;ZX-FT60F12X-4BIT.C: 1042: {
+"1042
+{
+[; ;ZX-FT60F12X-4BIT.C: 1050: if (TempM == 0)
+"1050
+[e $ ! == -> _TempM `i -> 0 `i 334  ]
+[; ;ZX-FT60F12X-4BIT.C: 1051: {
+"1051
+{
+[; ;ZX-FT60F12X-4BIT.C: 1052: if (Time.OnOffCount == 0)
+"1052
+[e $ ! == . _Time 1 -> -> 0 `i `ui 335  ]
+[; ;ZX-FT60F12X-4BIT.C: 1053: {
+"1053
+{
+[; ;ZX-FT60F12X-4BIT.C: 1054: Time.OnOffCount = 60;
+"1054
+[e = . _Time 1 -> -> 60 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 1056: if (TempL == 0)
+"1056
+[e $ ! == -> _TempL `i -> 0 `i 336  ]
+[; ;ZX-FT60F12X-4BIT.C: 1057: {
+"1057
+{
+[; ;ZX-FT60F12X-4BIT.C: 1058: LEDBits = 0x01;
+"1058
+[e = _LEDBits -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1059: TempL = 1;
+"1059
+[e = _TempL -> -> 1 `i `uc ]
+"1060
+}
+[; ;ZX-FT60F12X-4BIT.C: 1060: }
+[e $U 337  ]
+"1061
+[e :U 336 ]
+[; ;ZX-FT60F12X-4BIT.C: 1061: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 338  ]
+[; ;ZX-FT60F12X-4BIT.C: 1062: {
+"1062
+{
+[; ;ZX-FT60F12X-4BIT.C: 1063: LEDBits = 0x03;
+"1063
+[e = _LEDBits -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1064: TempL = 2;
+"1064
+[e = _TempL -> -> 2 `i `uc ]
+"1065
+}
+[; ;ZX-FT60F12X-4BIT.C: 1065: }
+[e $U 339  ]
+"1066
+[e :U 338 ]
+[; ;ZX-FT60F12X-4BIT.C: 1066: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 340  ]
+[; ;ZX-FT60F12X-4BIT.C: 1067: {
+"1067
+{
+[; ;ZX-FT60F12X-4BIT.C: 1068: LEDBits = 0x07;
+"1068
+[e = _LEDBits -> -> 7 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1069: TempL = 3;
+"1069
+[e = _TempL -> -> 3 `i `uc ]
+"1070
+}
+[; ;ZX-FT60F12X-4BIT.C: 1070: }
+[e $U 341  ]
+"1071
+[e :U 340 ]
+[; ;ZX-FT60F12X-4BIT.C: 1071: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 342  ]
+[; ;ZX-FT60F12X-4BIT.C: 1072: {
+"1072
+{
+[; ;ZX-FT60F12X-4BIT.C: 1073: LEDBits = 0x0F;
+"1073
+[e = _LEDBits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1074: TempL = 0;
+"1074
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1075: TempM = 1;
+"1075
+[e = _TempM -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1076: ShanCnt = 0;
+"1076
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1077: Shinkbits = 0;
+"1077
+[e = _Shinkbits -> -> 0 `i `uc ]
+"1078
+}
+[e :U 342 ]
+"1079
+[e :U 341 ]
+[e :U 339 ]
+[e :U 337 ]
+}
+[e :U 335 ]
+"1080
+}
+[; ;ZX-FT60F12X-4BIT.C: 1078: }
+[; ;ZX-FT60F12X-4BIT.C: 1079: }
+[; ;ZX-FT60F12X-4BIT.C: 1080: }
+[e $U 343  ]
+"1081
+[e :U 334 ]
+[; ;ZX-FT60F12X-4BIT.C: 1081: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 344  ]
+[; ;ZX-FT60F12X-4BIT.C: 1082: {
+"1082
+{
+[; ;ZX-FT60F12X-4BIT.C: 1084: if (Time.DutyCount == 0)
+"1084
+[e $ ! == -> . _Time 0 `i -> 0 `i 345  ]
+[; ;ZX-FT60F12X-4BIT.C: 1085: {
+"1085
+{
+[; ;ZX-FT60F12X-4BIT.C: 1086: if (Shinkbits)
+"1086
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 346  ]
+[; ;ZX-FT60F12X-4BIT.C: 1087: {
+"1087
+{
+[; ;ZX-FT60F12X-4BIT.C: 1088: Shinkbits = 0;
+"1088
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1089: Time.DutyCount = 50;
+"1089
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1090: ShanCnt++;
+"1090
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"1091
+}
+[; ;ZX-FT60F12X-4BIT.C: 1091: }
+[e $U 347  ]
+"1092
+[e :U 346 ]
+[; ;ZX-FT60F12X-4BIT.C: 1092: else
+[; ;ZX-FT60F12X-4BIT.C: 1093: {
+"1093
+{
+[; ;ZX-FT60F12X-4BIT.C: 1094: Shinkbits = 0xFF;
+"1094
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1095: Time.DutyCount = 50;
+"1095
+[e = . _Time 0 -> -> 50 `i `uc ]
+"1096
+}
+[e :U 347 ]
+"1097
+}
+[e :U 345 ]
+[; ;ZX-FT60F12X-4BIT.C: 1096: }
+[; ;ZX-FT60F12X-4BIT.C: 1097: }
+[; ;ZX-FT60F12X-4BIT.C: 1099: LEDBits = Shinkbits;
+"1099
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 1101: if (ShanCnt >= 10)
+"1101
+[e $ ! >= -> _ShanCnt `i -> 10 `i 348  ]
+[; ;ZX-FT60F12X-4BIT.C: 1102: {
+"1102
+{
+[; ;ZX-FT60F12X-4BIT.C: 1103: ShanCnt = 0;
+"1103
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1104: Shinkbits = 0;
+"1104
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1105: LEDBits = 0;
+"1105
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1106: TempM = 2;
+"1106
+[e = _TempM -> -> 2 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1107: TempL = 0;
+"1107
+[e = _TempL -> -> 0 `i `uc ]
+"1108
+}
+[e :U 348 ]
+"1109
+}
+[; ;ZX-FT60F12X-4BIT.C: 1108: }
+[; ;ZX-FT60F12X-4BIT.C: 1109: }
+[e $U 349  ]
+"1110
+[e :U 344 ]
+[; ;ZX-FT60F12X-4BIT.C: 1110: else if (TempM == 2)
+[e $ ! == -> _TempM `i -> 2 `i 350  ]
+[; ;ZX-FT60F12X-4BIT.C: 1111: {
+"1111
+{
+[; ;ZX-FT60F12X-4BIT.C: 1112: if (Time.OnOffCount == 0)
+"1112
+[e $ ! == . _Time 1 -> -> 0 `i `ui 351  ]
+[; ;ZX-FT60F12X-4BIT.C: 1113: {
+"1113
+{
+[; ;ZX-FT60F12X-4BIT.C: 1114: Time.OnOffCount = 60;
+"1114
+[e = . _Time 1 -> -> 60 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 1116: if (TempL == 0)
+"1116
+[e $ ! == -> _TempL `i -> 0 `i 352  ]
+[; ;ZX-FT60F12X-4BIT.C: 1117: {
+"1117
+{
+[; ;ZX-FT60F12X-4BIT.C: 1118: LEDBits = 0x08;
+"1118
+[e = _LEDBits -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1119: TempL = 1;
+"1119
+[e = _TempL -> -> 1 `i `uc ]
+"1120
+}
+[; ;ZX-FT60F12X-4BIT.C: 1120: }
+[e $U 353  ]
+"1121
+[e :U 352 ]
+[; ;ZX-FT60F12X-4BIT.C: 1121: else if (TempL == 1)
+[e $ ! == -> _TempL `i -> 1 `i 354  ]
+[; ;ZX-FT60F12X-4BIT.C: 1122: {
+"1122
+{
+[; ;ZX-FT60F12X-4BIT.C: 1123: LEDBits = 0x0C;
+"1123
+[e = _LEDBits -> -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1124: TempL = 2;
+"1124
+[e = _TempL -> -> 2 `i `uc ]
+"1125
+}
+[; ;ZX-FT60F12X-4BIT.C: 1125: }
+[e $U 355  ]
+"1126
+[e :U 354 ]
+[; ;ZX-FT60F12X-4BIT.C: 1126: else if (TempL == 2)
+[e $ ! == -> _TempL `i -> 2 `i 356  ]
+[; ;ZX-FT60F12X-4BIT.C: 1127: {
+"1127
+{
+[; ;ZX-FT60F12X-4BIT.C: 1128: LEDBits = 0x0E;
+"1128
+[e = _LEDBits -> -> 14 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1129: TempL = 3;
+"1129
+[e = _TempL -> -> 3 `i `uc ]
+"1130
+}
+[; ;ZX-FT60F12X-4BIT.C: 1130: }
+[e $U 357  ]
+"1131
+[e :U 356 ]
+[; ;ZX-FT60F12X-4BIT.C: 1131: else if (TempL == 3)
+[e $ ! == -> _TempL `i -> 3 `i 358  ]
+[; ;ZX-FT60F12X-4BIT.C: 1132: {
+"1132
+{
+[; ;ZX-FT60F12X-4BIT.C: 1133: LEDBits = 0x0F;
+"1133
+[e = _LEDBits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1134: TempL = 0;
+"1134
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1135: TempM = 3;
+"1135
+[e = _TempM -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1136: ShanCnt = 0;
+"1136
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1137: Shinkbits = 0;
+"1137
+[e = _Shinkbits -> -> 0 `i `uc ]
+"1138
+}
+[e :U 358 ]
+"1139
+[e :U 357 ]
+[e :U 355 ]
+[e :U 353 ]
+}
+[e :U 351 ]
+"1140
+}
+[; ;ZX-FT60F12X-4BIT.C: 1138: }
+[; ;ZX-FT60F12X-4BIT.C: 1139: }
+[; ;ZX-FT60F12X-4BIT.C: 1140: }
+[e $U 359  ]
+"1141
+[e :U 350 ]
+[; ;ZX-FT60F12X-4BIT.C: 1141: else if (TempM == 3)
+[e $ ! == -> _TempM `i -> 3 `i 360  ]
+[; ;ZX-FT60F12X-4BIT.C: 1142: {
+"1142
+{
+[; ;ZX-FT60F12X-4BIT.C: 1144: if (Time.DutyCount == 0)
+"1144
+[e $ ! == -> . _Time 0 `i -> 0 `i 361  ]
+[; ;ZX-FT60F12X-4BIT.C: 1145: {
+"1145
+{
+[; ;ZX-FT60F12X-4BIT.C: 1146: if (Shinkbits)
+"1146
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 362  ]
+[; ;ZX-FT60F12X-4BIT.C: 1147: {
+"1147
+{
+[; ;ZX-FT60F12X-4BIT.C: 1148: Shinkbits = 0;
+"1148
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1149: Time.DutyCount = 50;
+"1149
+[e = . _Time 0 -> -> 50 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1150: ShanCnt++;
+"1150
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"1151
+}
+[; ;ZX-FT60F12X-4BIT.C: 1151: }
+[e $U 363  ]
+"1152
+[e :U 362 ]
+[; ;ZX-FT60F12X-4BIT.C: 1152: else
+[; ;ZX-FT60F12X-4BIT.C: 1153: {
+"1153
+{
+[; ;ZX-FT60F12X-4BIT.C: 1154: Shinkbits = 0xFF;
+"1154
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1155: Time.DutyCount = 50;
+"1155
+[e = . _Time 0 -> -> 50 `i `uc ]
+"1156
+}
+[e :U 363 ]
+"1157
+}
+[e :U 361 ]
+[; ;ZX-FT60F12X-4BIT.C: 1156: }
+[; ;ZX-FT60F12X-4BIT.C: 1157: }
+[; ;ZX-FT60F12X-4BIT.C: 1159: LEDBits = Shinkbits;
+"1159
+[e = _LEDBits _Shinkbits ]
+[; ;ZX-FT60F12X-4BIT.C: 1161: if (ShanCnt >= 10)
+"1161
+[e $ ! >= -> _ShanCnt `i -> 10 `i 364  ]
+[; ;ZX-FT60F12X-4BIT.C: 1162: {
+"1162
+{
+[; ;ZX-FT60F12X-4BIT.C: 1163: ShanCnt = 0;
+"1163
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1164: Shinkbits = 0;
+"1164
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1165: LEDBits = 0;
+"1165
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1166: TempM = 0;
+"1166
+[e = _TempM -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1167: TempL = 0;
+"1167
+[e = _TempL -> -> 0 `i `uc ]
+"1168
+}
+[e :U 364 ]
+"1169
+}
+[e :U 360 ]
+"1170
+[e :U 359 ]
+[e :U 349 ]
+[e :U 343 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 1168: }
+[; ;ZX-FT60F12X-4BIT.C: 1169: }
+[; ;ZX-FT60F12X-4BIT.C: 1170: }
+[; ;ZX-FT60F12X-4BIT.C: 1171: break;
+"1171
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 1173: case 17:
+"1173
+[e :U 365 ]
+[; ;ZX-FT60F12X-4BIT.C: 1174: {
+"1174
+{
+[; ;ZX-FT60F12X-4BIT.C: 1181: if (Time.DutyCount == 0)
+"1181
+[e $ ! == -> . _Time 0 `i -> 0 `i 366  ]
+[; ;ZX-FT60F12X-4BIT.C: 1182: {
+"1182
+{
+[; ;ZX-FT60F12X-4BIT.C: 1183: if (Shinkbits)
+"1183
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 367  ]
+[; ;ZX-FT60F12X-4BIT.C: 1184: {
+"1184
+{
+[; ;ZX-FT60F12X-4BIT.C: 1185: Shinkbits = 0;
+"1185
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1186: Time.DutyCount = 30;
+"1186
+[e = . _Time 0 -> -> 30 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1187: ShanCnt++;
+"1187
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+"1188
+}
+[; ;ZX-FT60F12X-4BIT.C: 1188: }
+[e $U 368  ]
+"1189
+[e :U 367 ]
+[; ;ZX-FT60F12X-4BIT.C: 1189: else
+[; ;ZX-FT60F12X-4BIT.C: 1190: {
+"1190
+{
+[; ;ZX-FT60F12X-4BIT.C: 1191: Shinkbits = 0x0F;
+"1191
+[e = _Shinkbits -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1192: Time.DutyCount = 30;
+"1192
+[e = . _Time 0 -> -> 30 `i `uc ]
+"1193
+}
+[e :U 368 ]
+"1194
+}
+[e :U 366 ]
+[; ;ZX-FT60F12X-4BIT.C: 1193: }
+[; ;ZX-FT60F12X-4BIT.C: 1194: }
+[; ;ZX-FT60F12X-4BIT.C: 1196: if (Time.OnOffCount == 0)
+"1196
+[e $ ! == . _Time 1 -> -> 0 `i `ui 369  ]
+[; ;ZX-FT60F12X-4BIT.C: 1197: {
+"1197
+{
+[; ;ZX-FT60F12X-4BIT.C: 1198: if (TempM == 0)
+"1198
+[e $ ! == -> _TempM `i -> 0 `i 370  ]
+[; ;ZX-FT60F12X-4BIT.C: 1199: {
+"1199
+{
+[; ;ZX-FT60F12X-4BIT.C: 1200: Time.OnOffCount = 480;
+"1200
+[e = . _Time 1 -> -> 480 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 1201: TempL++;
+"1201
+[e ++ _TempL -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1204: if (TempL % 2 == 0)
+"1204
+[e $ ! == % -> _TempL `i -> 2 `i -> 0 `i 371  ]
+[; ;ZX-FT60F12X-4BIT.C: 1205: {
+"1205
+{
+[; ;ZX-FT60F12X-4BIT.C: 1206: LEDBits = Shinkbits & 0x09;
+"1206
+[e = _LEDBits -> & -> _Shinkbits `i -> 9 `i `uc ]
+"1207
+}
+[; ;ZX-FT60F12X-4BIT.C: 1207: }
+[e $U 372  ]
+"1208
+[e :U 371 ]
+[; ;ZX-FT60F12X-4BIT.C: 1208: else
+[; ;ZX-FT60F12X-4BIT.C: 1209: {
+"1209
+{
+[; ;ZX-FT60F12X-4BIT.C: 1210: LEDBits = Shinkbits & 0x06;
+"1210
+[e = _LEDBits -> & -> _Shinkbits `i -> 6 `i `uc ]
+"1211
+}
+[e :U 372 ]
+[; ;ZX-FT60F12X-4BIT.C: 1211: }
+[; ;ZX-FT60F12X-4BIT.C: 1213: if (TempL >= 14)
+"1213
+[e $ ! >= -> _TempL `i -> 14 `i 373  ]
+[; ;ZX-FT60F12X-4BIT.C: 1214: {
+"1214
+{
+[; ;ZX-FT60F12X-4BIT.C: 1215: TempL = 0;
+"1215
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1216: TempM = 1;
+"1216
+[e = _TempM -> -> 1 `i `uc ]
+"1217
+}
+[e :U 373 ]
+"1218
+}
+[; ;ZX-FT60F12X-4BIT.C: 1217: }
+[; ;ZX-FT60F12X-4BIT.C: 1218: }
+[e $U 374  ]
+"1219
+[e :U 370 ]
+[; ;ZX-FT60F12X-4BIT.C: 1219: else if (TempM == 1)
+[e $ ! == -> _TempM `i -> 1 `i 375  ]
+[; ;ZX-FT60F12X-4BIT.C: 1220: {
+"1220
+{
+[; ;ZX-FT60F12X-4BIT.C: 1221: Time.OnOffCount = 140;
+"1221
+[e = . _Time 1 -> -> 140 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 1222: TempL++;
+"1222
+[e ++ _TempL -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1224: if (TempL % 2 == 0)
+"1224
+[e $ ! == % -> _TempL `i -> 2 `i -> 0 `i 376  ]
+[; ;ZX-FT60F12X-4BIT.C: 1225: {
+"1225
+{
+[; ;ZX-FT60F12X-4BIT.C: 1226: LEDBits = Shinkbits & 0x09;
+"1226
+[e = _LEDBits -> & -> _Shinkbits `i -> 9 `i `uc ]
+"1227
+}
+[; ;ZX-FT60F12X-4BIT.C: 1227: }
+[e $U 377  ]
+"1228
+[e :U 376 ]
+[; ;ZX-FT60F12X-4BIT.C: 1228: else
+[; ;ZX-FT60F12X-4BIT.C: 1229: {
+"1229
+{
+[; ;ZX-FT60F12X-4BIT.C: 1230: LEDBits = Shinkbits & 0x06;
+"1230
+[e = _LEDBits -> & -> _Shinkbits `i -> 6 `i `uc ]
+"1231
+}
+[e :U 377 ]
+[; ;ZX-FT60F12X-4BIT.C: 1231: }
+[; ;ZX-FT60F12X-4BIT.C: 1233: if (TempL >= 10)
+"1233
+[e $ ! >= -> _TempL `i -> 10 `i 378  ]
+[; ;ZX-FT60F12X-4BIT.C: 1234: {
+"1234
+{
+[; ;ZX-FT60F12X-4BIT.C: 1235: TempL = 0;
+"1235
+[e = _TempL -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1236: TempM = 0;
+"1236
+[e = _TempM -> -> 0 `i `uc ]
+"1237
+}
+[e :U 378 ]
+"1238
+}
+[e :U 375 ]
+"1239
+[e :U 374 ]
+}
+[; ;ZX-FT60F12X-4BIT.C: 1237: }
+[; ;ZX-FT60F12X-4BIT.C: 1238: }
+[; ;ZX-FT60F12X-4BIT.C: 1239: }
+[e $U 379  ]
+"1240
+[e :U 369 ]
+[; ;ZX-FT60F12X-4BIT.C: 1240: else
+[; ;ZX-FT60F12X-4BIT.C: 1241: {
+"1241
+{
+[; ;ZX-FT60F12X-4BIT.C: 1243: if (TempL % 2 == 0)
+"1243
+[e $ ! == % -> _TempL `i -> 2 `i -> 0 `i 380  ]
+[; ;ZX-FT60F12X-4BIT.C: 1244: {
+"1244
+{
+[; ;ZX-FT60F12X-4BIT.C: 1245: LEDBits = Shinkbits & 0x09;
+"1245
+[e = _LEDBits -> & -> _Shinkbits `i -> 9 `i `uc ]
+"1246
+}
+[; ;ZX-FT60F12X-4BIT.C: 1246: }
+[e $U 381  ]
+"1247
+[e :U 380 ]
+[; ;ZX-FT60F12X-4BIT.C: 1247: else
+[; ;ZX-FT60F12X-4BIT.C: 1248: {
+"1248
+{
+[; ;ZX-FT60F12X-4BIT.C: 1249: LEDBits = Shinkbits & 0x06;
+"1249
+[e = _LEDBits -> & -> _Shinkbits `i -> 6 `i `uc ]
+"1250
+}
+[e :U 381 ]
+"1251
+}
+[e :U 379 ]
+"1252
+}
+[; ;ZX-FT60F12X-4BIT.C: 1250: }
+[; ;ZX-FT60F12X-4BIT.C: 1251: }
+[; ;ZX-FT60F12X-4BIT.C: 1252: }
+[; ;ZX-FT60F12X-4BIT.C: 1253: break;
+"1253
+[e $U 124  ]
+[; ;ZX-FT60F12X-4BIT.C: 1255: default:
+"1255
+[e :U 382 ]
+[; ;ZX-FT60F12X-4BIT.C: 1256: break;
+"1256
+[e $U 124  ]
+"1257
+}
+[; ;ZX-FT60F12X-4BIT.C: 1257: }
+[e $U 124  ]
+"197
+[e :U 125 ]
+[e [\ _Dang , $ -> -> 0 `i `uc 126
+ , $ -> -> 1 `i `uc 127
+ , $ -> -> 2 `i `uc 131
+ , $ -> -> 3 `i `uc 140
+ , $ -> -> 4 `i `uc 188
+ , $ -> -> 5 `i `uc 189
+ , $ -> -> 6 `i `uc 190
+ , $ -> -> 7 `i `uc 209
+ , $ -> -> 8 `i `uc 218
+ , $ -> -> 9 `i `uc 224
+ , $ -> -> 10 `i `uc 227
+ , $ -> -> 11 `i `uc 236
+ , $ -> -> 12 `i `uc 249
+ , $ -> -> 13 `i `uc 268
+ , $ -> -> 14 `i `uc 305
+ , $ -> -> 15 `i `uc 314
+ , $ -> -> 16 `i `uc 333
+ , $ -> -> 17 `i `uc 365
+ 382 ]
+"1257
+[e :U 124 ]
+[; ;ZX-FT60F12X-4BIT.C: 1258: }
+"1258
+[e :UE 123 ]
+}
+"1260
+[v _D8ToDo `(v ~T0 @X0 1 ef ]
+"1261
+{
+[; ;ZX-FT60F12X-4BIT.C: 1260: void D8ToDo(void)
+[; ;ZX-FT60F12X-4BIT.C: 1261: {
+[e :U _D8ToDo ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 1262: if (Time.OnOffCount == 0)
+"1262
+[e $ ! == . _Time 1 -> -> 0 `i `ui 384  ]
+[; ;ZX-FT60F12X-4BIT.C: 1263: {
+"1263
+{
+[; ;ZX-FT60F12X-4BIT.C: 1264: Time.OnOffCount = 30;
+"1264
+[e = . _Time 1 -> -> 30 `i `ui ]
+[; ;ZX-FT60F12X-4BIT.C: 1265: switch (ModeState)
+"1265
+[e $U 386  ]
+[; ;ZX-FT60F12X-4BIT.C: 1266: {
+"1266
+{
+[; ;ZX-FT60F12X-4BIT.C: 1267: case 0:
+"1267
+[e :U 387 ]
+[; ;ZX-FT60F12X-4BIT.C: 1268: if (TempH == 0)
+"1268
+[e $ ! == -> _TempH `i -> 0 `i 388  ]
+[; ;ZX-FT60F12X-4BIT.C: 1269: TempH = 0x01;
+"1269
+[e = _TempH -> -> 1 `i `uc ]
+[e :U 388 ]
+[; ;ZX-FT60F12X-4BIT.C: 1271: if (Shinkbits)
+"1271
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 389  ]
+[; ;ZX-FT60F12X-4BIT.C: 1272: {
+"1272
+{
+[; ;ZX-FT60F12X-4BIT.C: 1273: Shinkbits = 0;
+"1273
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1274: LEDBits = 0;
+"1274
+[e = _LEDBits -> -> 0 `i `uc ]
+"1275
+}
+[; ;ZX-FT60F12X-4BIT.C: 1275: }
+[e $U 390  ]
+"1276
+[e :U 389 ]
+[; ;ZX-FT60F12X-4BIT.C: 1276: else
+[; ;ZX-FT60F12X-4BIT.C: 1277: {
+"1277
+{
+[; ;ZX-FT60F12X-4BIT.C: 1278: Shinkbits = 0xFF;
+"1278
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1279: LEDBits = TempH;
+"1279
+[e = _LEDBits _TempH ]
+"1280
+}
+[e :U 390 ]
+[; ;ZX-FT60F12X-4BIT.C: 1280: }
+[; ;ZX-FT60F12X-4BIT.C: 1281: ShanCnt++;
+"1281
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1282: if (ShanCnt >= 6)
+"1282
+[e $ ! >= -> _ShanCnt `i -> 6 `i 391  ]
+[; ;ZX-FT60F12X-4BIT.C: 1283: {
+"1283
+{
+[; ;ZX-FT60F12X-4BIT.C: 1284: ShanCnt = 0;
+"1284
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1285: Shinkbits = 0;
+"1285
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1286: ModeState = 1;
+"1286
+[e = _ModeState -> -> 1 `i `uc ]
+"1287
+}
+[e :U 391 ]
+[; ;ZX-FT60F12X-4BIT.C: 1287: }
+[; ;ZX-FT60F12X-4BIT.C: 1288: break;
+"1288
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1290: case 1:
+"1290
+[e :U 392 ]
+[; ;ZX-FT60F12X-4BIT.C: 1291: TempH = 0x03;
+"1291
+[e = _TempH -> -> 3 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1293: if (Shinkbits)
+"1293
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 393  ]
+[; ;ZX-FT60F12X-4BIT.C: 1294: {
+"1294
+{
+[; ;ZX-FT60F12X-4BIT.C: 1295: Shinkbits = 0;
+"1295
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1296: LEDBits = 0;
+"1296
+[e = _LEDBits -> -> 0 `i `uc ]
+"1297
+}
+[; ;ZX-FT60F12X-4BIT.C: 1297: }
+[e $U 394  ]
+"1298
+[e :U 393 ]
+[; ;ZX-FT60F12X-4BIT.C: 1298: else
+[; ;ZX-FT60F12X-4BIT.C: 1299: {
+"1299
+{
+[; ;ZX-FT60F12X-4BIT.C: 1300: Shinkbits = 0xFF;
+"1300
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1301: LEDBits = TempH;
+"1301
+[e = _LEDBits _TempH ]
+"1302
+}
+[e :U 394 ]
+[; ;ZX-FT60F12X-4BIT.C: 1302: }
+[; ;ZX-FT60F12X-4BIT.C: 1303: ShanCnt++;
+"1303
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1304: if (ShanCnt >= 6)
+"1304
+[e $ ! >= -> _ShanCnt `i -> 6 `i 395  ]
+[; ;ZX-FT60F12X-4BIT.C: 1305: {
+"1305
+{
+[; ;ZX-FT60F12X-4BIT.C: 1306: ShanCnt = 0;
+"1306
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1307: Shinkbits = 0;
+"1307
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1308: ModeState = 2;
+"1308
+[e = _ModeState -> -> 2 `i `uc ]
+"1309
+}
+[e :U 395 ]
+[; ;ZX-FT60F12X-4BIT.C: 1309: }
+[; ;ZX-FT60F12X-4BIT.C: 1310: break;
+"1310
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1312: case 2:
+"1312
+[e :U 396 ]
+[; ;ZX-FT60F12X-4BIT.C: 1313: TempH = 0x07;
+"1313
+[e = _TempH -> -> 7 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1315: if (Shinkbits)
+"1315
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 397  ]
+[; ;ZX-FT60F12X-4BIT.C: 1316: {
+"1316
+{
+[; ;ZX-FT60F12X-4BIT.C: 1317: Shinkbits = 0;
+"1317
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1318: LEDBits = 0;
+"1318
+[e = _LEDBits -> -> 0 `i `uc ]
+"1319
+}
+[; ;ZX-FT60F12X-4BIT.C: 1319: }
+[e $U 398  ]
+"1320
+[e :U 397 ]
+[; ;ZX-FT60F12X-4BIT.C: 1320: else
+[; ;ZX-FT60F12X-4BIT.C: 1321: {
+"1321
+{
+[; ;ZX-FT60F12X-4BIT.C: 1322: Shinkbits = 0xFF;
+"1322
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1323: LEDBits = TempH;
+"1323
+[e = _LEDBits _TempH ]
+"1324
+}
+[e :U 398 ]
+[; ;ZX-FT60F12X-4BIT.C: 1324: }
+[; ;ZX-FT60F12X-4BIT.C: 1325: ShanCnt++;
+"1325
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1326: if (ShanCnt >= 6)
+"1326
+[e $ ! >= -> _ShanCnt `i -> 6 `i 399  ]
+[; ;ZX-FT60F12X-4BIT.C: 1327: {
+"1327
+{
+[; ;ZX-FT60F12X-4BIT.C: 1328: ShanCnt = 0;
+"1328
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1329: Shinkbits = 0;
+"1329
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1330: ModeState = 3;
+"1330
+[e = _ModeState -> -> 3 `i `uc ]
+"1331
+}
+[e :U 399 ]
+[; ;ZX-FT60F12X-4BIT.C: 1331: }
+[; ;ZX-FT60F12X-4BIT.C: 1332: break;
+"1332
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1334: case 3:
+"1334
+[e :U 400 ]
+[; ;ZX-FT60F12X-4BIT.C: 1335: TempH = 0x0F;
+"1335
+[e = _TempH -> -> 15 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1337: if (Shinkbits)
+"1337
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 401  ]
+[; ;ZX-FT60F12X-4BIT.C: 1338: {
+"1338
+{
+[; ;ZX-FT60F12X-4BIT.C: 1339: Shinkbits = 0;
+"1339
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1340: LEDBits = 0;
+"1340
+[e = _LEDBits -> -> 0 `i `uc ]
+"1341
+}
+[; ;ZX-FT60F12X-4BIT.C: 1341: }
+[e $U 402  ]
+"1342
+[e :U 401 ]
+[; ;ZX-FT60F12X-4BIT.C: 1342: else
+[; ;ZX-FT60F12X-4BIT.C: 1343: {
+"1343
+{
+[; ;ZX-FT60F12X-4BIT.C: 1344: Shinkbits = 0xFF;
+"1344
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1345: LEDBits = TempH;
+"1345
+[e = _LEDBits _TempH ]
+"1346
+}
+[e :U 402 ]
+[; ;ZX-FT60F12X-4BIT.C: 1346: }
+[; ;ZX-FT60F12X-4BIT.C: 1347: ShanCnt++;
+"1347
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1348: if (ShanCnt >= 6)
+"1348
+[e $ ! >= -> _ShanCnt `i -> 6 `i 403  ]
+[; ;ZX-FT60F12X-4BIT.C: 1349: {
+"1349
+{
+[; ;ZX-FT60F12X-4BIT.C: 1350: ShanCnt = 0;
+"1350
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1351: Shinkbits = 0;
+"1351
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1352: ModeState = 4;
+"1352
+[e = _ModeState -> -> 4 `i `uc ]
+"1353
+}
+[e :U 403 ]
+[; ;ZX-FT60F12X-4BIT.C: 1353: }
+[; ;ZX-FT60F12X-4BIT.C: 1354: break;
+"1354
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1356: case 4:
+"1356
+[e :U 404 ]
+[; ;ZX-FT60F12X-4BIT.C: 1357: TempH = 0x0E;
+"1357
+[e = _TempH -> -> 14 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1359: if (Shinkbits)
+"1359
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 405  ]
+[; ;ZX-FT60F12X-4BIT.C: 1360: {
+"1360
+{
+[; ;ZX-FT60F12X-4BIT.C: 1361: Shinkbits = 0;
+"1361
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1362: LEDBits = 0;
+"1362
+[e = _LEDBits -> -> 0 `i `uc ]
+"1363
+}
+[; ;ZX-FT60F12X-4BIT.C: 1363: }
+[e $U 406  ]
+"1364
+[e :U 405 ]
+[; ;ZX-FT60F12X-4BIT.C: 1364: else
+[; ;ZX-FT60F12X-4BIT.C: 1365: {
+"1365
+{
+[; ;ZX-FT60F12X-4BIT.C: 1366: Shinkbits = 0xFF;
+"1366
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1367: LEDBits = TempH;
+"1367
+[e = _LEDBits _TempH ]
+"1368
+}
+[e :U 406 ]
+[; ;ZX-FT60F12X-4BIT.C: 1368: }
+[; ;ZX-FT60F12X-4BIT.C: 1369: ShanCnt++;
+"1369
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1370: if (ShanCnt >= 6)
+"1370
+[e $ ! >= -> _ShanCnt `i -> 6 `i 407  ]
+[; ;ZX-FT60F12X-4BIT.C: 1371: {
+"1371
+{
+[; ;ZX-FT60F12X-4BIT.C: 1372: ShanCnt = 0;
+"1372
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1373: Shinkbits = 0;
+"1373
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1374: ModeState = 5;
+"1374
+[e = _ModeState -> -> 5 `i `uc ]
+"1375
+}
+[e :U 407 ]
+[; ;ZX-FT60F12X-4BIT.C: 1375: }
+[; ;ZX-FT60F12X-4BIT.C: 1376: break;
+"1376
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1378: case 5:
+"1378
+[e :U 408 ]
+[; ;ZX-FT60F12X-4BIT.C: 1379: TempH = 0x0C;
+"1379
+[e = _TempH -> -> 12 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1381: if (Shinkbits)
+"1381
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 409  ]
+[; ;ZX-FT60F12X-4BIT.C: 1382: {
+"1382
+{
+[; ;ZX-FT60F12X-4BIT.C: 1383: Shinkbits = 0;
+"1383
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1384: LEDBits = 0;
+"1384
+[e = _LEDBits -> -> 0 `i `uc ]
+"1385
+}
+[; ;ZX-FT60F12X-4BIT.C: 1385: }
+[e $U 410  ]
+"1386
+[e :U 409 ]
+[; ;ZX-FT60F12X-4BIT.C: 1386: else
+[; ;ZX-FT60F12X-4BIT.C: 1387: {
+"1387
+{
+[; ;ZX-FT60F12X-4BIT.C: 1388: Shinkbits = 0xFF;
+"1388
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1389: LEDBits = TempH;
+"1389
+[e = _LEDBits _TempH ]
+"1390
+}
+[e :U 410 ]
+[; ;ZX-FT60F12X-4BIT.C: 1390: }
+[; ;ZX-FT60F12X-4BIT.C: 1391: ShanCnt++;
+"1391
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1392: if (ShanCnt >= 6)
+"1392
+[e $ ! >= -> _ShanCnt `i -> 6 `i 411  ]
+[; ;ZX-FT60F12X-4BIT.C: 1393: {
+"1393
+{
+[; ;ZX-FT60F12X-4BIT.C: 1394: ShanCnt = 0;
+"1394
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1395: Shinkbits = 0;
+"1395
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1396: ModeState = 6;
+"1396
+[e = _ModeState -> -> 6 `i `uc ]
+"1397
+}
+[e :U 411 ]
+[; ;ZX-FT60F12X-4BIT.C: 1397: }
+[; ;ZX-FT60F12X-4BIT.C: 1398: break;
+"1398
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1400: case 6:
+"1400
+[e :U 412 ]
+[; ;ZX-FT60F12X-4BIT.C: 1401: TempH = 0x08;
+"1401
+[e = _TempH -> -> 8 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1403: if (Shinkbits)
+"1403
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 413  ]
+[; ;ZX-FT60F12X-4BIT.C: 1404: {
+"1404
+{
+[; ;ZX-FT60F12X-4BIT.C: 1405: Shinkbits = 0;
+"1405
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1406: LEDBits = 0;
+"1406
+[e = _LEDBits -> -> 0 `i `uc ]
+"1407
+}
+[; ;ZX-FT60F12X-4BIT.C: 1407: }
+[e $U 414  ]
+"1408
+[e :U 413 ]
+[; ;ZX-FT60F12X-4BIT.C: 1408: else
+[; ;ZX-FT60F12X-4BIT.C: 1409: {
+"1409
+{
+[; ;ZX-FT60F12X-4BIT.C: 1410: Shinkbits = 0xFF;
+"1410
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1411: LEDBits = TempH;
+"1411
+[e = _LEDBits _TempH ]
+"1412
+}
+[e :U 414 ]
+[; ;ZX-FT60F12X-4BIT.C: 1412: }
+[; ;ZX-FT60F12X-4BIT.C: 1413: ShanCnt++;
+"1413
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1414: if (ShanCnt >= 6)
+"1414
+[e $ ! >= -> _ShanCnt `i -> 6 `i 415  ]
+[; ;ZX-FT60F12X-4BIT.C: 1415: {
+"1415
+{
+[; ;ZX-FT60F12X-4BIT.C: 1416: ShanCnt = 0;
+"1416
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1417: Shinkbits = 0;
+"1417
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1418: ModeState = 7;
+"1418
+[e = _ModeState -> -> 7 `i `uc ]
+"1419
+}
+[e :U 415 ]
+[; ;ZX-FT60F12X-4BIT.C: 1419: }
+[; ;ZX-FT60F12X-4BIT.C: 1420: break;
+"1420
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1422: case 7:
+"1422
+[e :U 416 ]
+[; ;ZX-FT60F12X-4BIT.C: 1423: LEDBits = 0;
+"1423
+[e = _LEDBits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1424: ShanCnt++;
+"1424
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1425: if (ShanCnt >= 2)
+"1425
+[e $ ! >= -> _ShanCnt `i -> 2 `i 417  ]
+[; ;ZX-FT60F12X-4BIT.C: 1426: {
+"1426
+{
+[; ;ZX-FT60F12X-4BIT.C: 1427: ShanCnt = 0;
+"1427
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1428: ModeState = 8;
+"1428
+[e = _ModeState -> -> 8 `i `uc ]
+"1429
+}
+[e :U 417 ]
+[; ;ZX-FT60F12X-4BIT.C: 1429: }
+[; ;ZX-FT60F12X-4BIT.C: 1430: break;
+"1430
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1432: case 8:
+"1432
+[e :U 418 ]
+[; ;ZX-FT60F12X-4BIT.C: 1433: if (TempH == 0)
+"1433
+[e $ ! == -> _TempH `i -> 0 `i 419  ]
+[; ;ZX-FT60F12X-4BIT.C: 1434: TempH = 0x08;
+"1434
+[e = _TempH -> -> 8 `i `uc ]
+[e :U 419 ]
+[; ;ZX-FT60F12X-4BIT.C: 1436: if (Shinkbits)
+"1436
+[e $ ! != -> _Shinkbits `i -> -> -> 0 `i `uc `i 420  ]
+[; ;ZX-FT60F12X-4BIT.C: 1437: {
+"1437
+{
+[; ;ZX-FT60F12X-4BIT.C: 1438: Shinkbits = 0;
+"1438
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1439: LEDBits = 0;
+"1439
+[e = _LEDBits -> -> 0 `i `uc ]
+"1440
+}
+[; ;ZX-FT60F12X-4BIT.C: 1440: }
+[e $U 421  ]
+"1441
+[e :U 420 ]
+[; ;ZX-FT60F12X-4BIT.C: 1441: else
+[; ;ZX-FT60F12X-4BIT.C: 1442: {
+"1442
+{
+[; ;ZX-FT60F12X-4BIT.C: 1443: Shinkbits = 0xFF;
+"1443
+[e = _Shinkbits -> -> 255 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1444: LEDBits = TempH;
+"1444
+[e = _LEDBits _TempH ]
+"1445
+}
+[e :U 421 ]
+[; ;ZX-FT60F12X-4BIT.C: 1445: }
+[; ;ZX-FT60F12X-4BIT.C: 1446: ShanCnt++;
+"1446
+[e ++ _ShanCnt -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1447: if (ShanCnt >= 6)
+"1447
+[e $ ! >= -> _ShanCnt `i -> 6 `i 422  ]
+[; ;ZX-FT60F12X-4BIT.C: 1448: {
+"1448
+{
+[; ;ZX-FT60F12X-4BIT.C: 1449: ShanCnt = 0;
+"1449
+[e = _ShanCnt -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1450: Shinkbits = 0;
+"1450
+[e = _Shinkbits -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1451: if (TempH == 0x08)
+"1451
+[e $ ! == -> _TempH `i -> 8 `i 423  ]
+[; ;ZX-FT60F12X-4BIT.C: 1452: TempH = 0x0C;
+"1452
+[e = _TempH -> -> 12 `i `uc ]
+[e $U 424  ]
+"1453
+[e :U 423 ]
+[; ;ZX-FT60F12X-4BIT.C: 1453: else if (TempH == 0x0C)
+[e $ ! == -> _TempH `i -> 12 `i 425  ]
+[; ;ZX-FT60F12X-4BIT.C: 1454: TempH = 0x0E;
+"1454
+[e = _TempH -> -> 14 `i `uc ]
+[e $U 426  ]
+"1455
+[e :U 425 ]
+[; ;ZX-FT60F12X-4BIT.C: 1455: else if (TempH == 0x0E)
+[e $ ! == -> _TempH `i -> 14 `i 427  ]
+[; ;ZX-FT60F12X-4BIT.C: 1456: TempH = 0x0F;
+"1456
+[e = _TempH -> -> 15 `i `uc ]
+[e $U 428  ]
+"1457
+[e :U 427 ]
+[; ;ZX-FT60F12X-4BIT.C: 1457: else if (TempH == 0x0F)
+[e $ ! == -> _TempH `i -> 15 `i 429  ]
+[; ;ZX-FT60F12X-4BIT.C: 1458: TempH = 0x07;
+"1458
+[e = _TempH -> -> 7 `i `uc ]
+[e $U 430  ]
+"1459
+[e :U 429 ]
+[; ;ZX-FT60F12X-4BIT.C: 1459: else if (TempH == 0x07)
+[e $ ! == -> _TempH `i -> 7 `i 431  ]
+[; ;ZX-FT60F12X-4BIT.C: 1460: TempH = 0x03;
+"1460
+[e = _TempH -> -> 3 `i `uc ]
+[e $U 432  ]
+"1461
+[e :U 431 ]
+[; ;ZX-FT60F12X-4BIT.C: 1461: else if (TempH == 0x03)
+[e $ ! == -> _TempH `i -> 3 `i 433  ]
+[; ;ZX-FT60F12X-4BIT.C: 1462: TempH = 0x01;
+"1462
+[e = _TempH -> -> 1 `i `uc ]
+[e $U 434  ]
+"1463
+[e :U 433 ]
+[; ;ZX-FT60F12X-4BIT.C: 1463: else if (TempH == 0x01)
+[e $ ! == -> _TempH `i -> 1 `i 435  ]
+[; ;ZX-FT60F12X-4BIT.C: 1464: {
+"1464
+{
+[; ;ZX-FT60F12X-4BIT.C: 1465: TempH = 0x01;
+"1465
+[e = _TempH -> -> 1 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1466: ModeState = 0;
+"1466
+[e = _ModeState -> -> 0 `i `uc ]
+"1467
+}
+[e :U 435 ]
+"1468
+[e :U 434 ]
+[e :U 432 ]
+[e :U 430 ]
+[e :U 428 ]
+[e :U 426 ]
+[e :U 424 ]
+}
+[e :U 422 ]
+[; ;ZX-FT60F12X-4BIT.C: 1467: }
+[; ;ZX-FT60F12X-4BIT.C: 1468: }
+[; ;ZX-FT60F12X-4BIT.C: 1469: break;
+"1469
+[e $U 385  ]
+[; ;ZX-FT60F12X-4BIT.C: 1471: default:
+"1471
+[e :U 436 ]
+[; ;ZX-FT60F12X-4BIT.C: 1472: break;
+"1472
+[e $U 385  ]
+"1473
+}
+[; ;ZX-FT60F12X-4BIT.C: 1473: }
+[e $U 385  ]
+"1265
+[e :U 386 ]
+[e [\ _ModeState , $ -> -> 0 `i `uc 387
+ , $ -> -> 1 `i `uc 392
+ , $ -> -> 2 `i `uc 396
+ , $ -> -> 3 `i `uc 400
+ , $ -> -> 4 `i `uc 404
+ , $ -> -> 5 `i `uc 408
+ , $ -> -> 6 `i `uc 412
+ , $ -> -> 7 `i `uc 416
+ , $ -> -> 8 `i `uc 418
+ 436 ]
+"1473
+[e :U 385 ]
+"1474
+}
+[e :U 384 ]
+[; ;ZX-FT60F12X-4BIT.C: 1474: }
+[; ;ZX-FT60F12X-4BIT.C: 1475: }
+"1475
+[e :UE 383 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+[v F1102 `(v ~T0 @X0 1 tf ]
+"1477
+[v _ISR `IF1102 ~T0 @X0 1 e ]
+"1478
+{
+[; ;ZX-FT60F12X-4BIT.C: 1477: void interrupt ISR(void)
+[; ;ZX-FT60F12X-4BIT.C: 1478: {
+[e :U _ISR ]
+[f ]
+[; ;ZX-FT60F12X-4BIT.C: 1479: if (T0IE && T0IF)
+"1479
+[e $ ! && _T0IE _T0IF 438  ]
+[; ;ZX-FT60F12X-4BIT.C: 1480: {
+"1480
+{
+[; ;ZX-FT60F12X-4BIT.C: 1481: T0IF = 0;
+"1481
+[e = _T0IF -> -> 0 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 1482: TMR0 = 5;
+"1482
+[e = _TMR0 -> -> 5 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1483: if (Time.DutyCount > 0)
+"1483
+[e $ ! > -> . _Time 0 `i -> 0 `i 439  ]
+[; ;ZX-FT60F12X-4BIT.C: 1484: Time.DutyCount--;
+"1484
+[e -- . _Time 0 -> -> 1 `i `uc ]
+[e :U 439 ]
+[; ;ZX-FT60F12X-4BIT.C: 1485: if (Time.HitCount > 0)
+"1485
+[e $ ! > -> . _Time 2 `i -> 0 `i 440  ]
+[; ;ZX-FT60F12X-4BIT.C: 1486: Time.HitCount--;
+"1486
+[e -- . _Time 2 -> -> 1 `i `uc ]
+[e :U 440 ]
+[; ;ZX-FT60F12X-4BIT.C: 1487: if (Time.OnOffCount > 0)
+"1487
+[e $ ! > . _Time 1 -> -> 0 `i `ui 441  ]
+[; ;ZX-FT60F12X-4BIT.C: 1488: Time.OnOffCount--;
+"1488
+[e -- . _Time 1 -> -> 1 `i `ui ]
+[e :U 441 ]
+[; ;ZX-FT60F12X-4BIT.C: 1490: KeyCheck();
+"1490
+[e ( _KeyCheck ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 1491: ModeMachine();
+"1491
+[e ( _ModeMachine ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 1492: LEDDisplay();
+"1492
+[e ( _LEDDisplay ..  ]
+"1493
+}
+[e :U 438 ]
+[; ;ZX-FT60F12X-4BIT.C: 1493: }
+[; ;ZX-FT60F12X-4BIT.C: 1494: }
+"1494
+[e :UE 437 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"1496
+[v _main `(i ~T0 @X0 1 ef ]
+"1497
+{
+[; ;ZX-FT60F12X-4BIT.C: 1496: int main(void)
+[; ;ZX-FT60F12X-4BIT.C: 1497: {
+[e :U _main ]
+[f ]
+"1498
+[v _i `uc ~T0 @X0 1 a ]
+[; ;ZX-FT60F12X-4BIT.C: 1498: u8 i;
+[; ;ZX-FT60F12X-4BIT.C: 1500: Power_Initial();
+"1500
+[e ( _Power_Initial ..  ]
+[; ;ZX-FT60F12X-4BIT.C: 1502: for (i = 0; i < 250; i++)
+"1502
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 250 `i 443  ]
+[e $U 444  ]
+"1503
+[e :U 443 ]
+[; ;ZX-FT60F12X-4BIT.C: 1503: DelayUs(197);
+[e ( _DelayUs (1 -> -> 197 `i `uc ]
+"1502
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 250 `i 443  ]
+[e :U 444 ]
+"1503
+}
+[; ;ZX-FT60F12X-4BIT.C: 1505: asm("clrwdt");
+"1505
+[; <" clrwdt ;# ">
+[; ;ZX-FT60F12X-4BIT.C: 1506: EEPROMwrite(0xff, 0xaa);
+"1506
+[e ( _EEPROMwrite (2 , -> -> 255 `i `uc -> -> 170 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1507: EEPROMwrite(0xff, 0xaa);
+"1507
+[e ( _EEPROMwrite (2 , -> -> 255 `i `uc -> -> 170 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1508: Dang = EEPROMread(0x00);
+"1508
+[e = _Dang ( _EEPROMread (1 -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1509: if (Dang > 17)
+"1509
+[e $ ! > -> _Dang `i -> 17 `i 446  ]
+[; ;ZX-FT60F12X-4BIT.C: 1510: {
+"1510
+{
+[; ;ZX-FT60F12X-4BIT.C: 1511: Dang = 0;
+"1511
+[e = _Dang -> -> 0 `i `uc ]
+[; ;ZX-FT60F12X-4BIT.C: 1512: Flag.bits.ToEEPROM = 1;
+"1512
+[e = . . _Flag 0 1 -> -> 1 `i `uc ]
+"1513
+}
+[e :U 446 ]
+[; ;ZX-FT60F12X-4BIT.C: 1513: }
+[; ;ZX-FT60F12X-4BIT.C: 1515: T0IF = 0;
+"1515
+[e = _T0IF -> -> 0 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 1516: GIE = 1;
+"1516
+[e = _GIE -> -> 1 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 1517: T0IE = 1;
+"1517
+[e = _T0IE -> -> 1 `i `b ]
+[; ;ZX-FT60F12X-4BIT.C: 1519: while (1)
+"1519
+[e :U 448 ]
+[; ;ZX-FT60F12X-4BIT.C: 1520: {
+"1520
+{
+[; ;ZX-FT60F12X-4BIT.C: 1521: asm("clrwdt");
+"1521
+[; <" clrwdt ;# ">
+[; ;ZX-FT60F12X-4BIT.C: 1522: if (Flag.bits.ToEEPROM)
+"1522
+[e $ ! != -> . . _Flag 0 1 `i -> -> -> 0 `i `uc `i 450  ]
+[; ;ZX-FT60F12X-4BIT.C: 1523: {
+"1523
+{
+[; ;ZX-FT60F12X-4BIT.C: 1524: EEPROMwrite(0x00, Dang);
+"1524
+[e ( _EEPROMwrite (2 , -> -> 0 `i `uc _Dang ]
+[; ;ZX-FT60F12X-4BIT.C: 1525: Flag.bits.ToEEPROM = 0;
+"1525
+[e = . . _Flag 0 1 -> -> 0 `i `uc ]
+"1526
+}
+[e :U 450 ]
+"1527
+}
+[e :U 447 ]
+"1519
+[e $U 448  ]
+[e :U 449 ]
+[; ;ZX-FT60F12X-4BIT.C: 1526: }
+[; ;ZX-FT60F12X-4BIT.C: 1527: }
+[; ;ZX-FT60F12X-4BIT.C: 1529: return 0;
+"1529
+[e ) -> 0 `i ]
+[e $UE 442  ]
+[; ;ZX-FT60F12X-4BIT.C: 1530: }
+"1530
+[e :UE 442 ]
+}
